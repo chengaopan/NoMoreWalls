@@ -1,11 +1,4 @@
 proxies:
-- name: 🎀75@oneclickvpnkeys
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  sni: devideo.h2corp.org
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: RU_speednode_0111

@@ -6,14 +6,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 🎀64@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 54.95.225.70
-  skip-cert-verify: true
-  sni: https://t.me/@oneclickvpnkeys
-  tls: false
-  type: hysteria2
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

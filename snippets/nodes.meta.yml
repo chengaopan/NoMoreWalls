@@ -173,13 +173,6 @@ proxies:
   sni: nland1.noesissite.ru
   tls: false
   type: hysteria2
-- name: '🇩🇪121731 | ⚡️Telegram = t.me/S... #1'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: soskeynets.noesissite.ru
-  sni: germany1.noesissite.ru
-  tls: false
-  type: hysteria2
 - name: 🎀67@oneclickvpnkeys
   password: 419bfbd4-3097-4cef-a6b3-aebd78506ed7
   port: 8443

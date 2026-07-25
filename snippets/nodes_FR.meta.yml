@@ -1,17 +1,4 @@
 proxies:
-- name: 🎀66@oneclickvpnkeys
-  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-  port: 3478
-  server: de2-hy2.veilvpn.life
-  sni: de2-hy2.veilvpn.life
-  tls: false
-  type: hysteria2
-- name: 🎀74@oneclickvpnkeys
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
-  port: 443
-  server: fr2.h2corp.org
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: 🇫🇷FR_1|2.1MB/s
   network: ws

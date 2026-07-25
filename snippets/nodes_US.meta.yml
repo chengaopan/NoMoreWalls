@@ -7,41 +7,6 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 🎀68@oneclickvpnkeys
-  password: 76dff95d-a720-4909-8ca6-3d848e786a9c
-  port: 443
-  server: 159.65.178.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 🎀63@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 54.245.180.117
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 🎀69@oneclickvpnkeys
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  port: 33333
-  server: hy2.123266.xyz
-  sni: hy2.123266.xyz
-  tls: false
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_1|2.0MB/s
-  obfs: salamander
-  obfs-password: vwrgaergG
-  password: nNS3WyiBOL
-  port: '19108'
-  server: 178.128.65.195
-  skip-cert-verify: true
-  sni: aws.amazon.com
-  tls: false
-  type: hysteria2
-  up: ''
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
