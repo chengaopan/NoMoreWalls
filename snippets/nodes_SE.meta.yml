@@ -1,18 +1,23 @@
 proxies:
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: ns
-  name: 🇸🇪SE_1|1.6MB/s
-  network: grpc
-  port: '8443'
+- name: '[🇸🇪]@NetliVPN'
+  obfs: salamander
+  obfs-password: fd3olglr2bmimgje
+  password: 4z2oldt85p494bgb
+  port: 52061
+  server: assets.gateway-stream.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: SE_speednode_0083
+  port: 443
   reality-opts:
-    public-key: ZpXBddDY5CBXaRTnUz4lM4xs_KBVX4CPulN-q9AqhAI
-    short-id: '!!str '
-  server: 213.219.212.254
-  servername: 360.yandex.ru
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.233.255.4
+  servername: de.sellflow.org
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ff454aa6-022a-47b4-b102-a7df993a9cb8
-  xudp: true
+  uuid: 0108c657-a9bd-4c99-9179-74050cf78889

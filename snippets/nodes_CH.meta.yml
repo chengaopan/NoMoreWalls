@@ -1,16 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.yckLlN-VzDeh6pgODr7-KW69as1tzkpHy05Pgoh3UFI
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_1|1.6MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vg43fiz32nRwXq8vKPd9gkeL5kc16cfd-ToD5lXjjCs
-    short-id: '!!str 2be362'
-  server: 83.228.224.216
-  servername: login.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+proxies: []

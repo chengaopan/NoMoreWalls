@@ -23,3 +23,10 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: 🇯🇵JP_1|1.5MB/s
+  password: AQ71834695
+  port: 443
+  server: alert-monster.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
