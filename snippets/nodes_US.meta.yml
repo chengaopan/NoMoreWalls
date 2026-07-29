@@ -24,21 +24,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|2.2MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: 🇺🇸US_4|1.6MB/s
-  password: ''
-  port: '44499'
-  server: 45.61.188.134
-  skip-cert-verify: true
-  type: socks5
-  username: ''
 - name: US_speednode_0133
   network: ws
   port: 80
@@ -162,6 +147,20 @@ proxies:
     headers:
       Host: Nll-l--sS--Aa.Kingcloud-1.Ir
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nlwin
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0142
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
+  server: 88.218.44.4
+  servername: dl.google.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - name: US_speednode_0143
   port: 9002
   server: 138.199.35.196

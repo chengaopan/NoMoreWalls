@@ -24,15 +24,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 🇯🇵JP_1|3.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: '52454'
-  server: 45.88.43.116
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
