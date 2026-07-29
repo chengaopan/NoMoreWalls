@@ -69,38 +69,27 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  name: 🇩🇪DE_1|3.4MB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: 1Fs7XrW1oMep_TGpbpiS3HOLZrGYMUzDmtMEShOoIGc
-    short-id: '!!str 6a480648c1'
-  server: 169.40.32.216
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cb71a24c-85bf-4251-8a42-7300f5122067
-  xhttp-opts:
-    host: www.samsung.com
-    mode: auto
-    path: /api/v2/sync
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 🇩🇪DE_2|2.2MB/s
-  port: 54177
+  name: 🇩🇪DE_1|1.9MB/s
+  port: 20088
   protocol: udp
-  server: 5.83.129.90
+  server: 5.83.129.153
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
-  udp: true
   up: 500
-- name: 🇩🇪DE_3|2.1MB/s
+- name: 🇩🇪DE_2|2.6MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+- name: CN_speednode_0005
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: Hkdcrtc-e.catcat321.com
@@ -108,96 +97,21 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: CN_speednode_0003
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- client-fingerprint: safari
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE_5|2.1MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '!!str 3303c7a5'
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
-- name: 🇩🇪DE_6|2.7MB/s
-  network: ws
-  port: 80
-  server: 199.232.170.57
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: neurex
-  name: 🇩🇪DE_7|3.4MB/s
-  network: grpc
-  port: '16923'
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: 89.222.123.209
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a8a98c3e-0b0d-47c4-b4a0-1402ba3252ca
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: api.v1.StreamService
-  name: 🇩🇪DE_8|1.5MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
-    short-id: '!!str 5bc76436f2905fba'
-  server: store.noneok.com
-  servername: store.noneok.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad5ff95a-81a8-4006-8771-8e33f0bcd9aa
-  xudp: true
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: IE_speednode_0028
-  network: http
-  port: 8882
-  server: 91.108.189.5
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  xudp: true
-- client-fingerprint: chrome
-  name: CN_speednode_0004
+- client-fingerprint: ios
+  encryption: mlkem768x25519plus.native.0rtt.iICp3anMpUYKL23en1Hq18yfxSEbgV10jczbJJcOh0M
+  name: 🇩🇪DE_4|2.7MB/s
   network: tcp
+  port: 8443
+  reality-opts:
+    public-key: l07MVIs83m71Wh1OiGE58XzZfqNd-x6O3isIRYLRYw8
+    short-id: '!!str 453f365feecf'
+  server: 94.249.197.147
+  servername: images.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a21678d7-2024-4370-8d2e-255b344b3e1b
+- name: CN_speednode_0006
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -205,7 +119,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: CN_speednode_0005
+  name: CN_speednode_0007
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -214,3 +128,90 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: 🇩🇪DE_7|1.6MB/s
+  port: 54177
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: '11'
+- encryption: none
+  name: 🇩🇪DE_8|1.5MB/s
+  network: ws
+  port: '80'
+  server: ordakbot.ir
+  servername: z-e-u-s-panel-m0yjjp.zeus-12g9x8.workers.dev
+  type: vless
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-6d24857831b8
+  ws-opts:
+    headers:
+      Host: z-e-u-s-panel-m0yjjp.zeus-12g9x8.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /stream/PANEL_ZEUS/6d24857831b8?loc=0
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_9|2.4MB/s
+  network: ws
+  port: '443'
+  server: cd3.postshup.ir
+  servername: ptr.cyberbear.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3fc2dd40-78f1-40ed-8276-936d9dcd248f
+  ws-opts:
+    headers:
+      Host: ptr.cyberbear.io
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /CMlsadnCISdss
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_10|2.7MB/s
+  network: ws
+  port: '443'
+  server: ns3.zabidat.ir
+  servername: ptr.cyberbear.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3fc2dd40-78f1-40ed-8276-936d9dcd248f
+  ws-opts:
+    headers:
+      Host: ptr.cyberbear.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /CMlsadnCISdss
+  xudp: true
+- client-fingerprint: chrome
+  name: DE_speednode_0010
+  network: ws
+  port: 2053
+  server: 51.89.23.94
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /

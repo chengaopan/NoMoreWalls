@@ -1,22 +1,22 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: KR_speednode_0031
+  name: 🇰🇷KR_1|2.3MB/s
   network: tcp
-  port: 443
+  port: '20158'
   reality-opts:
-    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    short-id: '!!str c76ba2c2fb172e8b'
-  server: 154.193.55.183
-  servername: storage.yandex.net
-  skip-cert-verify: true
+    public-key: zYijLoutrnnrwLpLXaL9KAIT9siijcdajF8blOfgSxM
+    short-id: '!!str 33f6498052e5cb1a'
+  server: 8mc0z4qk-7n2r-5t9x-0r6p-3a4w8k1d9e2.edge.ccdn3.work
+  servername: www.bilibili.com
   tls: true
   type: vless
   udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
+  xudp: true
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: KR_speednode_0032
+  name: KR_speednode_0031
   network: tcp
   port: 443
   reality-opts:
@@ -29,3 +29,18 @@ proxies:
   type: vless
   udp: true
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: KR_speednode_0032
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
+    short-id: '!!str c76ba2c2fb172e8b'
+  server: 154.193.55.183
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
