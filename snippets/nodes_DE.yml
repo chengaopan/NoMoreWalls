@@ -1,32 +1,25 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_1|2.5MB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: undef.network
+- name: 🇩🇪DE_2|3.1MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
+  sni: de.catxstar.com
+  type: trojan
+- name: 🇩🇪DE_3|2.5MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  tls: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_2|2.5MB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: '8443'
-  server: hyperon.site
-  skip-cert-verify: false
-  sni: com.digitalposts.dpdns.org
+- name: 🇩🇪DE_4|1.9MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /bkdicj

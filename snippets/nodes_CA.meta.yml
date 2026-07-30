@@ -1,25 +1,16 @@
 proxies:
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 🇨🇦CA_1|2.8MB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-ca-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-ca-001.fastervpn.world
-  type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇦CA_2|2.1MB/s
+  name: CA_speednode_0003
   network: tcp
-  port: '443'
+  port: 8443
   reality-opts:
-    public-key: kjiuPmjM4IutdZudHfcPZHEwcrBEFY4qBLlvfC6A_Ss
-    short-id: '!!str b9f8d3f8'
-  server: 216.152.147.28
-  servername: www.cloudflare.com
+    public-key: UZn-GKszDMErkbxDZAMbPmOMBk2nwEc7Av5uhZFMkgI
+    short-id: '!!str 7a3f9c2e1b8d4506'
+  server: 167.17.182.192
+  servername: www.tesla.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d9e4721d-cdac-44c7-bc91-117367eac194
-  xudp: true
+  uuid: 9a6ee382-75c3-4cc5-bacd-66494cf99daa
