@@ -22,16 +22,98 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_speednode_0094
+- client-fingerprint: chrome
+  name: 🇺🇸US_1|2.0MB/s
+  network: ws
+  port: 443
+  server: 38.107.237.102
+  servername: mkvmh.alnm.a7e.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mkvmh.alnm.a7e.hh.vavava.kdns.fr
+    path: /?ed=2560
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_2|1.8MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: US_speednode_0095
   port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: US_speednode_0095
+- name: US_speednode_0099
   port: 9002
-  server: 138.199.35.199
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0107
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0111
+  port: 9002
+  server: 156.146.59.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0113
+  port: 9002
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0117
+  port: 9002
+  server: 156.146.59.8
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0128
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_10|1.6MB/s
+  network: ws
+  port: '443'
+  server: x4g-production-1904.up.railway.app
+  servername: x4g-production-1904.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 401dff96-48b1-e043-ce3f-759256a46b38
+  ws-opts:
+    headers:
+      Host: x4g-production-1904.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /ws/401dff96-48b1-e043-ce3f-759256a46b38
+  xudp: true
+- name: US_speednode_0094
+  port: 9002
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
@@ -57,13 +139,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: US_speednode_0099
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0100
   port: 9002
   server: 138.199.35.210
@@ -71,20 +146,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: US_speednode_0101
-  network: ws
-  port: 80
-  server: www.true.th
-  servername: d2pwbkmfr5lxa4.cloudfront.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
-  ws-opts:
-    headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
-    path: /
 - name: US_speednode_0102
   port: 9002
   server: 138.199.35.218
@@ -120,13 +181,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: US_speednode_0107
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0108
   port: 9002
   server: 138.199.35.217
@@ -148,23 +202,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: US_speednode_0111
-  port: 9002
-  server: 156.146.59.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0112
   port: 9002
   server: 156.146.59.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0113
-  port: 9002
-  server: 156.146.59.5
   skip-cert-verify: true
   tls: true
   type: http
@@ -186,13 +226,6 @@ proxies:
 - name: US_speednode_0116
   port: 9002
   server: 156.146.59.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0117
-  port: 9002
-  server: 156.146.59.8
   skip-cert-verify: true
   tls: true
   type: http
@@ -263,13 +296,6 @@ proxies:
 - name: US_speednode_0127
   port: 9002
   server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0128
-  port: 9002
-  server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
