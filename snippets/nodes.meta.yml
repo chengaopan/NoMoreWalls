@@ -148,6 +148,18 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: 未命名
+  obfs: salamander
+  obfs-password: f7jlf6m0hwvcl593
+  password: 0puq3lmwv7qtp76t
+  port: 52070
+  server: assets.gateway-stream.com
+  skip-cert-verify: true
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪3
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
@@ -250,13 +262,6 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🐰60@oneclickvpnkeys
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 76.164.202.214
-  sni: mercedes-grape.yyuyy.com
-  tls: false
-  type: hysteria2
 - name: پرسرعت ⚡
   obfs: salamander
   obfs-password: 4b6gmo4jujpapx99
@@ -265,16 +270,6 @@ proxies:
   server: hystry.accuratenetworkchecker.ir
   skip-cert-verify: false
   sni: vhd.nth.gelzaro.ir
-  tls: false
-  type: hysteria2
-- name: 🇩🇪 t.me.V2RayyNGvpn 🇩🇪
-  obfs: salamander
-  obfs-password: V2RayyNGvpn
-  password: EaDTeupk9I
-  port: 43913
-  server: 91.107.178.22
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
 - name: France 🇫🇷
@@ -344,20 +339,17 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
-- name: 🇩🇪 t- me - V2RayyNGvpn 🇩🇪
-  obfs: salamander
-  obfs-password: V2RayyNGvpn
-  password: c8L7Asi4ur
-  port: 43913
-  server: 91.107.178.22
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: 🦄79@oneclickvpnkeys
   password: dongtaiwang.com
   port: 44356
   server: 142.249.37.90
+  sni: hy2.561891.xyz
+  tls: false
+  type: hysteria2
+- name: 🎒65@oneclickvpnkeys
+  password: dongtaiwang.com
+  port: 44356
+  server: hy2.561891.xyz
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
@@ -397,14 +389,6 @@ proxies:
   server: 91.107.178.22
   skip-cert-verify: true
   sni: www.refersion.com
-  tls: false
-  type: hysteria2
-- name: 🐰49@oneclickvpnkeys
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - name: '@Selinc'
@@ -591,45 +575,36 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 🇹🇼TW_1|1.7MB/s
-  network: tcp
-  password: i99Cef
-  port: '28101'
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇧🇷BR_1|1.8MB/s
-  port: 443
+  name: 🇩🇪DE_1|1.5MB/s
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
-    short-id: '496ee75c2f91f51d'
-  server: 201.51.2.248
-  servername: ads.x5.ru
-  skip-cert-verify: true
+    public-key: RMjWKm3Jj09ytfHD-90J0c3qdpQtjqJ4muUSAuF2eXQ
+    short-id: 'de9719220a'
+  server: acat.astro-wall.online
+  servername: acat.astro-wall.online
   tls: true
   type: vless
   udp: true
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-- client-fingerprint: firefox
+  uuid: 5aa5076c-beb6-425c-afed-d426df8c9148
+  xudp: true
+- client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: neurex
-  name: 🇫🇮FI_1|1.9MB/s
-  network: grpc
-  port: '16923'
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '10ffb85da1c2d986'
-  server: 212.237.217.130
-  servername: api-maps.yandex.ru
+  name: 🇩🇪DE_2|1.2MB/s
+  network: xhttp
+  port: '443'
+  server: biomaze.ir
+  servername: youqp-ab9040c5d6-sss.apps.ir-central1.arvancaas.ir
   tls: true
   type: vless
   udp: true
-  uuid: d41fc81c-8679-494e-a687-60b15af4b14d
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: youqp-ab9040c5d6-sss.apps.ir-central1.arvancaas.ir
+    mode: auto
+    path: /user
+    x-padding-bytes: 100-1000
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
