@@ -1,5 +1,5 @@
 proxies:
-- name: 🇯🇵JP_2|3.0MB/s
+- name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 49811
@@ -24,10 +24,26 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_4|4.6MB/s
+  name: 🇯🇵JP_1|3.3MB/s
   network: tcp
   port: '29855'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: v2.cdn.yye837u1f6xg.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_2|2.9MB/s
+  network: tcp
+  port: '39409'
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: '!!str bc8e3658db7d1323'
