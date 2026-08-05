@@ -1,11 +1,4 @@
 proxies:
-- name: 🛰️57@SHAHSERVER1
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: 138.124.68.188
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
 - name: 🧬36@SHAHSERVER1
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -22,3 +15,17 @@ proxies:
   sni: dash.cloudflare.com
   tls: false
   type: hysteria2
+- client-fingerprint: random
+  name: 🇸🇪SE_1|3.1MB/s
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: se-sto.862400.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98ca432c-4dd0-452e-a49c-552620e14358
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement
