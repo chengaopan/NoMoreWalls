@@ -40,3 +40,28 @@ proxies:
   sni: fr2.xiaoliyu.cyou
   tls: false
   type: hysteria2
+- name: 🪁49@oneclickvpnkeys
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  port: 443
+  server: 194.180.174.69
+  sni: fr2.h2corp.org
+  tls: false
+  type: hysteria2
+- name: 🇫🇷FR_1|3.0MB/s
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17965
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: uk.jjznodenode.top
+  type: anytls
+  udp: true
+- fingerprint: ''
+  name: 🇫🇷FR_2|4.6MB/s
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: '17966'
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b

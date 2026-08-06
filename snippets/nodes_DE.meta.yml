@@ -1,5 +1,5 @@
 proxies:
-- name: 德国
+- name: 🪁50@oneclickvpnkeys
   password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
   port: 443
   server: node-degame.bangboonet.ru
@@ -67,19 +67,13 @@ proxies:
   sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇷🇴RO_1|1.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: '8443'
-  server: 76.164.202.215
-  skip-cert-verify: true
-  sni: mercedes-grape.yyuyy.com
+- name: '🇩🇪135238 | ⚡️Telegram = t.me/S... #1'
+  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
+  port: 443
+  server: soskeynets-degame.bangboonet.ru
+  sni: node-degame.bangboonet.ru
   tls: false
   type: hysteria2
-  up: ''
 - alpn:
   - h3
   client-fingerprint: chrome
