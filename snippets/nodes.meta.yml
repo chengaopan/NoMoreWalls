@@ -316,12 +316,43 @@ proxies:
   sni: dg1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 新加坡
+- name: 🇸🇬136392 | ⚡️Telegram = t.me/S...
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2055
+  server: soskeynets.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 🇸🇬136398 | ⚡️Telegram = t.me/S...
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2060
+  server: soskeynets.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp3.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 🧅44@oneclickvpnkeys
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: xby.mangshe.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 🧅40@oneclickvpnkeys
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2055
   server: xjp1.mangshe.xyz
   skip-cert-verify: true
   sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 🧅41@oneclickvpnkeys
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2060
+  server: xjp3.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp3.mangshe.xyz
   tls: false
   type: hysteria2
 - name: 瑞典
@@ -331,19 +362,19 @@ proxies:
   sni: grape-power-pl.ddnsguru.com
   tls: false
   type: hysteria2
-- name: 💫37@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 15.237.219.57
-  skip-cert-verify: true
-  sni: https://t.me/clashv8🇨🇳
-  tls: false
-  type: hysteria2
 - name: 🇭🇰HK
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 🧅38@oneclickvpnkeys
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: 202.146.222.29
   tls: false
   type: hysteria2
 - name: 韩国
@@ -352,6 +383,14 @@ proxies:
   server: 3.36.89.239
   skip-cert-verify: true
   sni: vpn-kr-003.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 🧅42@oneclickvpnkeys
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: 🇳🇱
@@ -418,6 +457,13 @@ proxies:
   server: 181.214.99.162
   skip-cert-verify: false
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 🧅39@oneclickvpnkeys
+  password: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
+  port: 8443
+  server: 209.74.81.28
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 🇱🇻拉脱维亚
@@ -558,13 +604,6 @@ proxies:
   sni: usa1.spectrumproxy.shop
   tls: false
   type: hysteria2
-- name: 5💫@oneclickvpnkeys
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: usa1.spectrumproxy.shop
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
 - name: 🧬26@SHAHSERVER1
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
@@ -588,22 +627,6 @@ proxies:
   sni: flkf3.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '🇩🇪136205 | ⚡️Telegram = t.me/S... #1'
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: soskeynets.mangshe.xyz
-  skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 💫95@oneclickvpnkeys
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: xby.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
 - name: 'کانال تلگرام : https://t.me/As...'
   obfs: salamander
   obfs-password: 4b6gmo4jujpapx99
@@ -624,6 +647,14 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
+- name: 💫37@oneclickvpnkeys
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 15.237.219.57
+  skip-cert-verify: true
+  sni: https://t.me/clashv8🇨🇳
+  tls: false
+  type: hysteria2
 - name: 💫58@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -636,14 +667,6 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 51.44.213.137
-  skip-cert-verify: true
-  sni: vpn-fr-002.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: 🇫🇷136223 | ⚡️Telegram = t.me/S...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-fr-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-fr-002.fastervpn.world
   tls: false
