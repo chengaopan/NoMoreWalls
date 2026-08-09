@@ -90,20 +90,23 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|1.1MB/s
-  network: ws
-  port: '8443'
-  server: 172.67.74.62
-  servername: vpn.sqhuang.com
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_1|1.0MB/s
+  network: xhttp
+  port: '2087'
+  server: 104.16.6.70
+  servername: ip.xn--fjqyexxidv2znoe9rk1n8ada0532g6usa.com
   tls: true
   type: vless
   udp: true
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
-  ws-opts:
-    headers:
-      Host: vpn.sqhuang.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
+  uuid: 60cb13f0-4e85-4e10-b7f1-86a7a73afad9
+  xhttp-opts:
+    host: full.xn--fjqyexxidv2znoe9rk1n8ada0532g6usa.com
+    mode: auto
     path: /
   xudp: true

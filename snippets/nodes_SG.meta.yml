@@ -39,16 +39,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- auth: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  name: 🇸🇬SG_1|1.3MB/s
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4466
-  server: sg3.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg3.xiaoliyu.cyou
-  type: hysteria2
 - client-fingerprint: chrome
-  name: 🇸🇬SG_4|3.1MB/s
+  name: 🇸🇬SG_1|3.1MB/s
   network: ws
   port: 443
   server: 16.176.42.97
@@ -62,3 +54,20 @@ proxies:
     headers:
       Host: zero.csmaster.ggff.net
     path: /
+- client-fingerprint: random
+  name: 🇸🇬SG_2|4.3MB/s
+  network: ws
+  port: '443'
+  server: ct.877774.xyz
+  servername: ap-south.862400.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: a367c9d0-cfac-4547-b367-645f3774df6a
+  ws-opts:
+    headers:
+      Host: ap-south.862400.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /announcement
+  xudp: true

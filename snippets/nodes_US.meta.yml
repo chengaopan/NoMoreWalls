@@ -62,18 +62,37 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: firefox
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇺🇸US_2|1.8MB/s
-  network: grpc
+  name: 🇺🇸US_1|1.3MB/s
+  network: ws
+  port: '443'
+  server: api.connectix.uk
+  servername: unitedstates.havray2025.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: f3a436a8-45c3-4c5d-bf97-b1ff6e9ced38
+  ws-opts:
+    headers:
+      Host: unitedstates.havray2025.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: ''
+  xudp: true
+- client-fingerprint: firefox
+  name: 🇺🇸US_2|1.7MB/s
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: iUc9JqWjFemnQo8R5fgiwssCjEdWmixB4X-mRJkx2VE
-    short-id: '!!str 3182f9ae'
-  server: 193.233.205.117
-  servername: media3.abvphelp.cc
+    public-key: O4of5fbG7Ns3fBdBF0bDU8Fa8q-mdk7YLgOgvAWPeF8
+    short-id: '!!str f85aebea'
+  server: 162.35.231.6
+  servername: media2.tcpdoor.net
   tls: true
   type: vless
   udp: true
