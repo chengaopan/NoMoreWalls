@@ -1,37 +1,4 @@
 proxies:
-- name: 'A - 🇫🇷 FR 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.85.119.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime56.workers.dev
-- name: 'A - 🇫🇷 FR 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 66.81.247.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime44.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇫🇷 FR 03 TG: @nodpai'
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-  security: reality
-  server: 152.89.253.239
-  servername: ya.ru
-  tls: true
-  type: vless
-  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
 - name: 法国
   password: 5bc8aea0-04a6-4fcf-9a04-1a51518396a8
   port: 35000
@@ -57,7 +24,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇫🇷FR_1|3.2MB/s
+- name: 🇫🇷FR_1|4.3MB/s
   password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
   port: 443
   server: 527b5b47-t9zts0-tighxj-12hj8.fr.oshuawei.com
@@ -65,3 +32,22 @@ proxies:
   tls: true
   type: http
   username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_2|1.5MB/s
+  network: xhttp
+  port: '8445'
+  reality-opts:
+    public-key: 7Udu8M44zSpjPJ-t0Fan1kAaykeB3PkKBCCoJCoxOjk
+    short-id: '!!str f9fe9522b62bac68'
+  server: ir.varnaroleplay.ir
+  servername: www.varzesh3.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd7234b9-803a-42ca-ab05-f2d547bb130a
+  xhttp-opts:
+    host: pnl.yasicloud.ir
+    mode: auto
+    path: /DeliveryMarket
+  xudp: true
