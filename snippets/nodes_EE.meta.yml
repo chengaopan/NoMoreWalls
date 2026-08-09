@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- name: 'A - 🇪🇪 EE 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_1|1.6MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: g-WqfHKjac71MMtkmq5bIvTFavzXTCAnEI_17KoTNSQ
+    short-id: '!!str '
+  server: 91.235.234.186
+  servername: us7fs3.proxen.pdevinfra.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4593aa27-a2a1-412f-935f-3829495c0970
+  xudp: true
