@@ -54,7 +54,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇺🇸US_9|3.3MB/s
+- name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 10418
@@ -62,93 +62,11 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- auth: 7wzl2lj2fy956inb
-  name: 🇺🇸US_1|1.5MB/s
-  password: 7wzl2lj2fy956inb
-  port: 40001
-  server: 3x.aweijll.cf
-  skip-cert-verify: true
-  sni: 3x.aweijll.cf
-  type: hysteria2
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_2|1.3MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: US_speednode_0022
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_5|1.2MB/s
-  network: ws
-  port: 2053
-  server: www.visa.cn
-  servername: ccsus11-cdn-cdn.nekohub.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7bd30627-8487-4506-bc42-b07722b24633
-  ws-opts:
-    headers:
-      Host: ccsus11-cdn.nekohub.xyz
-    path: /vless_ws?ed=4096
-- name: 🇺🇸US_6|4.4MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_7|2.2MB/s
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_8|2.7MB/s
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  sni: fan.365747.xyz
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇺🇸US_10|3.0MB/s
-  password: BxceQaOe
-  port: '10418'
-  server: 18.167.76.203
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_11|2.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: itfYOjWaEZ8FSD730zUvrhCbbzWgSWFDXjnAWCj23Rc
-    short-id: '!!str e371d988'
-  server: 161.104.90.17
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
 - client-fingerprint: firefox
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇺🇸US_12|1.5MB/s
+  name: 🇺🇸US_2|1.8MB/s
   network: grpc
   port: '443'
   reality-opts:
@@ -176,6 +94,13 @@ proxies:
   type: vless
   udp: true
   uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
+- name: US_speednode_0022
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: US_speednode_0023
   port: 9002
   server: 138.199.35.199

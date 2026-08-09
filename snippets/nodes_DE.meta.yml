@@ -90,47 +90,8 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: 🇩🇪DE_1|1.4MB/s
-  network: xhttp
-  port: 443
-  server: cloudberry-n9d4xk.vkvideo-cdn.com
-  servername: cloudberry-n9d4xk.vkvideo-cdn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a68a9249-89db-476e-8f3c-d946d91f619f
-  xhttp-opts:
-    host: cloudberry-n9d4xk.vkvideo-cdn.com
-    mode: packet-up
-    path: /content/media/stream/
-    uplink-data-placement: body
-    uplink-http-method: GET
-    x-padding-bytes: 16-64
-    x-padding-header: X-Signature
-    x-padding-key: _token
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇩🇪DE_2|1.6MB/s
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  reduce-rtt: false
-  request-timeout: 0
-  server: 89.144.35.232
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
 - client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.5MB/s
+  name: 🇩🇪DE_1|1.1MB/s
   network: ws
   port: '8443'
   server: 172.67.74.62
