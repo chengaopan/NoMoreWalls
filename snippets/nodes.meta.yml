@@ -568,7 +568,7 @@ proxies:
   sni: nrealistic.nn-foto.ru
   tls: false
   type: hysteria2
-- name: 🇮🇹139159 | ⚡️Telegram = t.me/S...
+- name: ✨94@oneclickvpnkeys
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: 31.76.113.32
@@ -807,16 +807,6 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇫🇮ConfigV2RayNG
-  obfs: salamander
-  obfs-password: pha76a5o7ormjepb
-  password: kjq3gpn1xom1ted9
-  port: 52056
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: '@meliproxyy'
   password: kjq3gpn1xom1ted9
   port: 52086
@@ -881,7 +871,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 🇧🇭@FreakConfig
+- name: 'kurdconfig #2'
   obfs: salamander
   obfs-password: TelEgRam=V2RayyNGvpn
   password: pjyFpMEKFH
