@@ -1,9 +1,8 @@
 proxies:
-- name: ✨59@oneclickvpnkeys
+- name: 瑞典
   password: Apt1923_N9x234gn_Nal5Nx3j_s
   port: 8443
   server: 142.111.244.75
-  skip-cert-verify: true
   sni: grape-power-pl.ddnsguru.com
   tls: false
   type: hysteria2
@@ -27,13 +26,5 @@ proxies:
   server: 51.44.213.137
   skip-cert-verify: true
   sni: vpn-fr-002.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: 👁️‍🗨️16@SHAHSERVER1
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: dash.cloudflare.com
   tls: false
   type: hysteria2
