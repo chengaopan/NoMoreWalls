@@ -346,6 +346,14 @@ proxies:
   sni: whatsapp.com
   tls: false
   type: hysteria2
+- name: 🇨🇦139653 | ⚡️Telegram = t.me/S...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 35.183.85.24
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
 - name: '罗马尼亚 #2'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
@@ -643,6 +651,13 @@ proxies:
   server: 51.44.213.137
   skip-cert-verify: true
   sni: vpn-fr-002.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 🪢53@oneclickvpnkeys
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 93.114.194.122
+  sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
 - name: 🩵+@Azarakhsh_Proxy+🩷
