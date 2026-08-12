@@ -20,7 +20,7 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|1.7MB/s
+- name: 🇬🇧GB_1|1.4MB/s
   port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
