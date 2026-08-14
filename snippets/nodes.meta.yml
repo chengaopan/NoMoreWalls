@@ -800,18 +800,6 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '🇫🇮FI-🚀@VPNine1 #6'
-  obfs: salamander
-  obfs-password: ene2f0oo4n8i3inf
-  password: 544a7fdaa05a4dbe868288f8a9fb023c
-  port: 52068
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: '@Configvibes🇹🇷'
   obfs: salamander
   obfs-password: Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes
@@ -924,6 +912,15 @@ proxies:
   port: 443
   server: de2.sferavpn.pro
   sni: de2.sferavpn.pro
+  tls: false
+  type: hysteria2
+- name: 🇷🇺142075 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: ru1.sferavpn.pro
+  sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
 - name: 🛗35@oneclickvpnkeys
