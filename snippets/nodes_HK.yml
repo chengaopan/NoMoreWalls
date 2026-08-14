@@ -43,20 +43,10 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 🇭🇰HK_1|3.0MB/s
+  name: 🇭🇰HK_1|2.7MB/s
   password: 6ec301428255a78a1d826988d86cc87e
   port: '50887'
   server: 2c.fast9988.com
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇭🇰HK_3|3.8MB/s
-  network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: '50887'
-  server: 18.162.133.100
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
