@@ -50,21 +50,41 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇭🇰HK_1|1.2MB/s
-  network: grpc
-  port: 10127
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: 18.162.41.55
-  servername: s0.awsstatic.com
+  name: 🇭🇰HK_1|3.0MB/s
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: '50887'
+  server: 2c.fast9988.com
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- client-fingerprint: edge
+  name: 🇭🇰HK_2|4.6MB/s
+  network: ws
+  port: '8443'
+  server: cf.130209.xyz
+  servername: hongkong.11459178.xyz
   tls: true
   type: vless
   udp: true
-  uuid: CB9C296F-A571-4B73-961E-142D832F35D0
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  ws-opts:
+    headers:
+      Host: hongkong.11459178.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /cdn/packages/runtime-core.tar.gz
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK_3|3.8MB/s
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: '50887'
+  server: 18.162.133.100
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - name: HK_speednode_0012
   password: BxceQaOe
   port: 27161

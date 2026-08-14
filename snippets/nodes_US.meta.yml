@@ -76,12 +76,20 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|1016KB/s
+- name: 🇺🇸US_1|1.4MB/s
   port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
+  server: berniesbodybla.fun
+  sni: berniesbodybla.fun
   tls: true
   type: http
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_2|1.0MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
 - client-fingerprint: firefox
   name: US_speednode_0117
   network: tcp

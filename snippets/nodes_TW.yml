@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- alterId: '0'
+  cipher: auto
+  name: 🇹🇼TW_1|1.3MB/s
+  network: ws
+  port: '10000'
+  server: 117.27.228.29
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2c90af15-bac7-f850-4c7c-120c5a420636
+  ws-opts:
+    headers: {}
+    path: /
+  xudp: true
