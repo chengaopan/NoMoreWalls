@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -32,6 +23,15 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  name: 🇯🇵JP_4|5.2MB/s
+  network: tcp
+  password: PQ05174892
+  port: '443'
+  server: merry-falcon.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - name: JP_speednode_0014
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
