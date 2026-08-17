@@ -39,14 +39,30 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇸🇬SG_1|1.5MB/s
+- name: 🇸🇬SG_1|4.1MB/s
   password: PQ05174892
   port: 443
   server: apparent-wasp.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇸🇬SG_2|3.9MB/s
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇸🇬SG_2|5.2MB/s
+  network: grpc
+  port: 10039
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg4-r.link-t7.com
+  servername: d1.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
+- name: 🇸🇬SG_3|3.3MB/s
   password: 13f0acfa-38c1-4e82-a758-583aa31740df
   port: 60572
   server: sivp666.ipad1el.com
@@ -54,24 +70,31 @@ proxies:
   sni: yzhou015.jdvipkuai.cc
   type: anytls
   udp: true
-- name: 🇸🇬SG_3|3.8MB/s
+- name: 🇸🇬SG_6|4.0MB/s
   password: 13f0acfa-38c1-4e82-a758-583aa31740df
   port: 56277
   server: yzany01.jdoanst2026.com
   sni: xjp03.ascwt179.com
   type: anytls
+- name: 🇸🇬SG_7|3.3MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 45647
+  server: yazhouany02.twzq59.cc
+  sni: yazhou11ak.2uuzhe.com
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_5|2.0MB/s
+  name: 🇸🇬SG_8|5.3MB/s
   network: tcp
   password: PQ05174892
   port: '443'
-  server: 47.128.224.11
+  server: 13.212.174.21
   skip-cert-verify: false
-  sni: vast-werewolf.rooster465.autos
+  sni: fleet-pony.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_6|1.8MB/s
+  name: 🇸🇬SG_9|3.6MB/s
   network: tcp
   password: PQ05174892
   port: '443'
@@ -81,7 +104,27 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_7|4.3MB/s
+  name: 🇸🇬SG_10|4.8MB/s
+  network: tcp
+  password: PQ05174892
+  port: '443'
+  server: 54.169.228.116
+  skip-cert-verify: false
+  sni: amusing-grub.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_11|4.5MB/s
+  network: tcp
+  password: PQ05174892
+  port: '443'
+  server: amusing-grub.rooster465.autos
+  skip-cert-verify: false
+  sni: amusing-grub.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_12|4.3MB/s
   network: tcp
   password: PQ05174892
   port: '443'
@@ -91,7 +134,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_8|4.1MB/s
+  name: 🇸🇬SG_13|4.5MB/s
   network: tcp
   password: PQ05174892
   port: '443'
@@ -100,3 +143,13 @@ proxies:
   sni: pleased-albacore.rooster465.autos
   type: trojan
   udp: true
+- fingerprint: ''
+  name: 🇸🇬SG_14|2.9MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: '60572'
+  server: 47.129.8.234
+  skip-cert-verify: true
+  sni: yzhou015.jdvipkuai.cc
+  type: anytls
+  udp: true
+  username: 13f0acfa-38c1-4e82-a758-583aa31740df

@@ -14,19 +14,16 @@ proxies:
   sni: ru-i-2.monkeyisland.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: bridge-akenai-grpc-max
-  name: 🇷🇺RU_1|2.2MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: dg-XAKwtCTyYz0HN94sbNCM8xLwY4lBHkUa883nTFn8
-    short-id: '!!str be7d4026'
-  server: 213.178.155.239
-  servername: max.ru
+- client-fingerprint: firefox
+  name: 🇷🇺RU_1|1.3MB/s
+  network: xhttp
+  port: 443
+  server: 135.106.140.18
+  servername: russia1.denverpresents.top
   tls: true
   type: vless
   udp: true
-  uuid: 87b320fe-2329-498d-997b-7b956a99eecb
-  xudp: true
+  uuid: 497442f4-af45-4b75-97b1-63fe3726e8a1
+  xhttp-opts:
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/

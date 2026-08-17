@@ -57,11 +57,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰HK_1|4.4MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 24318
+  server: yzany01.jdoanst2026.com
+  skip-cert-verify: true
+  sni: hk08.alytest.cc
+  type: anytls
+  udp: true
 - alpn:
   - ''
   alterId: 0
   cipher: auto
-  name: 🇭🇰HK_1|5.7MB/s
+  name: 🇭🇰HK_2|5.0MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
@@ -76,7 +84,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK_2|4.9MB/s
+  name: 🇭🇰HK_3|5.1MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
@@ -90,16 +98,57 @@ proxies:
       Host: a7fbf12df555e5e8a99fc901525aaa76.mobgslb.tbcache.com
     path: /
   xudp: true
-- client-fingerprint: chrome
-  name: 🇭🇰HK_4|4.2MB/s
-  network: raw
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: '50887'
-  server: 2c.fast9988.com
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_4|3.6MB/s
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
   skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- name: 🇭🇰HK_13|3.8MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 33782
+  server: yzany01.jdoanst2026.com
+  skip-cert-verify: true
+  sni: hk06.nynet.shop
+  type: anytls
+  udp: true
+- name: 🇭🇰HK_14|4.4MB/s
+  password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a1
+  port: 448
+  server: 119.147.134.47
+  skip-cert-verify: true
+  sni: ssp.vivo.com.cn
+  type: anytls
+- fingerprint: ''
+  name: 🇭🇰HK_15|2.5MB/s
+  password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a2
+  port: 448
+  server: 119.147.134.47
+  skip-cert-verify: true
+  sni: ssp.vivo.com.cn
+  type: anytls
+  udp: true
+  username: 2fd892b8-4f6c-4597-977e-85ec8a82c7a2
+- fingerprint: ''
+  name: 🇭🇰HK_16|4.5MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: '39879'
+  server: svip.skycon808.com
+  skip-cert-verify: false
+  sni: hk12.nynet.shop
+  type: anytls
+  udp: true
+  username: 13f0acfa-38c1-4e82-a758-583aa31740df
 - name: HK_speednode_0012
   password: BxceQaOe
   port: 27161
