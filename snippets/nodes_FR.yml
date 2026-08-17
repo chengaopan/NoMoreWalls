@@ -1,7 +1,8 @@
 proxies:
-- name: 🇫🇷FR_2|1.7MB/s
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.3MB/s
   password: PQ05174892
-  port: 443
+  port: '443'
   server: lucky-marmot.rooster465.autos
   skip-cert-verify: true
   type: trojan

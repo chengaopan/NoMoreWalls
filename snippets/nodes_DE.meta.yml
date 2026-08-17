@@ -39,6 +39,14 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
+- name: 🌀62@oneclickvpnkeys
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz#🇩🇪|DE|@wxgqlfx|20
+  tls: false
+  type: hysteria2
 - name: 🇩🇪|DE|@wxgqlfx|22
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
@@ -106,95 +114,47 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- client-fingerprint: edge
-  encryption: none
+- client-fingerprint: chrome
+  name: 🇩🇪DE_1|1.8MB/s
+  network: ws
+  port: 8443
+  server: 38.180.48.182
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇩🇪DE_2|2.3MB/s
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  server: 89.144.35.232
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|2.7MB/s
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-    short-id: '!!str e91da98020a38be9'
-  server: 138.124.255.20
-  servername: russia.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|1.5MB/s
-  network: raw
+  name: 🇩🇪DE_3|1.2MB/s
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: YkcQyTOh9YpZmilRob-eVxwoo4uwBAa9oHmURMTFzEM
-    short-id: '!!str 3f0a7e6b'
-  server: 2.26.71.73
-  servername: www.cloudflare.com
+    public-key: aEAdhhksLgyI_GWf7l_ES5hMZhigMAIWBn9emSXdaHc
+    short-id: '!!str 56f276ac52'
+  server: de1.miyazono-kaori.com
+  servername: www.siemens.com
   tls: true
   type: vless
   udp: true
-  uuid: 4e7eb9d5-022a-4b0a-ba37-2d1be458947b
-  xudp: true
-- client-fingerprint: safari
-  encryption: none
-  grpc-opts:
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪DE_3|1.1MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c1902cb0-b6de-4d82-99b2-8e3d8ac19da0
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇩🇪DE_4|1.2MB/s
-  network: xhttp
-  port: '443'
-  server: 85.117.243.4
-  servername: de2.jailever.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8b761240-0022-42ab-b549-5714d51e8011
-  xhttp-opts:
-    mode: auto
-    path: /assets/build/_app/immutable/chunks/stream-one/
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-connections: '3'
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇩🇪DE_5|1.0MB/s
-  network: xhttp
-  port: '443'
-  server: 85.117.243.4
-  servername: de2.jailever.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad4ff080-3c09-432c-a31b-70043b0925fe
-  xhttp-opts:
-    mode: auto
-    path: /assets/build/_app/immutable/chunks/stream-one/
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-connections: '3'
-    x-padding-bytes: 100-1000
+  uuid: aba8b762-e6c5-413e-b342-c132007fa767
   xudp: true
 - name: DE_speednode_0001
   password: e4b72b531a2d10900519
