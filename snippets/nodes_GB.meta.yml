@@ -6,12 +6,46 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|2.2MB/s
-  port: 9443
-  server: 37.120.233.34
+- name: 🇬🇧|GB|@wxgqlfx|19
+  password: 725bc0b69e720cd5a2cd209252507c6e
+  port: 50160
+  server: 94-229-64-108.liao.kdns.fr
   skip-cert-verify: true
+  sni: 94-229-64-108.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇬🇧GB_1|1.6MB/s
+  network: grpc
+  port: '61443'
+  reality-opts:
+    public-key: RnSMVp5KuKRxvnHm5fyhqicDZa3cBTZ-PN82_6RV2AA
+    short-id: '!!str '
+  server: 89.23.116.27
+  servername: 5post-gate.x5.ru
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 6688ef96-b385-48a6-9094-ed1a42b95066
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇬🇧GB_2|2.5MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: ne8wv6o6AYcQoVvz30PiTjSxviGa3_Kw5ClIEDdg-3A
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 31.77.154.46
+  servername: 360.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 62a08ea5-0564-47b4-a92c-25be07ad6358
+  xudp: true
 - name: GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
