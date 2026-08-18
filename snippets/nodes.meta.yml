@@ -89,14 +89,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: иҚ·е…°
+- name: 荷兰
   password: 085178e12d2211ec
   port: 8445
   server: nl.prisma-access.club
   sni: nl.prisma-access.club
   tls: false
   type: hysteria2
-- name: рҹҮөрҹҮұ|PL|@wxgqlfx|125
+- name: 🇵🇱|PL|@wxgqlfx|125
   password: 08794874-93d0-4cf2-b9d6-1f2774cdffeb
   port: 2101
   server: 144.31.5.9
@@ -104,14 +104,14 @@ proxies:
   sni: panel.vlessbotkey.ru
   tls: false
   type: hysteria2
-- name: йҳҝиҒ”й…Ӣ
+- name: 阿联酋
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: db1.mangshe.xyz
   sni: db1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: дё№йәҰ
+- name: 丹麦
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: lsj1.mangshe.xyz
@@ -119,7 +119,7 @@ proxies:
   sni: lsj1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: рҹҮёрҹҮ¬SG
+- name: 🇸🇬SG
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2060
   server: xjp4.mangshe.xyz
@@ -127,7 +127,7 @@ proxies:
   sni: xjp4.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 'жіўе…° #1'
+- name: '波兰 #1'
   obfs: salamander
   obfs-password: 1yvnm8sv41
   password: 2b5f7fc3d38f4798a0f62d4ef8876528
@@ -137,7 +137,7 @@ proxies:
   sni: pl6.lckdwn.ru
   tls: false
   type: hysteria2
-- name: рҹҢҖ75@oneclickvpnkeys
+- name: 🌀75@oneclickvpnkeys
   password: 425e9e31-b017-4e32-bbd3-656473466d5e
   port: 2443
   server: latvia.koalaexpress.ru
@@ -145,7 +145,7 @@ proxies:
   sni: latvia.koalaexpress.ru
   tls: false
   type: hysteria2
-- name: еҚ°еәҰ
+- name: 印度
   password: 4e756809
   port: 12694
   server: 92.4.68.18
@@ -153,21 +153,21 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: еҘҘең°еҲ©
+- name: 奥地利
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: at133.mechvpn.online
   sni: at133.mechvpn.online
   tls: false
   type: hysteria2
-- name: жі•еӣҪ
+- name: 法国
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: fr194.mechvpn.online
   sni: fr194.mechvpn.online
   tls: false
   type: hysteria2
-- name: 'иҚ·е…° #1'
+- name: '荷兰 #1'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: nl174.mechvpn.online
@@ -175,7 +175,7 @@ proxies:
   sni: nl174.mechvpn.online
   tls: false
   type: hysteria2
-- name: 'иҚ·е…° #2'
+- name: '荷兰 #2'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: nl8.mechvpn.online
@@ -183,14 +183,14 @@ proxies:
   sni: nl8.mechvpn.online
   tls: false
   type: hysteria2
-- name: з‘һе…ё
+- name: 瑞典
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: us54.mechvpn.online
   sni: us54.mechvpn.online
   tls: false
   type: hysteria2
-- name: ШӘЩ„ЪҜШұШ§Щ… Щ…Ш§ MTMVPN 14
+- name: تلگرام ما MTMVPN 14
   password: 6f7a8009ecf6a12e10d03f9d88493c89
   port: 55443
   server: gorbachev-th.kvnfreetest.uk
@@ -198,14 +198,14 @@ proxies:
   sni: gorbachev-th.kvnfreetest.uk
   tls: false
   type: hysteria2
-- name: еҸ°ж№ҫ
+- name: 台湾
   password: 85a88b70b5f2f73d0dcac92bd3934a5e
   port: 50160
   server: 211.22.154.26
   sni: 211-22-154-26.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: рҹҮәрҹҮё|US|@wxgqlfx|16
+- name: 🇺🇸|US|@wxgqlfx|16
   password: 90af65ff00ef2ff089d28d6a11fc10de
   port: 50160
   server: 23-19-231-152.liao.kdns.fr
@@ -213,21 +213,21 @@ proxies:
   sni: 23-19-231-152.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: дҝ„зҪ—ж–Ҝ
+- name: 俄罗斯
   password: 95e8532b-cc69-42d4-9553-e3c23292b15b
   port: 8443
   server: 176.124.222.180
   sni: j47lq.pleiades.codes
   tls: false
   type: hysteria2
-- name: 'жі•еӣҪ #1'
+- name: '法国 #1'
   password: 95e8532b-cc69-42d4-9553-e3c23292b15b
   port: 8443
   server: iq5ny.pleiades.codes
   sni: iq5ny.pleiades.codes
   tls: false
   type: hysteria2
-- name: '@ConfigvibesрҹҮ№рҹҮ· #2'
+- name: '@Configvibes🇹🇷 #2'
   obfs: salamander
   obfs-password: Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------
   password: '@Telegram@Configvibes'
@@ -237,14 +237,14 @@ proxies:
   sni: ftp.debian.org
   tls: false
   type: hysteria2
-- name: иҠ¬е…°
+- name: 芬兰
   password: Apt1923_N9x234gn_Nal5Nx3j_s
   port: 8443
   server: 222.167.212.80
   sni: grape-power-pl.ddnsguru.com
   tls: false
   type: hysteria2
-- name: зҫҺеӣҪ
+- name: 美国
   password: CJtE4HLmxz859YMNiZM1NTuDRy7jjs8t
   port: 1443
   server: pg-usa2-hy2.gigatapbot.top
@@ -252,7 +252,7 @@ proxies:
   sni: pg-usa2-hy2.gigatapbot.top
   tls: false
   type: hysteria2
-- name: 'рҹҮәрҹҮё|US|@wxgqlfx|16 #1'
+- name: '🇺🇸|US|@wxgqlfx|16 #1'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 18.226.172.222
@@ -260,14 +260,14 @@ proxies:
   sni: vpn-us-003.fastervpn.world
   tls: false
   type: hysteria2
-- name: зҪ—й©¬е°јдәҡ
+- name: 罗马尼亚
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 85.204.107.164
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: рҹҮ·рҹҮҙ|RO|@wxgqlfx|225
+- name: 🇷🇴|RO|@wxgqlfx|225
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 85.204.107.166
@@ -275,14 +275,14 @@ proxies:
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: 'зҫҺеӣҪ #2'
+- name: '美国 #2'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 93.114.194.122
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: 'жі•еӣҪ #2'
+- name: '法国 #2'
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
   server: fr.vpn.legendaah.xyz
@@ -290,28 +290,28 @@ proxies:
   sni: www.cloudflare.com
   tls: false
   type: hysteria2
-- name: 'иҚ·е…° #4'
+- name: '荷兰 #4'
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
   server: 86.107.178.69
   sni: grape-zet-turbo-nl.yyuyy.com
   tls: false
   type: hysteria2
-- name: 'иҚ·е…° #5'
+- name: '荷兰 #5'
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
   server: 86.107.178.72
   sni: grape-zet-turbo-nl.yyuyy.com
   tls: false
   type: hysteria2
-- name: 'жіўе…° #2'
+- name: '波兰 #2'
   password: b11841e3-2acc-45ff-afe0-a9ed9a823aaa
   port: 443
   server: rpc-2068.internet-booster.com
   sni: rpc-2068.internet-booster.com
   tls: false
   type: hysteria2
-- name: жҫіеӨ§еҲ©дәҡ
+- name: 澳大利亚
   obfs: salamander
   obfs-password: b42d90fa667942aebc734d60
   password: b42d90fa667942aebc734d60
@@ -320,7 +320,7 @@ proxies:
   sni: rmgyvpn.rest
   tls: false
   type: hysteria2
-- name: 'Ъ©Ш§ЩҶШ§Щ„ ШӘЩ„ЪҜШұШ§Щ… : Free...'
+- name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -330,7 +330,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: рҹҮҜрҹҮө|JP|@wxgqlfx|15
+- name: 🇯🇵|JP|@wxgqlfx|15
   password: bc751c4c5c80f17dfbc05785c368b613
   port: 50160
   server: 154.31.115.179
@@ -338,14 +338,14 @@ proxies:
   sni: 154-31-115-179.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: еҫ·еӣҪ
+- name: 德国
   password: c175d956-d1f4-4c53-b2b1-8493bf8529c6
   port: 443
   server: 87.120.84.189
   sni: de1.apexvpn.space
   tls: false
   type: hysteria2
-- name: 'иҚ·е…° #6'
+- name: '荷兰 #6'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -355,7 +355,7 @@ proxies:
   sni: nl2.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 'зҫҺеӣҪ #3'
+- name: '美国 #3'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -364,28 +364,28 @@ proxies:
   sni: node1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 'еҫ·еӣҪ #1'
+- name: '德国 #1'
   password: d1224950-ffab-4b9a-8696-431b40a6cfbd
   port: 443
   server: bel-03.node.lumixnet.com
   sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
-- name: 'жі•еӣҪ #3'
+- name: '法国 #3'
   password: d1a0857bc1eb833a9edf96be4c1f999e
   port: 55443
   server: host-vds2-fr.kvncococ.org
   sni: host-vds2-fr.kvncococ.org
   tls: false
   type: hysteria2
-- name: 'жіўе…° #3'
+- name: '波兰 #3'
   password: df489ab2-2242-4952-a774-1074a3a31f41
   port: 8443
   server: eh-spl1.craft-supply.org
   sni: eh-spl1.craft-supply.org
   tls: false
   type: hysteria2
-- name: рҹҮ°рҹҮ·|KR|@wxgqlfx|24
+- name: 🇰🇷|KR|@wxgqlfx|24
   password: dfb54e674104158210fdfcac45e5679d
   port: 50160
   server: 193.122.104.200
@@ -393,7 +393,7 @@ proxies:
   sni: 193-122-104-200.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: рҹҮ©рҹҮӘ|DE|@wxgqlfx|182
+- name: 🇩🇪|DE|@wxgqlfx|182
   password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
   port: 8443
   server: 194.180.188.21
@@ -401,21 +401,21 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: 'иҠ¬е…° #1'
+- name: '芬兰 #1'
   password: e0c7af35-e2db-47c7-b1a3-ce5ec0dd0474
   port: 8458
   server: hy2-fi.frdmhere.com
   sni: hy2.frdmhere.com
   tls: false
   type: hysteria2
-- name: 'зҫҺеӣҪ #4'
+- name: '美国 #4'
   password: e0c7af35-e2db-47c7-b1a3-ce5ec0dd0474
   port: 8458
   server: hy2-us.frdmhere.com
   sni: hy2.frdmhere.com
   tls: false
   type: hysteria2
-- name: 'зҫҺеӣҪ #5'
+- name: '美国 #5'
   password: fe475179-d8a8-420d-a4ac-3e415ed8dc72
   port: 11683
   server: uswx4.wxgqlfx.vip
@@ -423,14 +423,14 @@ proxies:
   sni: 144.225.187.153
   tls: false
   type: hysteria2
-- name: 'иҚ·е…° #7'
+- name: '荷兰 #7'
   password: hysteria2_fastlane_9r63hua9f
   port: 443
   server: 144.31.135.204
   sni: nl2.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: 5рҹҰҒ@oneclickvpnkeys
+- name: '德国 #2'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: de.1.23.h2corp.org
@@ -438,14 +438,14 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: 'иҚ·е…° #8'
+- name: '荷兰 #8'
   password: netherlands_3_hysteria2_fastlane_xr3nai71s
   port: 443
   server: 91.84.119.49
   sni: nl4.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: рҹҮәрҹҮё139909 | вҡЎпёҸTelegra...
+- name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -453,21 +453,21 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 'иҚ·е…° #9'
+- name: '荷兰 #9'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.219
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: иӢұеӣҪ
+- name: 英国
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.221
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: рҹҮҰрҹҮӘ|AE|@wxgqlfx|211
+- name: 🇦🇪|AE|@wxgqlfx|211
   password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
   port: 443
   server: cabinet.wwwinternetvideo.click
@@ -483,7 +483,7 @@ proxies:
   sni: gorbachev-new-th.kvnfreetest.uk
   tls: false
   type: hysteria2
-- name: рҹҮөрҹҮұ|PL|@wxgqlfx|121
+- name: 🇵🇱|PL|@wxgqlfx|121
   password: 08794874-93d0-4cf2-b9d6-1f2774cdffeb
   port: 2086
   server: 144.31.1.28
@@ -491,7 +491,7 @@ proxies:
   sni: panel.vlessbotkey.ru
   tls: false
   type: hysteria2
-- name: рҹҮөрҹҮұ|PL|@wxgqlfx|128
+- name: 🇵🇱|PL|@wxgqlfx|128
   password: 08794874-93d0-4cf2-b9d6-1f2774cdffeb
   port: 2102
   server: 144.31.5.9
@@ -521,7 +521,7 @@ proxies:
   sni: 185.47.172.226
   tls: false
   type: hysteria2
-- name: рҹҮ«рҹҮ®|FI|@wxgqlfx|221
+- name: 🇫🇮|FI|@wxgqlfx|221
   password: 133f76fc-a5ab-463e-b46d-9587d7137e55
   port: 443
   server: h2.vpnushka.lol
@@ -529,7 +529,7 @@ proxies:
   sni: h2.vpnushka.lol
   tls: false
   type: hysteria2
-- name: рҹҮәрҹҮё|US|@wxgqlfx|251
+- name: 🇺🇸|US|@wxgqlfx|251
   password: 133f76fc-a5ab-463e-b46d-9587d7137e55
   port: 443
   server: node3.vpnushka.lol
@@ -537,56 +537,42 @@ proxies:
   sni: node3.vpnushka.lol
   tls: false
   type: hysteria2
-- name: рҹҢҖ25@oneclickvpnkeys
-  password: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
-  port: 10808
-  server: nl1.unlockvpn.online
-  sni: nl1.unlockvpn.online
-  tls: false
-  type: hysteria2
-- name: рҹҢҖ42@oneclickvpnkeys
+- name: 🌀42@oneclickvpnkeys
   password: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
   port: 10808
   server: nl10.unlockvpn.online
   sni: nl10.unlockvpn.online
   tls: false
   type: hysteria2
-- name: рҹҢҖ46@oneclickvpnkeys
+- name: 🌀46@oneclickvpnkeys
   password: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
   port: 10808
   server: nl2.unlockvpn.online
   sni: nl2.unlockvpn.online
   tls: false
   type: hysteria2
-- name: рҹҢҖ40@oneclickvpnkeys
+- name: 🌀40@oneclickvpnkeys
   password: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
   port: 10808
   server: nl3.unlockvpn.online
   sni: nl3.unlockvpn.online
   tls: false
   type: hysteria2
-- name: рҹҢҖ22@oneclickvpnkeys
-  password: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
-  port: 10808
-  server: nl6.unlockvpn.online
-  sni: nl6.unlockvpn.online
-  tls: false
-  type: hysteria2
-- name: рҹҢҖ50@oneclickvpnkeys
+- name: 🌀50@oneclickvpnkeys
   password: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
   port: 10808
   server: nl7.unlockvpn.online
   sni: nl7.unlockvpn.online
   tls: false
   type: hysteria2
-- name: рҹҢҖ43@oneclickvpnkeys
+- name: 🌀43@oneclickvpnkeys
   password: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
   port: 10808
   server: nl9.unlockvpn.online
   sni: nl9.unlockvpn.online
   tls: false
   type: hysteria2
-- name: рҹҢҖ37@oneclickvpnkeys
+- name: 🌀37@oneclickvpnkeys
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: flkf3.mangshe.xyz
@@ -594,15 +580,15 @@ proxies:
   sni: flkf3.mangshe.xyz
   tls: false
   type: hysteria2
-- name: рҹҢҖ62@oneclickvpnkeys
+- name: 🌀62@oneclickvpnkeys
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: mg2.mangshe.xyz
   skip-cert-verify: true
-  sni: mg2.mangshe.xyz#рҹҮ©рҹҮӘ|DE|@wxgqlfx|20
+  sni: mg2.mangshe.xyz#🇩🇪|DE|@wxgqlfx|20
   tls: false
   type: hysteria2
-- name: рҹҮ©рҹҮӘ|DE|@wxgqlfx|22
+- name: 🇩🇪|DE|@wxgqlfx|22
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: mg2.mangshe.xyz
@@ -610,22 +596,12 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: рҹҮ°рҹҮ·|KR|@wxgqlfx|23
+- name: 🇰🇷|KR|@wxgqlfx|23
   password: 3d7634af8cb2c6cb4bac1c0efad8b43d
   port: 50160
   server: 152.67.200.82
   skip-cert-verify: true
   sni: 152-67-200-82.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- name: рҹҮЁрҹҮҰV2RayyNGvpnрҹҮЁрҹҮҰ
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: 4T3sB0DeFo
-  port: 38871
-  server: 51.79.91.52
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - alpn:
@@ -642,7 +618,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: рҹҮҰрҹҮ№|AT|@wxgqlfx|216
+  name: 🇦🇹|AT|@wxgqlfx|216
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: at133.mechvpn.online
@@ -652,7 +628,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: рҹҮҰрҹҮ№|AT|@wxgqlfx|225
+  name: 🇦🇹|AT|@wxgqlfx|225
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: at164.mechvpn.online
@@ -661,7 +637,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: рҹҮҰрҹҮ№|AT|@wxgqlfx|224
+  name: 🇦🇹|AT|@wxgqlfx|224
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: at164.mechvpn.online
@@ -671,7 +647,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: рҹҮҰрҹҮ№|AT|@wxgqlfx|221
+  name: 🇦🇹|AT|@wxgqlfx|221
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: at188.mechvpn.online
@@ -679,7 +655,7 @@ proxies:
   sni: at188.mechvpn.online
   tls: false
   type: hysteria2
-- name: рҹҮ©рҹҮӘ|DE|@wxgqlfx|220
+- name: 🇩🇪|DE|@wxgqlfx|220
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: de120.mechvpn.online
@@ -687,7 +663,7 @@ proxies:
   sni: de120.mechvpn.online
   tls: false
   type: hysteria2
-- name: рҹҮ©рҹҮӘ|DE|@wxgqlfx|208
+- name: 🇩🇪|DE|@wxgqlfx|208
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: de200.mechvpn.online
@@ -696,7 +672,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: рҹҮ©рҹҮӘ|DE|@wxgqlfx|223
+  name: 🇩🇪|DE|@wxgqlfx|223
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: fr131.mechvpn.online
@@ -706,7 +682,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: рҹҮірҹҮұ|NL|@wxgqlfx|218
+  name: 🇳🇱|NL|@wxgqlfx|218
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: nl174.mechvpn.online
@@ -716,7 +692,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: рҹҮірҹҮұ|NL|@wxgqlfx|233
+  name: 🇳🇱|NL|@wxgqlfx|233
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: nl8.mechvpn.online
@@ -724,7 +700,7 @@ proxies:
   sni: nl8.mechvpn.online
   tls: false
   type: hysteria2
-- name: рҹҮёрҹҮӘ|SE|@wxgqlfx|238
+- name: 🇸🇪|SE|@wxgqlfx|238
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: us63.mechvpn.online
@@ -732,7 +708,7 @@ proxies:
   sni: us63.mechvpn.online
   tls: false
   type: hysteria2
-- name: рҹҮёрҹҮӘ|SE|@wxgqlfx|213
+- name: 🇸🇪|SE|@wxgqlfx|213
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: us65.mechvpn.online
@@ -740,7 +716,7 @@ proxies:
   sni: us65.mechvpn.online
   tls: false
   type: hysteria2
-- name: рҹҮ©рҹҮӘ@FreakConfig
+- name: 🇩🇪@FreakConfig
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406
@@ -750,17 +726,26 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
+- name: 未命名
+  obfs: salamander
+  obfs-password: uw9b2qq5rx
+  password: 6aab8efdf13945829ae3699c342be406
+  port: 443
+  server: 31.76.80.69
+  skip-cert-verify: false
+  sni: fiproxy1.lockdwn.com@freenettir³
+  tls: false
+  type: hysteria2
 - name: '@meliproxyy #1'
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406
   port: 443
   server: fiproxy1.lockdwn.com
-  skip-cert-verify: false
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: рҹҮ«рҹҮ®|FI|@wxgqlfx|222
+- name: 🇫🇮|FI|@wxgqlfx|222
   password: 707db87b-9cbf-438f-b4c7-9d984c8e944a
   port: 443
   server: serv21.strettenvpn.com
@@ -768,7 +753,7 @@ proxies:
   sni: serv21.strettenvpn.com
   tls: false
   type: hysteria2
-- name: рҹҮ¬рҹҮ§|GB|@wxgqlfx|19
+- name: 🇬🇧|GB|@wxgqlfx|19
   password: 725bc0b69e720cd5a2cd209252507c6e
   port: 50160
   server: 94-229-64-108.liao.kdns.fr
@@ -776,22 +761,7 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: рҹҰҒ94@oneclickvpnkeys
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: usa1.spectrumproxy.shop
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
-- name: 3рҹҰҒ@oneclickvpnkeys
-  password: 76c1579d-e996-473c-b23f-2c8301082602
-  port: 11683
-  server: 40t1.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 204.44.74.220#зҫҺеӣҪ1@wxgqlfx
-  tls: false
-  type: hysteria2
-- name: рҹҮ·рҹҮә|RU|@wxgqlfx|229
+- name: 🇷🇺|RU|@wxgqlfx|229
   password: 921db318-1694-4408-9cc7-c93df39f7f8e
   port: 443
   server: ru-i-2.monkeyisland.xyz
@@ -799,7 +769,7 @@ proxies:
   sni: ru-i-2.monkeyisland.xyz
   tls: false
   type: hysteria2
-- name: рҹҮ·рҹҮҙ|RO|@wxgqlfx|219
+- name: 🇷🇴|RO|@wxgqlfx|219
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 162.249.124.104
@@ -807,7 +777,7 @@ proxies:
   sni: mercedes-grape.yyuyy.com
   tls: false
   type: hysteria2
-- name: 'рҹҮ©рҹҮӘ@FreakConfig #1'
+- name: '🇩🇪@FreakConfig #1'
   obfs: salamander
   obfs-password: AIbOe_791iQ4k6kPUgdsO7B9
   password: 9cc2113e-6b5b-4ced-9c46-70cf78d2c599
@@ -817,7 +787,7 @@ proxies:
   sni: a26738d5774ad803.devmrzero.ir
   tls: false
   type: hysteria2
-- name: '@ConfigvibesрҹҮ№рҹҮ·'
+- name: '@Configvibes🇹🇷'
   obfs: salamander
   obfs-password: Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------
   password: '@Tel@Configvibes'
@@ -827,7 +797,7 @@ proxies:
   sni: archive.ubuntu.com
   tls: false
   type: hysteria2
-- name: '@ConfigvibesрҹҮ№рҹҮ· #1'
+- name: '@Configvibes🇹🇷 #1'
   obfs: salamander
   obfs-password: Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes
   password: '@Telegram@Configvibes'
@@ -837,7 +807,7 @@ proxies:
   sni: ftp.debian.org
   tls: false
   type: hysteria2
-- name: ШӘЩ„ЪҜШұШ§Щ… Щ…Ш§ MTMVPN 6
+- name: تلگرام ما MTMVPN 6
   password: Apt1923_N9x234gn_Nal5Nx3j_s
   port: 8443
   server: 222.167.212.24
@@ -845,16 +815,7 @@ proxies:
   sni: grape-power-pl.ddnsguru.com
   tls: false
   type: hysteria2
-- name: рҹҰҒ99@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: B86A0475-AB74-44BE-8209-A67F85CBF52C
-  port: 443
-  server: us6.dexlos.com
-  sni: us6.dexlos.com
-  tls: false
-  type: hysteria2
-- name: рҹҮ«рҹҮ®|FI|@wxgqlfx|217
+- name: 🇫🇮|FI|@wxgqlfx|217
   password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
   port: 443
   server: fast.wwwinternetvideo.click
@@ -862,7 +823,7 @@ proxies:
   sni: fast.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: '@ConfigvibesрҹҮ№рҹҮ· #3'
+- name: '@Configvibes🇹🇷 #3'
   obfs: salamander
   obfs-password: IL+pm5"K?4gef:Jvn8^G+:N,Neyy8
   password: Configvibes
@@ -872,7 +833,7 @@ proxies:
   sni: ftp.debian.org
   tls: false
   type: hysteria2
-- name: 'рҹҮЁрҹҮҰV2RayyNGvpnрҹҮЁрҹҮҰ #1'
+- name: 🇨🇦V2RayyNGvpn🇨🇦
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: IJMFOXhvbQ
@@ -882,7 +843,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: рҹҮ·рҹҮҙ|RO|@wxgqlfx|206
+- name: 🇷🇴|RO|@wxgqlfx|206
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 85.204.107.165
@@ -890,7 +851,7 @@ proxies:
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: рҹ©ө+@Azarakhsh_Proxy+рҹ©·
+- name: 🩵+@Azarakhsh_Proxy+🩷
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -900,7 +861,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: рҹҮірҹҮұ|NL|@wxgqlfx|236
+- name: 🇳🇱|NL|@wxgqlfx|236
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
   server: 86.107.178.73
@@ -910,8 +871,32 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
+  name: Telegram@vpnjey
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: Telegram@vpnjey
+  port: 37009
+  server: 31.76.27.23
+  skip-cert-verify: true
+  sni: de.vpnjey.store
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 'Telegram@vpnjey #1'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: Telegram@vpnjey
+  port: 36264
+  server: 77.110.96.201
+  skip-cert-verify: true
+  sni: se.vpnjey2.dpdns.org
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
   client-fingerprint: chrome
-  name: Telegram@VPNjeyрҹҮ©рҹҮӘрҹҮ©рҹҮ...
+  name: Telegram@VPNjey🇩🇪🇩🇪
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNJey
@@ -923,7 +908,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: 'Telegram@VPNjeyрҹҮ©рҹҮӘрҹҮ©рҹҮ... #1'
+  name: 'Telegram@VPNjey🇩🇪🇩🇪 #1'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -932,7 +917,7 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: рҹҮірҹҮұ - NL - @FreeOnlineVPN
+- name: 🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -942,14 +927,14 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: рҹҮөрҹҮұ|PL|@wxgqlfx|206
+- name: 🇵🇱|PL|@wxgqlfx|206
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   port: 443
   server: admin.wwwinternetvideo.click
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: рҹҮәрҹҮё|US|@wxgqlfx|219
+- name: 🇺🇸|US|@wxgqlfx|219
   password: b41ad7f941ffce755cb8601bfd0f02ca
   port: 50160
   server: 35-209-199-239.liao.kdns.fr
@@ -957,7 +942,7 @@ proxies:
   sni: 35-209-199-239.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 'Ъ©Ш§ЩҶШ§Щ„ ШӘЩ„ЪҜШұШ§Щ… : Free... #2'
+- name: 'کانال تلگرام : Free_VPN_CH@ #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -969,7 +954,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 'Ъ©Ш§ЩҶШ§Щ„ ШӘЩ„ЪҜШұШ§Щ… : Free... #1'
+  name: 'کانال تلگرام : Free_VPN_CH@ #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -979,7 +964,15 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: рҹҮірҹҮұ|NL|@wxgqlfx|18
+- name: 🎈50@oneclickvpnkeys
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: 155.248.209.237
+  skip-cert-verify: true
+  sni: 155.248.209.237
+  tls: false
+  type: hysteria2
+- name: 🇳🇱|NL|@wxgqlfx|18
   password: c4a4d98d-8d64-4e76-bc50-096b07d82382
   port: 443
   server: 139.28.98.26
@@ -987,7 +980,7 @@ proxies:
   sni: nl-hysteria.boxypn.com
   tls: false
   type: hysteria2
-- name: рҹҮёрҹҮ¬|SG|@wxgqlfx|27
+- name: 🇸🇬|SG|@wxgqlfx|27
   password: ce24c43947331f36746c1f692c3812e0
   port: 50160
   server: 129-150-54-169.liao.kdns.fr
@@ -995,7 +988,7 @@ proxies:
   sni: 129-150-54-169.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: рҹҮӯрҹҮ°|HK|@wxgqlfx|222
+- name: 🇭🇰|HK|@wxgqlfx|222
   password: d325f389-7bc9-4d6a-8a2b-7dd4f7ab6e9f
   port: 443
   server: ru.h.topbelka.ru
@@ -1003,7 +996,7 @@ proxies:
   sni: ru.h.topbelka.ru
   tls: false
   type: hysteria2
-- name: '@bisto4_service : Ъ©Ш§ЩҶШ§Щ„ Ш...'
+- name: '@bisto4_service : کانال تلگرام'
   obfs: salamander
   obfs-password: v8h63irhnay97090
   password: d86efa900c2f4bb6bde662f1ef6413b8
@@ -1013,15 +1006,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: рҹҰҒ14@oneclickvpnkeys
-  password: dbab9df7-5c0a-4726-8574-11e34972b67d
-  port: 33015
-  server: 86.53.105.117
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: рҹҮөрҹҮұ|PL|@wxgqlfx|210
+- name: 🇵🇱|PL|@wxgqlfx|210
   password: e8c93f75-4ed5-41b1-a32e-a846e54582e8
   port: 8444
   server: 191.44.90.4
@@ -1029,7 +1014,7 @@ proxies:
   sni: premium-nl.geodema.network
   tls: false
   type: hysteria2
-- name: рҹҮәрҹҮё|US|@wxgqlfx|20
+- name: 🇺🇸|US|@wxgqlfx|20
   password: ed77b662dbdf1a817d5eb75ae940cac4
   port: 50160
   server: 198-46-188-116.liao.kdns.fr
@@ -1037,7 +1022,7 @@ proxies:
   sni: 198-46-188-116.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: рҹҢҖ39@oneclickvpnkeys
+- name: 🌀39@oneclickvpnkeys
   password: f056b41dc9f2b516e333738d1345a6be46a8ca80a3870ffe
   port: 443
   server: n.nl.cleanersaz.help
@@ -1045,7 +1030,7 @@ proxies:
   sni: n.nl.cleanersaz.help
   tls: false
   type: hysteria2
-- name: рҹҮ«рҹҮ®|FI|@wxgqlfx|169
+- name: 🇫🇮|FI|@wxgqlfx|169
   password: k-qZIMk71_90gFFSfFiP688PqB6yLxie
   port: 43327
   server: 2.27.42.66
@@ -1073,7 +1058,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '@Napsternetvirani'
+- name: '@vmesskhodam #3'
   obfs: salamander
   obfs-password: 1wcfqg6gwoyxlplo
   password: m3bqxk03mg221yi2
@@ -1105,7 +1090,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: рҹҮәрҹҮё|US|@wxgqlfx|212
+  name: 🇺🇸|US|@wxgqlfx|212
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: de.1.23.h2corp.org
@@ -1113,7 +1098,7 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: 'ШӘЩ„ЪҜШұШ§Щ… : MTMVPN'
+- name: 'تلگرام : MTMVPN'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -1126,7 +1111,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: рҹҮұрҹҮ»hysteria
+  name: 🇱🇻hysteria
   obfs: salamander
   obfs-password: 2gg0tx9d2etug8n9
   password: rjj39jg8iphgd06h
@@ -1135,7 +1120,7 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: ШӘЩ„ЪҜШұШ§Щ… Щ…Ш§ MTMVPN 1
+- name: تلگرام ما MTMVPN 1
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.218
@@ -1143,7 +1128,7 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: рҹҮірҹҮұ|NL|@wxgqlfx|122
+- name: 🇳🇱|NL|@wxgqlfx|122
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8080
   server: 46.229.243.131
@@ -1151,7 +1136,7 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: рҹҮірҹҮұ|NL|@wxgqlfx|123
+- name: 🇳🇱|NL|@wxgqlfx|123
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 46.229.243.131
@@ -1159,7 +1144,7 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: рҹҮірҹҮұ|NL|@wxgqlfx|177
+- name: 🇳🇱|NL|@wxgqlfx|177
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 46.229.243.132
@@ -1167,7 +1152,7 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: рҹҮ«рҹҮ®@FreakConfig
+- name: 🇫🇮@FreakConfig
   obfs: salamander
   obfs-password: d6pv15sghiq1onts
   password: t8t2qojzsykqazfu
@@ -1187,7 +1172,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '@v2raybaaz ВІ'
+- name: '@v2raybaaz ²'
   obfs: salamander
   obfs-password: fd3olglr2bmimgje
   password: t8t2qojzsykqazfu
@@ -1199,7 +1184,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: рҹҮ©рҹҮӘ|DE|@wxgqlfx|213
+  name: 🇩🇪|DE|@wxgqlfx|213
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: de.1.22.washing.help
@@ -1320,136 +1305,133 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_16|2.7MB/s
-  network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
-  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-  ws-opts:
-    headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- name: 🇯🇵JP_1|1.7MB/s
-  password: HC04361579
-  port: 443
-  server: accepted-starling.rooster465.autos
+- name: 🇧🇳BN_1|2.3MB/s
+  password: 7038662c-1698-4737-84bc-2b29caee84ed
+  port: 32033
+  server: tttttt.luoyun2.com
   skip-cert-verify: true
-  sni: accepted-starling.rooster465.autos
-  type: trojan
-- fingerprint: ''
-  name: 🇭🇰HK_2|3.9MB/s
+  sni: wenlai000202.ly123.edu.kg
+  type: anytls
+  udp: true
+- auth: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  name: 🇨🇾CY_1|1.1MB/s
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: xby.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  type: hysteria2
+- name: 🇭🇰HK_1|4.8MB/s
   password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: '33782'
+  port: 33782
   server: yzany01.jdoanst2026.com
   skip-cert-verify: true
   sni: hk06.nynet.shop
   type: anytls
   udp: true
-  username: 13f0acfa-38c1-4e82-a758-583aa31740df
-- down: ''
-  fingerprint: ''
-  name: 🇨🇾CY_1|1.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: '2056'
-  server: xby.mangshe.xyz
+- name: 🇭🇰HK_2|4.2MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 24318
+  server: yzany01.jdoanst2026.com
   skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  type: hysteria2
-  up: ''
+  sni: hk08.alytest.cc
+  type: anytls
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_3|2.6MB/s
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇩🇪DE_1|1.1MB/s
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  reduce-rtt: false
+  request-timeout: 0
+  server: 89.144.35.232
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇹🇷TR_1|1.2MB/s
+  network: xhttp
+  port: '443'
+  server: 212.104.128.107
+  servername: turk.sub017.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5770093c-4b70-4847-8eb5-c5fe195f4f21
+  xhttp-opts:
+    host: turk.sub017.dpdns.org
+    mode: auto
+    path: /api
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-connections: '6'
+    x-padding-bytes: 100-1000
+  xudp: true
 - fingerprint: ''
   name: 🇸🇬SG_1|4.6MB/s
   password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: '56277'
-  server: yzany01.jdoanst2026.com
+  port: '60572'
+  server: sivp666.ipad1el.com
   skip-cert-verify: false
-  sni: xjp03.ascwt179.com
+  sni: yzhou015.jdvipkuai.cc
   type: anytls
   udp: true
   username: 13f0acfa-38c1-4e82-a758-583aa31740df
-- down: null
-  name: 🇫🇷FR_1|3.5MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  up: null
-- name: 🇺🇸US_1|1.6MB/s
-  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-  sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-  tls: true
-  type: http
-  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-- name: 🇩🇪DE_1|1.0MB/s
-  network: ws
-  port: '8880'
-  server: 104.24.152.211
-  type: vless
+- fingerprint: ''
+  name: 🇰🇷KR_1|2.5MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: '47901'
+  server: sivp555.ipad1el.com
+  skip-cert-verify: false
+  sni: kr06.nyssl.cc
+  type: anytls
   udp: true
-  uuid: 2acde116-5949-48d8-a1e6-60a1d2547deb
-  ws-opts:
-    headers:
-      Host: lively-pine-093d.144-868.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.85 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_3|1.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 1xIu8ESLs4JviWXp8XaOceWAEVHqWLzNIiojA_uf8Ug
-    short-id: '83feb7aa267e9ddf'
-  server: 103.100.158.10
-  servername: www.apple.com
-  tls: true
-  type: vless
+  username: 13f0acfa-38c1-4e82-a758-583aa31740df
+- fingerprint: ''
+  name: 🇸🇬SG_2|1.3MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: '47053'
+  server: yazhouany02.twzq59.cc
+  skip-cert-verify: false
+  sni: xjp0202.asgg2026.vip
+  type: anytls
   udp: true
-  uuid: 6a1f6c94-7785-42e2-9203-381d1f4db37e
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  name: 🇺🇸US_2|1019KB/s
-  network: ws
-  port: '443'
-  server: 69.46.46.21
-  servername: rvg-production-5107.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: cdb85d6c-c110-bd72-d30b-601e737aea01
-  ws-opts:
-    headers:
-      Host: rvg-production-5107.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-    path: /ws/cdb85d6c-c110-bd72-d30b-601e737aea01
-  xudp: true
-- alterId: '0'
+  username: 13f0acfa-38c1-4e82-a758-583aa31740df
+- alterId: 0
   cipher: auto
   http-opts:
     headers: {}
     path:
     - /
-  name: 🇺🇸US_3|1.3MB/s
+  name: 🇺🇸US_2|4.3MB/s
   network: http
-  port: '52080'
+  port: 52080
   server: 38.246.226.240
   skip-cert-verify: false
   tls: false
@@ -1458,74 +1440,218 @@ proxies:
   uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_4|4.4MB/s
+  name: 🇯🇵JP_1|2.9MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21109'
   server: 211.91.158.24
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇰🇷KR_3|1.8MB/s
+  name: 🇰🇷KR_2|5.2MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21114'
   server: 211.91.158.24
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇰🇷KR_4|5.7MB/s
+  name: 🇰🇷KR_3|5.1MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21107'
   server: 211.91.158.24
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_5|4.9MB/s
+  name: 🇯🇵JP_2|2.5MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21119'
   server: 211.91.158.24
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_6|5.4MB/s
+  name: 🇯🇵JP_3|4.7MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21109'
   server: 211.91.158.27
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇰🇷KR_5|4.6MB/s
+  name: 🇰🇷KR_4|4.8MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21107'
   server: 211.91.158.27
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_7|5.5MB/s
+  name: 🇯🇵JP_4|2.4MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21119'
   server: 211.91.158.27
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_4|1.2MB/s
-  network: tcp
-  password: fg20mtCFHy
-  port: '5444'
-  server: 128.14.180.210
+- name: 🇭🇰HK_6|3.9MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 45883
+  server: yzany01.jdoanst2026.com
   skip-cert-verify: true
-  sni: ucyxc.southbyte.xyz
+  sni: hk35.ascwt179.com
+  type: anytls
+  udp: true
+- cipher: auto
+  name: 🇺🇸US_3|2.5MB/s
+  network: none
+  port: 47212
+  server: 216.167.54.75
+  tls: false
+  type: vless
+  uuid: cd477134-ffce-473a-8dca-8ce5fc6eb3eb
+- down: null
+  name: 🇫🇷FR_1|1.1MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: null
+- name: 🇺🇸US_4|1.2MB/s
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: 443
+  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  tls: true
+  type: http
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
+- name: 🇺🇸US_5|1.0MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_6|2.6MB/s
+  password: None
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  name: 🇯🇵JP_5|4.9MB/s
+  network: tcp
+  password: HC04361579
+  port: '443'
+  server: driven-doberman.rooster465.autos
+  skip-cert-verify: false
+  sni: driven-doberman.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇺🇸US_5|2.6MB/s
+  flow: xtls-rprx-vision
+  name: 🇫🇮FI_1|1.1MB/s
   network: tcp
-  password: fg20mtCFHy
-  port: '5444'
-  server: 147.182.198.83
-  skip-cert-verify: true
-  sni: sfouctc.southbyte.xyz
-  type: trojan
+  port: '1234'
+  reality-opts:
+    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
+    short-id: '4844fb0c077b20b7'
+  server: store1.vevluma.ir
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
   udp: true
+  uuid: 0cc3a24a-1e51-44ae-92c7-83102c8f0392
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇮FI_2|1.4MB/s
+  network: tcp
+  port: '1234'
+  reality-opts:
+    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
+    short-id: '4844fb0c077b20b7'
+  server: store10.vevluma.ir
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0cc3a24a-1e51-44ae-92c7-83102c8f0392
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇮FI_3|1.9MB/s
+  network: tcp
+  port: '1234'
+  reality-opts:
+    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
+    short-id: '4844fb0c077b20b7'
+  server: store15.vevluma.ir
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0cc3a24a-1e51-44ae-92c7-83102c8f0392
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇮FI_4|1.3MB/s
+  network: tcp
+  port: '1234'
+  reality-opts:
+    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
+    short-id: '4844fb0c077b20b7'
+  server: store2.vevluma.ir
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0cc3a24a-1e51-44ae-92c7-83102c8f0392
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇮FI_5|1.2MB/s
+  network: tcp
+  port: '1234'
+  reality-opts:
+    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
+    short-id: '4844fb0c077b20b7'
+  server: store5.vevluma.ir
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0cc3a24a-1e51-44ae-92c7-83102c8f0392
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇮FI_6|1.7MB/s
+  network: tcp
+  port: '1234'
+  reality-opts:
+    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
+    short-id: '4844fb0c077b20b7'
+  server: store8.vevluma.ir
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0cc3a24a-1e51-44ae-92c7-83102c8f0392
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_7|3.9MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: HR2aptN8hqi90SHqL28BEsHnJGiZ18TQ6bdz8kyPyik
+    short-id: '72bc30ab684705ed'
+  server: 38.244.21.190
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f51be481-3bcb-4b69-b149-3c1f2e1cb3f8
+  xudp: true
 - name: DE_speednode_0001
   password: e4b72b531a2d10900519
   port: 443
