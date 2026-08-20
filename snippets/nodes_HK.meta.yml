@@ -1,4 +1,14 @@
 proxies:
+- name: рҹҮӯрҹҮ°HK
+  obfs: salamander
+  obfs-password: 1ol3tasb90
+  password: 1dcc3b89-0b45-3908-9120-19741361d55d
+  port: 10030
+  server: fg7xl1div.d33tqmk.cc
+  skip-cert-verify: true
+  sni: xk7q3.ckpfef.top
+  tls: false
+  type: hysteria2
 - name: HK
   obfs: salamander
   obfs-password: 1ol3tasb90
@@ -51,13 +61,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- auth: 1dcc3b89-0b45-3908-9120-19741361d55d
-  name: 🇭🇰HK_1|2.5MB/s
-  obfs: salamander
-  obfs-password: 1ol3tasb90
-  password: 1dcc3b89-0b45-3908-9120-19741361d55d
-  port: 10030
-  server: fg7xl1div.d33tqmk.cc
-  skip-cert-verify: true
-  sni: xk7q3.ckpfef.top
-  type: hysteria2

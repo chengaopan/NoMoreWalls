@@ -1,18 +1,5 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 🇦🇪AE_1|1.3MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
-  port: '443'
-  server: pixelcast.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: pixelcast.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
-  up: ''
-- name: 'کانال تلگرام : Free_VPN_CH@'
+- name: 'Ъ©Ш§ЩҶШ§Щ„ ШӘЩ„ЪҜШұШ§Щ… : Free...'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -22,38 +9,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '德国 #1'
-  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
-  port: 443
-  server: bel-03.node.lumixnet.com
-  sni: bel-03.node.lumixnet.com
-  tls: false
-  type: hysteria2
-- name: '德国 #2'
-  password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
-  port: 8443
-  server: 194.180.188.104
-  skip-cert-verify: true
-  sni: keyhop-offshore.roxa.org
-  tls: false
-  type: hysteria2
-- name: '德国 #3'
-  password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
-  port: 8443
-  server: 194.180.188.97
-  skip-cert-verify: true
-  sni: keyhop-offshore.roxa.org
-  tls: false
-  type: hysteria2
-- name: '德国 #4'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: de.1.23.h2corp.org
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- name: 🇩🇪|DE|@wxgqlfx|220
+- name: рҹҮ©рҹҮӘ|DE|@wxgqlfx|220
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: de120.mechvpn.online
@@ -61,38 +17,14 @@ proxies:
   sni: de120.mechvpn.online
   tls: false
   type: hysteria2
-- name: 🇩🇪|DE|@wxgqlfx|208
+- name: рҹҮ©рҹҮӘ|DE|@wxgqlfx|208
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: de200.mechvpn.online
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: Telegram@VPNjey🇩🇪🇩🇪
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNJey
-  port: 37003
-  server: 1.1.1.1
-  sni: de.jey.cc.cd
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 'Telegram@VPNjey🇩🇪🇩🇪 #1'
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNjey
-  port: 37003
-  server: 179.61.251.253
-  sni: de.jey.cc.cd
-  tls: false
-  type: hysteria2
-- name: 🇩🇪|DE|@wxgqlfx|182
+- name: рҹҮ©рҹҮӘ|DE|@wxgqlfx|182
   password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
   port: 8443
   server: 194.180.188.21
@@ -100,23 +32,10 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: unsafe
-  encryption: none
-  name: 🇩🇪DE_1|1.0MB/s
-  network: ws
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_2|1.1MB/s
+  password: amazonskr05
   port: '443'
-  server: meshbuzz.bond
-  servername: kt5ttul9.cendro.ir
-  tls: true
-  type: vless
+  server: 3.66.86.250
+  type: ss
   udp: true
-  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
-  ws-opts:
-    headers:
-      Host: kt5ttul9.cendro.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
-    path: /ws-vlees
-  xudp: true
