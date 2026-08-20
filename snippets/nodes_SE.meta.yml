@@ -29,30 +29,36 @@ proxies:
   sni: us65.mechvpn.online
   tls: false
   type: hysteria2
-- name: 🍏86@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: Telegram@vpnjey
-  password: Telegram@vpnjey
-  port: 36264
-  server: 77.110.96.201
-  skip-cert-verify: true
-  sni: se.vpnjey2.dpdns.org
-  tls: false
-  type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇪SE_1|3.2MB/s
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
+    short-id: '!!str 4326'
+  server: 144.31.179.21
+  servername: get4s.skystreamgame.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2569614f-879b-43de-9cd9-9bb304b68856
+  xudp: true
 - client-fingerprint: firefox
   encryption: none
   grpc-opts:
     grpc-service-name: moktana.net.v1.StreamService
-  name: 🇸🇪SE_1|3.4MB/s
+  name: 🇸🇪SE_2|1.4MB/s
   network: grpc
   port: '443'
   reality-opts:
     public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: '!!str 8b6f2e4d7c1a5b9f'
-  server: ser.moktana.app
+    short-id: '!!str 7c4b9a2e8d5f3c1b'
+  server: 201.51.8.8
   servername: ser.moktana.app
   tls: true
   type: vless
   udp: true
-  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+  uuid: 27b16a66-95e0-4c20-b00b-5dff91d9c9f5
   xudp: true
