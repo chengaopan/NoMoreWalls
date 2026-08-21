@@ -1,29 +1,37 @@
 proxies:
-- name: 🇬🇧GB_1|1.1MB/s
-  port: 443
-  server: 185.235.0.34
+- name: 英国
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 222.167.212.81
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|1.0MB/s
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_3|1.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: '!!str fd55b698ee8c3629'
-  server: 5.152.223.193
-  servername: strapi.io
-  tls: true
-  type: vless
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_1|3.5MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21104'
+  server: 211.91.158.26
+  type: ss
   udp: true
-  uuid: ff3e8d55-214e-44eb-b91c-28510aa880e4
-  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_2|1.7MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_3|4.3MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21104'
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_4|4.4MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.44
+  type: ss
+  udp: true

@@ -1,4 +1,13 @@
 proxies:
+- auth: ef18d810-719c-4bf1-83c6-615d01f217eb
+  name: 🇱🇹LT_1|1.4MB/s
+  password: ef18d810-719c-4bf1-83c6-615d01f217eb
+  port: 443
+  server: jp.cryptoofarm.com
+  skip-cert-verify: true
+  sni: jp.cryptoofarm.com
+  tls: false
+  type: hysteria2
 - name: JP
   password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
   port: 32135
@@ -31,26 +40,57 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_1|1.5MB/s
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.136
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_5|5.4MB/s
+  network: tcp
+  port: '53113'
+  reality-opts:
+    public-key: BdFiTcTZt1oIRD_Q04KnxPjs_1cZFqjV-sbVGP49PVY
+    short-id: '!!str 238ba3b9e8'
+  server: jpaws.ccwink.photos
+  servername: docs.aws.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP_2|5.4MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21109'
+  server: 211.91.158.26
   type: ss
   udp: true
-- alterId: '0'
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP_3|5.9MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21119'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP_4|5.7MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21119'
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- alterId: 0
   cipher: auto
-  name: 🇯🇵JP_7|2.3MB/s
+  name: 🇯🇵JP_6|1.3MB/s
   network: ws
-  port: '443'
+  port: 443
   server: node.socks5.kdns.fr
+  servername: former-investments-vip-gem.trycloudflare.com
   skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
-  uuid: e98ae327-f7b8-4984-bb96-8f021c36a9ed
+  uuid: 1d24b4c4-95ed-4763-ab31-cfccb10df9a2
   ws-opts:
     headers:
-      Host: instructor-theme-persons-clients.trycloudflare.com
-    path: /e98ae327-f7b8-4984-bb96-8f021c36a9ed-vm
+      Host: former-investments-vip-gem.trycloudflare.com
+    path: /1d24b4c4-95ed-4763-ab31-cfccb10df9a2-vm
   xudp: true

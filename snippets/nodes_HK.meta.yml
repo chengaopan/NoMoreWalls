@@ -1,5 +1,13 @@
 proxies:
-- name: ًں‡­ًں‡°HK
+- name: 香港
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 4433
+  server: hk2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: hk2.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: 🇭🇰HK
   obfs: salamander
   obfs-password: 1ol3tasb90
   password: 1dcc3b89-0b45-3908-9120-19741361d55d
@@ -61,28 +69,51 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|1.4MB/s
-  network: tcp
+- name: 🇭🇰HK_1|1.1MB/s
+  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
   port: 443
-  reality-opts:
-    public-key: ZmT8Tizn4Dw0-f7H3yUN5gpNJTWqtq248U4Qpk16lXw
-    short-id: '!!str b0ca5b9b'
-  server: hk.xswlbrand.xyz
-  servername: hk4e-launcher-static.hoyoverse.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce551b1c-95f5-4ea2-b6fc-5e9ef472fae1
-- congestion-controller: bbr
-  disable-sni: false
-  name: 🇭🇰HK_14|2.0MB/s
-  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  port: 443
-  reduce-rtt: false
-  request-timeout: 0
-  server: 54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com
+  server: a3c39736-tk7400-tlvq5w-1jcwu.hk3.hyhuawei.com
   skip-cert-verify: true
-  type: tuic
-  uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  type: anytls
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰HK_2|1.3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: https://t.me/wangcai2🇨🇳
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰HK_3|1.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  type: hysteria2
+  up: ''
+- alterId: '0'
+  cipher: auto
+  name: 🇭🇰HK_5|3.7MB/s
+  network: ws
+  port: '443'
+  server: node.socks5.kdns.fr
+  servername: softball-chief-observations-myspace.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e53732d9-85c6-44fe-91eb-52fe9349dccc
+  ws-opts:
+    headers:
+      Host: softball-chief-observations-myspace.trycloudflare.com
+    path: /e53732d9-85c6-44fe-91eb-52fe9349dccc-vm
+  xudp: true
