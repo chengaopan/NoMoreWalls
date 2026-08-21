@@ -210,69 +210,59 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.1MB/s
+- alterId: 2
+  cipher: auto
+  name: 🇸🇬SG_1|1.7MB/s
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  name: 🇫🇷FR_1|1.0MB/s
   network: ws
   password: humanity
   port: '443'
-  server: join-telegram-channel.tirexnet.kdns.fr
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷FR_2|1009KB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.67.74.2
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE_2|3.0MB/s
+  port: 53225
+  server: jpaws.ccwink.photos
+  servername: gw.alicdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    path: /assignment
+  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
 - cipher: chacha20-ietf-poly1305
-  name: 🇰🇷KR_1|1.6MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21114'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_1|3.5MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21104'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_5|4.2MB/s
+  name: 🇺🇸US_2|4.7MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21105'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇰🇷KR_2|4.8MB/s
+  name: 🇰🇷KR_1|4.9MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21107'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_2|5.4MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21109'
   server: 211.91.158.26
   type: ss
   udp: true
@@ -284,176 +274,168 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_2|1.7MB/s
+  name: 🇬🇧GB_1|4.6MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21117'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_2|4.5MB/s
+  name: 🇩🇪DE_3|3.5MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21118'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_3|5.9MB/s
+  name: 🇯🇵JP_3|5.0MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21119'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇹IT_2|4.2MB/s
+  name: 🇮🇹IT_2|2.2MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21120'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG_2|3.6MB/s
+  name: 🇸🇬SG_2|5.7MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21121'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇳IN_1|4.8MB/s
+  name: 🇮🇳IN_1|5.3MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21125'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_5|4.4MB/s
+  name: 🇫🇷FR_2|4.2MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21126'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_3|4.3MB/s
+  name: 🇬🇧GB_2|4.2MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21104'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_6|3.5MB/s
+  name: 🇺🇸US_3|3.9MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21105'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇰🇷KR_3|2.4MB/s
+  name: 🇰🇷KR_2|4.2MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21107'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_7|4.3MB/s
+  name: 🇺🇸US_4|4.0MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21108'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇹IT_3|2.6MB/s
+  name: 🇮🇹IT_3|1.2MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21113'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇰🇷KR_4|4.3MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21114'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇱IL_1|1.1MB/s
+  name: 🇮🇱IL_1|3.6MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21116'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_4|4.4MB/s
+  name: 🇬🇧GB_3|4.4MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21117'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_3|1.7MB/s
+  name: 🇩🇪DE_4|3.7MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21118'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_4|5.7MB/s
+  name: 🇯🇵JP_4|2.7MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21119'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_6|4.3MB/s
+  name: 🇫🇷FR_3|4.0MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21122'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇭TH_1|4.6MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21123'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇳IN_2|2.6MB/s
+  name: 🇮🇳IN_2|4.8MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21125'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_7|3.4MB/s
+  name: 🇫🇷FR_4|4.1MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21126'
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬SG_3|3.9MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21121'
   server: 211.91.158.44
   type: ss
   udp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇺🇸US_8|1.0MB/s
+  name: 🇳🇱NL_3|1.7MB/s
   network: ws
-  password: mitivpn
+  password: MiTiVPN
   port: '443'
-  server: 45.205.0.6
-  skip-cert-verify: true
-  sni: 333-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: 3865895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
   type: trojan
   udp: true
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/u-s@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alterId: '0'
   cipher: auto
-  name: 🇭🇰HK_5|3.7MB/s
+  name: 🇭🇰HK_1|3.1MB/s
   network: ws
   port: '443'
   server: node.socks5.kdns.fr
-  servername: softball-chief-observations-myspace.trycloudflare.com
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -463,21 +445,4 @@ proxies:
     headers:
       Host: softball-chief-observations-myspace.trycloudflare.com
     path: /e53732d9-85c6-44fe-91eb-52fe9349dccc-vm
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP_6|1.3MB/s
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: former-investments-vip-gem.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1d24b4c4-95ed-4763-ab31-cfccb10df9a2
-  ws-opts:
-    headers:
-      Host: former-investments-vip-gem.trycloudflare.com
-    path: /1d24b4c4-95ed-4763-ab31-cfccb10df9a2-vm
   xudp: true
