@@ -14,13 +14,13 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|3.1MB/s
+- name: 🇬🇧GB_1|3.0MB/s
   port: 443
   server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|1.8MB/s
+- name: 🇬🇧GB_2|2.9MB/s
   port: 443
   server: 185.235.0.34
   skip-cert-verify: true
