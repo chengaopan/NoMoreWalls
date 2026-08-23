@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|3.5MB/s
+  name: 🇷🇺RU_1|2.2MB/s
   network: tcp
   port: 443
   reality-opts:
