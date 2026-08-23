@@ -99,87 +99,16 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.3MB/s
+  name: 🇩🇪DE_1|1.1MB/s
   network: tcp
   port: '1234'
   reality-opts:
     public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
     short-id: '!!str 4844fb0c077b20b7'
-  server: store20.vevluma.ir
+  server: store16.vevluma.ir
   servername: updates.cdn-apple.com
   tls: true
   type: vless
   udp: true
-  uuid: cd09dc43-a55a-4f9d-920a-9e91e11e26fc
-  xudp: true
-- name: 🇩🇪DE_4|1.1MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_5|2.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: XOcyZvF63CHDPnh3UCL-u-X8HYeNGiRtrwDVRLBC1DI
-    short-id: '!!str f41bc0b00ca1a978'
-  server: nl3.murhost.network
-  servername: nl3.murhost.network
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 419f25c1-bc35-412e-93fb-258efee859b5
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-yandex
-  name: 🇩🇪DE_6|1.6MB/s
-  network: grpc
-  port: '8443'
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: '!!str 844352756c1fabba'
-  server: ai.riotvpn.eu
-  servername: static.vkimages.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2e9d3568-f977-4cea-800d-fd9a876e7252
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_7|1.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: XOcyZvF63CHDPnh3UCL-u-X8HYeNGiRtrwDVRLBC1DI
-    short-id: '!!str f41bc0b00ca1a978'
-  server: 81.31.210.140
-  servername: nl3.murhost.network
-  tls: true
-  type: vless
-  udp: true
-  uuid: 419f25c1-bc35-412e-93fb-258efee859b5
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_8|1.3MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: '!!str ff776ff77be48b88'
-  server: 93.123.101.78
-  servername: germ3.freeinternat.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fbb74aa8-b89a-4f20-9504-6b25aadf6681
+  uuid: da6ece67-aff5-4f94-94f3-08e87ca8cd51
   xudp: true

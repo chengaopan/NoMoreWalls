@@ -120,284 +120,24 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|1.9MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_2|4.2MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇺🇸US_3|1.1MB/s
-  network: ws
-  port: 2087
-  server: 104.19.213.131
-  servername: wzknb.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: wzknb.pages.dev
-    path: /proxyip=179.255.104.87,179.255.116.198,179.255.101.56,142.248.218.6,142.248.218.4,45.76.79.239,179.255.152.163,208.68.180.240
-- name: 🇺🇸US_4|1.8MB/s
-  password: None
-  port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_5|1.9MB/s
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
-- name: 🇺🇸US_6|2.5MB/s
-  password: None
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|1.6MB/s
-  password: None
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_8|1.0MB/s
-  port: 443
-  server: tzoa.fun
-  sni: tzoa.fun
-  tls: true
-  type: http
-- name: 🇺🇸US_9|2.5MB/s
-  port: 9002
-  server: 156.146.59.11
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|3.1MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_11|1.3MB/s
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- auth: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  name: 🇺🇸US_12|3.4MB/s
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8443
-  server: 103.246.248.227
-  skip-cert-verify: true
-  sni: hopp-legend-se.roxa.org
-  type: hysteria2
-- name: 🇺🇸US_13|2.7MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_14|2.6MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_15|1.7MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_16|2.2MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_17|3.2MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.38
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: errorfl-cdn-api-v1
-  name: 🇺🇸US_18|1.1MB/s
-  network: grpc
-  port: '443'
-  server: 2.26.3.40
-  servername: errorfl.zapret-tg.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57a9cf7d-bb6c-414e-97be-1985f7123c61
-  xudp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇺🇸US_19|1.1MB/s
-  network: grpc
-  port: '2054'
-  reality-opts:
-    public-key: z8O-5nI4-3eKexufSrkEUvAubPw7a73cQtTGNDp3Uxo
-    short-id: '!!str 6ffc74326185d4d6'
-  server: 143.246.198.91
-  servername: www.ibm.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 80d02a71-54a5-4c5b-976d-5ee573c502af
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US_20|2.3MB/s
+  name: 🇺🇸US_1|1.2MB/s
   network: tcp
-  port: '443'
+  port: 443
   server: 143.246.136.78
   servername: wok1.api3-max.ru
   tls: true
   type: vless
   udp: true
   uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_21|1.6MB/s
-  network: tcp
-  port: '443'
-  server: 64.49.13.198
-  servername: wok10.api3-max.ru
-  tls: true
-  type: vless
+- cipher: aes-256-gcm
+  name: 🇺🇸US_2|4.6MB/s
+  password: b160be88-28c2-31bb-a153-8b050228f0c3
+  port: '20016'
+  server: f.4.h.5.3.i.i.9.6.us02-ae5.entry.v51124-3a.qpon
+  type: ss
   udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_22|1010KB/s
-  network: tcp
-  port: '443'
-  server: 64.49.13.249
-  servername: wok4.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_23|1.2MB/s
-  network: tcp
-  port: '443'
-  server: wok1.api3-max.ru
-  servername: wok1.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_24|1.1MB/s
-  network: tcp
-  port: '443'
-  server: wok10.api3-max.ru
-  servername: wok10.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_25|1.7MB/s
-  network: tcp
-  port: '443'
-  server: wok6.api3-max.ru
-  servername: wok6.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_26|1.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0
-    short-id: '!!str '
-  server: usa.oblaco.bet
-  servername: usa.oblaco.bet
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef2c48a7-c113-4610-9d81-b35779660d9e
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -441,6 +181,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
