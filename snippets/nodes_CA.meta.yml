@@ -1,10 +1,9 @@
 proxies:
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇨🇦CA_1|2.0MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+- name: 加拿大
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: vpn-ca-002.fastervpn.world
+  server: vpn-ca-001.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-ca-002.fastervpn.world
+  sni: t.me
+  tls: false
   type: hysteria2
-  udp: true
