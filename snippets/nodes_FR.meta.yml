@@ -30,3 +30,13 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
+- name: 🇫🇷FR_1|1.2MB/s
+  port: 1972
+  server: 51.210.241.123
+  type: http
+- name: 🇫🇷FR_2|1.5MB/s
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
