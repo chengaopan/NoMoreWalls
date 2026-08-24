@@ -47,10 +47,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 🇸🇬SG_1|5.6MB/s
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 10778
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: xjp20.jdddyy01.cc
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_2|3.6MB/s
+  network: ws
+  port: 2087
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|4.5MB/s
+  name: 🇸🇬SG_3|3.9MB/s
   network: tcp
   port: '64294'
   reality-opts:
@@ -63,11 +85,3 @@ proxies:
   udp: true
   uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
   xudp: true
-- name: 🇸🇬SG_2|3.8MB/s
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 28749
-  server: dd1d1.catcat321.com
-  skip-cert-verify: true
-  sni: d.sgj1.cat.bilibili.com
-  type: trojan
