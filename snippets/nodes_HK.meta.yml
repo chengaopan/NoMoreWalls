@@ -17,15 +17,6 @@ proxies:
   sni: xk7q3.ckpfef.top
   tls: false
   type: hysteria2
-- name: HK
-  obfs: salamander
-  obfs-password: 1ol3tasb90
-  password: 1dcc3b89-0b45-3908-9120-19741361d55d
-  port: 11173
-  server: fg7xl1div.d33tqmk.cc
-  sni: xk7qhk307.ckpfef.top
-  tls: false
-  type: hysteria2
 - name: '🇭🇰HK #1'
   password: 9q3Mb0IzSVbnwaqK
   port: 16001
@@ -80,9 +71,9 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 🇭🇰HK_2|4.4MB/s
+  name: 🇭🇰HK_2|1.6MB/s
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
