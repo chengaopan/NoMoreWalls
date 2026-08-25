@@ -50,14 +50,22 @@ proxies:
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 18.183.103.86
+  port: 32434
+  server: 95.40.27.43
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇸🇬SG_1|2.8MB/s
-  password: ESfDSCxpD
-  port: 64462
-  server: 154.219.254.66
-  type: http
-  username: n17sMRE7S
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_1|1.9MB/s
+  network: tcp
+  port: '4321'
+  reality-opts:
+    public-key: iFKNWOLqlwrSmvR8wkxap1u85leVrr6YqEBy3Vn8WX0
+    short-id: '!!str 950e9d42106bedae'
+  server: 152.42.217.27
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8f3a337-ad39-4064-95f1-33a725a65877

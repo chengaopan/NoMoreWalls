@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- name: 🇪🇪EE_1|1.6MB/s
+  password: 1Telegram_MojiVPN
+  port: '1080'
+  server: ee-tal.pvdata.host
+  skip-cert-verify: true
+  type: socks5
+  username: N9cyF6jvgy3ZEmCNKe04zBIR
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: edge.sync.v1
+  name: 🇪🇪EE_2|1.8MB/s
+  network: grpc
+  port: '443'
+  server: eeb.webinarly.fun
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
+  xudp: true

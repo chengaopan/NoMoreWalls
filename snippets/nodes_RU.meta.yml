@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- alpn:
+  - h2
+  client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|2.4MB/s
+  network: tcp
+  port: '8443'
+  server: 185.147.27.165
+  servername: user-6a8c51f9.noooo.win
+  tls: true
+  type: vless
+  udp: true
+  uuid: f230254f-d4cd-4d83-8a2d-e83927ef98ac
+  xudp: true
