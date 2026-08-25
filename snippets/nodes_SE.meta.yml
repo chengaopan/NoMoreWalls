@@ -10,11 +10,10 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: edge.sync.v1
-  name: 🇸🇪SE_2|2.1MB/s
+  name: 🇸🇪SE_1|3.4MB/s
   network: grpc
   port: '443'
   server: swa.mythos-wargame.fun
-  servername: swa.mythos-wargame.fun
   tls: true
   type: vless
   udp: true

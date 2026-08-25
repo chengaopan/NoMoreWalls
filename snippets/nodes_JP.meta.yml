@@ -32,30 +32,15 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: 日本2|@ripaojiedian
+  name: 🇯🇵JP_1|1.2MB/s
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 日本3|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|2.4MB/s
-  network: tcp
-  port: '55555'
-  reality-opts:
-    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
-    short-id: '!!str af317506'
-  server: uh-jp01.ziyoufly.xyz
-  servername: pypi.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4de520cf-ccee-4a18-ab5a-e66d969c7872
-  xudp: true

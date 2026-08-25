@@ -55,17 +55,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|1.9MB/s
-  network: tcp
-  port: '4321'
-  reality-opts:
-    public-key: iFKNWOLqlwrSmvR8wkxap1u85leVrr6YqEBy3Vn8WX0
-    short-id: '!!str 950e9d42106bedae'
-  server: 152.42.217.27
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b8f3a337-ad39-4064-95f1-33a725a65877
