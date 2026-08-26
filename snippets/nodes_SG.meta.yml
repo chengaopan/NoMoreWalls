@@ -1,4 +1,21 @@
 proxies:
+- name: 🇸🇬SG
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '🇸🇬SG #1'
+  obfs: salamander
+  obfs-password: MBd0Kzj3ZcY3
+  password: VL0N0IPJ5Tqj672H7FsxYw==
+  port: 12451
+  server: 18.136.199.31
+  sni: c.hbapp.xyz
+  tls: false
+  type: hysteria2
 - name: SG
   password: ZYTopBPE6fGijECIcT3KxqFEpjQJ44ND
   port: 55793
@@ -43,7 +60,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: update
-  name: 🇸🇬SG_1|4.6MB/s
+  name: 🇸🇬SG_1|4.9MB/s
   network: grpc
   port: '10038'
   reality-opts:
@@ -56,3 +73,27 @@ proxies:
   udp: true
   uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
   xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇸🇬SG_2|5.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: 13.212.191.206
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇸🇬SG_3|3.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: 13.212.74.81
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  type: hysteria2
+  up: ''
