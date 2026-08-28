@@ -8,6 +8,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '日本 #1'
+  password: a9081889-1949-49ba-a2aa-7054515716de
+  port: 3488
+  server: c2.bestai.beauty
+  skip-cert-verify: true
+  sni: c2.bestai.beauty
+  tls: false
+  type: hysteria2
+- name: '日本 #2'
   password: ef18d810-719c-4bf1-83c6-615d01f217eb
   port: 443
   server: jp.cryptoofarm.com
@@ -54,11 +62,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇯🇵JP_1|5.1MB/s
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 443
-  server: jpzz01.cybergalaxy.me
-  skip-cert-verify: true
-  sni: jpzz01.cybergalaxy.me
-  type: anytls
-  udp: true
