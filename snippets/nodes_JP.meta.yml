@@ -39,17 +39,11 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_1|5.8MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  type: ss
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇯🇵JP_2|4.8MB/s
+  name: 🇯🇵JP_1|5.5MB/s
   network: grpc
   port: 10032
   reality-opts:
@@ -60,15 +54,9 @@ proxies:
   tls: true
   type: vless
   uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-- encryption: none
-  name: 🇯🇵JP_3|1.7MB/s
-  network: ws
-  port: 49152
-  server: qp.lichao0223.cn
-  servername: qp.lichao0223.cn
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 71b460a1-8f78-45c5-fb3c-ab26a2a1f7b9
-  ws-opts:
-    path: /
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_2|4.4MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  type: ss

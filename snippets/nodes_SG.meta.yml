@@ -7,7 +7,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '新加坡 #1'
+- name: 🇸🇬SG_2|2.7MB/s
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 1933
   server: sg1.xiaoliyu.cyou
@@ -65,18 +65,32 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇸🇬SG_1|5.3MB/s
+  name: 🇸🇬SG_1|5.4MB/s
   network: grpc
-  port: 10039
+  port: 10036
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
-  server: sg4-r.link-t7.com
-  servername: d1.awsstatic.com
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_3|1.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: ejr6ZVvv6XL1U9tFm2ev72egsXzqMFNPlgbDU4uPH1Q
+    short-id: '!!str 3b32806e4a620eac'
+  server: 163.128.99.5
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1210355c-323f-4098-b782-96627ca8b495
+  xudp: true

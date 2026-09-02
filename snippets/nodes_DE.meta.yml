@@ -134,56 +134,8 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|1.3MB/s
-  network: tcp
-  port: '101'
-  reality-opts:
-    public-key: VxFkVk2SKEQrRnBnhzvl29UpHlS2i5t6Is__HGPmuRU
-    short-id: '!!str 03e5ac759d2e7e90'
-  server: 49.12.244.56
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40c81dcc-bc8a-4690-abdf-75ea8530234b
-  xudp: true
 - encryption: none
-  name: 🇩🇪DE_2|1.1MB/s
-  network: ws
-  port: '2087'
-  server: 188.220.67.181
-  type: vless
-  udp: true
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /8f2690e2d016
-  xudp: true
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - amp-api-edge.apps.apple.com
-    path:
-    - /
-  name: 🇩🇪DE_3|3.0MB/s
-  network: http
-  port: '28111'
-  server: tp.paydar.site
-  type: vless
-  udp: true
-  uuid: 82c6792a-ea57-42a1-9b7c-eca252d0b8ea
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_4|1.3MB/s
+  name: 🇩🇪DE_1|1.0MB/s
   network: ws
   port: '2087'
   server: 188.220.67.140
@@ -193,23 +145,46 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
     path: /8f2690e2d016
   xudp: true
-- name: 🇩🇪DE_5|1.0MB/s
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: null
-- name: 🇩🇪DE_6|1.8MB/s
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|4.1MB/s
+  network: tcp
+  port: '44799'
+  server: f1.ngvip.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 514bedc0-9677-4ae1-9cd0-43d7689cfb63
+  xudp: true
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    path:
+    - /
+  name: 🇩🇪DE_3|3.2MB/s
+  network: http
+  port: '28111'
+  server: tp.paydar.site
+  type: vless
+  udp: true
+  uuid: 82c6792a-ea57-42a1-9b7c-eca252d0b8ea
+  xudp: true
+- name: 🇩🇪DE_4|2.1MB/s
   port: 443
   server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_7|3.7MB/s
+- name: 🇩🇪DE_5|2.2MB/s
   password: None
   port: 443
   server: 149.36.50.157
@@ -217,10 +192,43 @@ proxies:
   tls: true
   type: http
   username: null
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_6|2.8MB/s
+  network: ws
+  port: '8443'
+  server: rah.vip1111.ir
+  servername: panel.vip1111.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 08ab1155-2630-48b5-8a3c-4a44096eb0c1
+  ws-opts:
+    headers:
+      Host: panel.vip1111.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /ai-articles/465992-kids-feel-ai-own-words-featured/
+  xudp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_7|1.8MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: YJLB9ACm_Sefy0Fl6C23BQMcT9omgw29LCIvv6-1Cy0
+    short-id: '!!str cffe35594dfc2975'
+  server: 153.75.89.35
+  servername: cdn.dodostatic.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24623d40-0a9a-4ae8-9b30-da896fac4ca9
+  xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_8|4.1MB/s
+  name: 🇩🇪DE_8|2.3MB/s
   network: tcp
   port: '8443'
   reality-opts:
@@ -233,8 +241,42 @@ proxies:
   udp: true
   uuid: 2ae1bbd2-dd81-4737-bbec-6a8c1c74e8f1
   xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇩🇪DE_9|2.8MB/s
+  network: grpc
+  port: '2054'
+  reality-opts:
+    public-key: mlJSEX5zJodpeofSicXnd0tlrgonVCGJ3M-qqWF4FSU
+    short-id: '!!str '
+  server: 159.195.192.169
+  servername: www.ibm.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇩🇪DE_10|4.4MB/s
+  network: grpc
+  port: '2054'
+  reality-opts:
+    public-key: 0-HIOsSIQTrTYc5PdFT0OSKGBiBUiGrJzgV6ctal8Fg
+    short-id: '!!str '
+  server: 159.195.244.171
+  servername: www.ibm.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
+  xudp: true
 - encryption: none
-  name: 🇩🇪DE_9|1.0MB/s
+  name: 🇩🇪DE_11|1.1MB/s
   network: ws
   port: '2087'
   server: 188.220.67.161
@@ -244,7 +286,7 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
     path: /8f2690e2d016
   xudp: true
