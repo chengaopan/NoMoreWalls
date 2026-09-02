@@ -7,13 +7,28 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|2.6MB/s
+- name: '英国 #1'
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 138.124.0.168
+  skip-cert-verify: true
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_1|4.3MB/s
+  password: amazonskr05
   port: 443
-  server: 37.120.233.18
+  server: 18.175.119.181
+  type: ss
+  udp: true
+- name: 🇬🇧GB_2|1.9MB/s
+  port: 443
+  server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|2.7MB/s
+- name: 🇬🇧GB_3|1.6MB/s
   password: None
   port: 443
   server: 185.235.0.2
@@ -21,53 +36,15 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_3|3.0MB/s
-  password: None
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|2.3MB/s
-  password: None
+- name: 🇬🇧GB_4|1.1MB/s
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇬🇧GB_5|2.2MB/s
+  password: None
+  port: 3118
+  server: 154.61.56.215
+  type: http
   username: null
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇬🇧GB_5|2.4MB/s
-  network: grpc
-  port: '2054'
-  reality-opts:
-    public-key: zZ3j8Cw2soL_X2yrp5hOiN-Y5l0RdkY523LYkKYfQhM
-    short-id: '!!str '
-  server: 31.76.0.105
-  servername: www.ibm.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇬🇧GB_6|1.1MB/s
-  network: grpc
-  port: '8443'
-  reality-opts:
-    public-key: 3O__mdy-whzI07V-QEyR6GQnag1FNwtHijDxt2_jkDQ
-    short-id: '!!str '
-  server: 31.77.154.14
-  servername: swscan.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
-  xudp: true
