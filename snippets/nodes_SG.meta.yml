@@ -74,50 +74,18 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|3.1MB/s
-  network: tcp
-  port: '15006'
-  reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: '!!str 029a6cc4'
-  server: nian.001.url111.kcloud02.top
-  servername: www.adobe.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: update
-  name: 🇸🇬SG_2|5.5MB/s
+  name: 🇸🇬SG_1|5.7MB/s
   network: grpc
-  packet-encoding: xudp
-  port: 10040
+  port: '10039'
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
-  server: sg5-r.link-t7.com
+  server: sg4-r.link-t7.com
   servername: d1.awsstatic.com
   tls: true
   type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇸🇬SG_3|5.5MB/s
-  network: grpc
-  port: 10037
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
+  udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+  xudp: true

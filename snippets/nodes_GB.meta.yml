@@ -15,36 +15,3 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_1|4.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.175.119.181
-  type: ss
-  udp: true
-- name: 🇬🇧GB_2|1.9MB/s
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|1.6MB/s
-  password: None
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|1.1MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_5|2.2MB/s
-  password: None
-  port: 3118
-  server: 154.61.56.215
-  type: http
-  username: null

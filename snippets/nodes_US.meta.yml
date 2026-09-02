@@ -69,152 +69,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇺🇸US_1|4.0MB/s
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.232
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|1.3MB/s
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.233
-  type: ss
-  udp: true
-- name: US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  sni: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_5|2.2MB/s
-  password: None
-  port: 443
-  server: berniesbodybla.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_6|2.7MB/s
-  port: 443
-  server: berniesbodybla.fun
-  sni: berniesbodybla.fun
-  tls: true
-  type: http
-- name: 🇺🇸US_7|2.4MB/s
-  password: None
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_8|1.0MB/s
-  password: None
-  port: 443
-  server: zebpay.site
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_9|2.7MB/s
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-- name: 🇺🇸US_10|3.6MB/s
-  password: None
-  port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_11|2.6MB/s
-  password: None
-  port: 443
-  server: 52.55.81.168
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_13|3.2MB/s
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks5
-  udp: true
-  username: test123
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_14|2.6MB/s
-  obfs: salamander
-  obfs-password: b6d1f3888ab1d90dd11aac1dce427b81
-  password: tnnls:b735eacd-3ca7-4019-b98c-3559918100e6
-  port: '30000'
-  server: bwdf2fnt.xn--e1aatfr8bwa.online
-  skip-cert-verify: false
-  sni: bwdf2fnt.xn--e1aatfr8bwa.online
-  type: hysteria2
-  up: ''
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: 🇺🇸US_15|1023KB/s
-  network: ws
-  port: '443'
-  server: 69.46.46.21
-  servername: willow-ember-a62e-production.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7a434161-a605-38c0-1aa6-5ff7a879d5b5
-  ws-opts:
-    headers:
-      Host: willow-ember-a62e-production.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /ws/7a434161-a605-38c0-1aa6-5ff7a879d5b5
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_16|1.5MB/s
-  network: ws
-  port: '2096'
-  server: 91.193.59.27
-  servername: vlso300.1d.mom
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso300.1d.mom
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
-    path: /socks5=888:888@hkip.1d.mom:1080
-  xudp: true
-- name: 🇺🇸US_17|1.0MB/s
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  port: 443
-  server: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
-  sni: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
-  tls: true
-  type: http
-  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -258,6 +112,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
@@ -336,6 +196,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
 - name: US_speednode_0141
   port: 443
   server: 38.28.193.188

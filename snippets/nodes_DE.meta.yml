@@ -171,27 +171,18 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1.5MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|1.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 5Pv-Gqs49ydRNxibByz0iBytfBe7Ohmlb5Jp0ZQeuko
-    short-id: '!!str '
-  server: ge1.di1.aftabee.ir
-  servername: ge1.di1.aftabee.ir
-  tls: true
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    path:
+    - /
+  name: 🇩🇪DE_1|1.1MB/s
+  network: http
+  port: '61169'
+  server: ger22.orangesms.ir
   type: vless
   udp: true
-  uuid: 43c5a97a-d0d6-4ab8-86cf-c2d0fbeb01a4
+  uuid: 44b5f266-2b4f-46ca-83ff-99df77147c30
   xudp: true
