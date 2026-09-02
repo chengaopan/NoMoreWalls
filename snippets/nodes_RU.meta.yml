@@ -9,13 +9,17 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: '[🇷🇺]t.me/ConfigV2RayNG'
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|3.0MB/s
+  network: tcp
   port: 443
-  server: 144.31.49.138
-  skip-cert-verify: false
-  sni: ru1.sferavpn.pro
-  tls: false
-  type: hysteria2
+  reality-opts:
+    public-key: ZZwdN1Lt-fIR8A4Y1NbYCCEI6th2YXYHHRLHraVXyn0
+    short-id: '!!str 72461ccce5373103'
+  server: 50.7.33.218
+  servername: edge-fr2.mystatic-cdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 252f7811-d86f-4dc2-97e0-83d3172ef4b8

@@ -50,13 +50,6 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: 🇩🇪158848 | ⚡️Telegram = t.me/S...
-  password: 1a17fbd6-a54f-456c-8e71-5282893e2b69
-  port: 443
-  server: 31.76.106.61
-  sni: gos.ultimagamest.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: -🇩🇪 @VConfing
@@ -67,6 +60,14 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 🇩🇪159280 | ⚡️Telegram = t.me/S...
+  password: 2_hysteria2_fastlane_udfa4x14j
+  port: 443
+  server: 2.27.25.75
+  skip-cert-verify: false
+  sni: de11.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - alpn:
@@ -103,6 +104,18 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '-🇩🇪 @VConfing #2'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 8f0gvz5eul6omhq4
+  port: 52023
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇩🇪
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
@@ -111,13 +124,6 @@ proxies:
   server: gift-catalog.aroonia.ir
   skip-cert-verify: false
   sni: gift-catalog.aroonia.ir
-  tls: false
-  type: hysteria2
-- name: 🇩🇪All⁶ | @BigSmoke_Config
-  password: AstroVPN_official
-  port: 36896
-  server: ptserv.accuratenetworkchecker.ir
-  sni: lms22.gelzaro.ir
   tls: false
   type: hysteria2
 - alpn:
@@ -144,9 +150,16 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
+- name: 👝85@oneclickvpnkeys
+  password: b504a1c7-1bfe-461f-9329-cbc653deb3d7
+  port: 443
+  server: 144.31.217.201
+  sni: 144-31-217-201.sslip.io
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '-🇩🇪 @VConfing #2'
+  name: '-🇩🇪 @VConfing #3'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: clz08qwil91241w7
@@ -163,26 +176,58 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 👝36@oneclickvpnkeys
-  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
+- client-fingerprint: firefox
+  name: 🇩🇪DE_1|3.7MB/s
+  network: xhttp
   port: 443
-  server: 5.83.129.11
-  skip-cert-verify: true
-  sni: germany1.h2corp.local
-  tls: false
-  type: hysteria2
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - amp-api-edge.apps.apple.com
-    path:
-    - /
-  name: 🇩🇪DE_1|1.1MB/s
-  network: http
-  port: '61169'
-  server: ger22.orangesms.ir
+  server: 188.72.103.4
+  servername: cdn.huananconn.xyz
+  tls: true
   type: vless
   udp: true
-  uuid: 44b5f266-2b4f-46ca-83ff-99df77147c30
+  uuid: 9329556f-f4c2-42fe-8859-c52ce5f95c23
+  xhttp-opts:
+    host: cdn.huananconn.xyz
+    mode: packet-up
+    path: /api/v1/assets
+    uplink-http-method: GET
+    x-padding-bytes: 16-64
+    x-padding-header: X-Signature
+    x-padding-key: _token
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: query
+- encryption: none
+  name: 🇩🇪DE_2|3.2MB/s
+  network: ws
+  port: '2052'
+  server: freesocks.work
+  type: vless
+  udp: true
+  uuid: 078154d5-f211-4d1c-b9d3-15636eb477b6
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net
   xudp: true
+- name: 🇩🇪DE_3|1.0MB/s
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- name: 🇩🇪DE_4|2.1MB/s
+  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+  port: 443
+  server: 2873b477-tk7400-tlvq5w-1jcwu.de3.oshuawei.com
+  skip-cert-verify: true
+  sni: 2873b477-tk7400-tlvq5w-1jcwu.de3.oshuawei.com
+  tls: true
+  type: http
+  username: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+- name: 🇩🇪DE_5|2.7MB/s
+  port: 8889
+  server: 37.114.34.217
+  type: http
