@@ -69,111 +69,258 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|1.5MB/s
+- name: 🇺🇸US_1|1.3MB/s
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 19620
+  port: 13483
   server: jpglobal-identity-federation-auth.younai-ytl.shop
   skip-cert-verify: true
-  sni: us32.pulsarcore.site
+  sni: kr02.lunartrace.io
   type: anytls
   udp: true
-- name: 🇺🇸US_2|2.1MB/s
+- name: 🇺🇸US_2|3.3MB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 61134
+  server: svip.skycon808.com
+  skip-cert-verify: true
+  sni: us18.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇺🇸US_3|3.1MB/s
+  network: ws
   port: 443
-  server: webdrone.club
-  sni: webdrone.club
+  server: 104.21.52.75
+  servername: 1-m9.pattaya-4.kdns.fr
+  skip-cert-verify: true
   tls: true
-  type: http
-- name: US_speednode_0140
+  type: vless
+  udp: true
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  ws-opts:
+    headers:
+      Host: 1-m9.pattaya-4.kdns.fr
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+- client-fingerprint: firefox
+  name: 🇺🇸US_4|3.8MB/s
+  network: tcp
+  port: 47642
+  reality-opts:
+    public-key: 9mg1QdPctekP9woKygHzBCxb8Hw2QTICXROQiiJB6Ag
+    short-id: '!!str 76ed3287'
+  server: 38.246.229.58
+  servername: sega.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
+- name: 🇺🇸US_5|4.2MB/s
   password: None
   port: 443
-  server: purposebydesig.club
+  server: tzoa.fun
   skip-cert-verify: false
   tls: true
   type: http
-  udp: true
   username: null
-- name: 🇺🇸US_4|1.1MB/s
-  password: 'null'
+- name: 🇺🇸US_6|1.5MB/s
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_7|3.3MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_8|3.4MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇺🇸US_9|4.4MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_10|4.2MB/s
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_11|4.3MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_12|3.8MB/s
+  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
   port: 443
-  server: purecambogiasl.live
+  server: 8e146d42-tk59c0-tldaam-1j0a4.los.gotochinatown.net
+  sni: 8e146d42-tk59c0-tldaam-1j0a4.los.gotochinatown.net
+  tls: true
+  type: http
+  username: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+- name: 🇺🇸US_13|4.4MB/s
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_14|4.3MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_15|3.7MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_16|3.3MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇺🇸US_17|4.8MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_18|4.3MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_19|4.2MB/s
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_20|2.9MB/s
+  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+  port: 8443
+  server: 422fc6a4-tk59c0-tll9n7-1l0qa.isp.cdnkuaishou.com
+  sni: 422fc6a4-tk59c0-tll9n7-1l0qa.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+- name: 🇺🇸US_21|4.1MB/s
+  port: 443
+  server: 52.55.81.168
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_22|2.4MB/s
+  port: 8888
+  server: 3.92.31.127
+  type: http
+- name: 🇺🇸US_23|3.1MB/s
+  password: None
+  port: 443
+  server: 52.55.81.168
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_24|3.4MB/s
+  network: ws
+  port: '443'
+  server: web-c5266a-610916-production.up.railway.app
+  servername: web-c5266a-610916-production.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0baadb70-df8b-59fa-b0ee-0a756bcffe82
+  ws-opts:
+    headers:
+      Host: web-c5266a-610916-production.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /ws/Vip
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_25|1.3MB/s
+  network: ws
+  port: '443'
+  server: 43.161.254.71
+  servername: cf.udpid.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
+  ws-opts:
+    headers:
+      Host: cf.udpid.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /@zyzzzoao
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_26|2.1MB/s
+  network: ws
+  port: '443'
+  server: 146.75.29.242
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b973d146-31db-4ec4-8d62-c034598d4d79
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸US_27|2.2MB/s
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.206
+  skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_5|1.1MB/s
-  password: None
-  port: 443
-  server: webdrone.club
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇺🇸US_6|1.1MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: q-8lriuP627DilumgJAvbowp7YGzWBZg9gSDgbmowjk
-    short-id: '!!str 9f3df965329a8e7f'
-  server: usa.savesafe.co
-  servername: usa.savesafe.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
-  xhttp-opts:
-    host: usa.savesafe.co
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_7|1.5MB/s
-  network: ws
-  port: '443'
-  server: 172.67.155.141
-  servername: 6-M23.CHIANG-MAI2030.kdns.FR
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a2ae83c-0327-4703-a847-535a972bc636
-  ws-opts:
-    headers:
-      Host: 6-M23.ChIANg-MAi2030.kDns.fR
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /kXHZ0iPM96r8UDUAsTH2scSHpeWN
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_8|3.0MB/s
-  network: tcp
-  port: '13779'
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: '!!str af1bdd293097b664'
-  server: 89.208.244.252
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_9|3.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0
-    short-id: '!!str '
-  server: 138.124.60.146
-  servername: usa.oblaco.bet
-  tls: true
-  type: vless
-  udp: true
-  uuid: bbfd1f68-ec64-452f-8404-9e2bcf1df951
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -301,6 +448,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
 - name: US_speednode_0141
   port: 443
   server: 38.28.193.188

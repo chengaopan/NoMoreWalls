@@ -80,11 +80,15 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇫🇷160561 | ⚡️Telegram = t.me/S...
-  password: france_2_hysteria2_fastlane_ta9m8kofg
+- name: 🇫🇷FR_1|2.8MB/s
+  password: None
   port: 443
-  server: 109.120.179.197
-  skip-cert-verify: false
-  sni: fr3.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇫🇷FR_2|4.2MB/s
+  port: 3169
+  server: 51.38.129.42
+  type: http

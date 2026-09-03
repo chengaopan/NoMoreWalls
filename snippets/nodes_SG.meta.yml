@@ -33,18 +33,19 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 🇸🇬SG_1|5.4MB/s
-  network: grpc
-  port: '10036'
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
+  name: 🇸🇬SG_1|3.7MB/s
+  network: ws
+  port: '2087'
+  server: 8.35.211.115
+  servername: mysheep.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
+  ws-opts:
+    headers:
+      Host: mysheep.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /
   xudp: true
