@@ -186,3 +186,60 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 🇩🇪DE_1|1.9MB/s
+  port: 20088
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: '500'
+- name: 🇩🇪DE_2|1.8MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_3|1.3MB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 443
+  server: as-de003.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: as-de003.y1static-content-distribution.shop
+  type: anytls
+  udp: true
+- name: 🇩🇪DE_4|2.9MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_5|2.9MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- encryption: mlkem768x25519plus.native.0rtt.VXroE7YiAEnkT3_E_NxnAR6YpFzOuEc_p8ipnEa_RjM
+  http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    path:
+    - /
+  name: 🇩🇪DE_6|2.3MB/s
+  network: http
+  port: '32133'
+  server: NJH.FARS-REMEN.IR
+  type: vless
+  udp: true
+  uuid: 6cb9b3d9-e7d4-46b1-96ce-85270b0778a0
+  xudp: true

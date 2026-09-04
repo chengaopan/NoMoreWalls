@@ -197,32 +197,38 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: 🇺🇸US_1|1.2MB/s
+  name: 🇰🇷KR_1|2.6MB/s
   password: 7eadc6dbe2ae
   port: '65443'
-  server: 121.46.230.233
+  server: 121.46.230.138
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_3|3.0MB/s
-  network: ws
-  port: '16648'
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 24e37e6e-7e01-4f68-afea-28fb14a47aef
-  ws-opts:
-    headers:
-      Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
-    path: /
-  xudp: true
 - cipher: aes-256-cfb
-  name: 🇮🇪IE_1|2.6MB/s
+  name: 🇯🇵JP_1|1.1MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_1|1.0MB/s
   password: amazonskr05
   port: '443'
-  server: 108.129.211.17
+  server: 16.52.44.169
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_2|3.4MB/s
+  password: amazonskr05
+  port: '443'
+  server: 15.156.204.87
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_3|1.6MB/s
+  password: amazonskr05
+  port: '443'
+  server: 35.182.118.89
   type: ss
   udp: true
