@@ -1,16 +1,1 @@
-proxies:
-- name: 加拿大
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-ca-001.fastervpn.world
-  skip-cert-verify: true
-  sni: t.me
-  tls: false
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇨🇦CA_1|2.0MB/s
-  password: amazonskr05
-  port: '443'
-  server: 15.223.182.66
-  type: ss
-  udp: true
+proxies: []

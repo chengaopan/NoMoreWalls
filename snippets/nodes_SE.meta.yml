@@ -1,18 +1,1 @@
-proxies:
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇸🇪SE_1|1.4MB/s
-  network: xhttp
-  port: '443'
-  server: main.hvumyrpstghekb.top
-  servername: main.hvumyrpstghekb.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: bd29f019-85a2-43f6-b10a-e91dbdf58ee3
-  xhttp-opts:
-    host: main.hvumyrpstghekb.top
-    path: /hanBham0QSktwSruCtIbKI6PCsj
-  xudp: true
+proxies: []
