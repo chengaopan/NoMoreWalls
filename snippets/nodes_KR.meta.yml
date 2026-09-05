@@ -7,11 +7,18 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_1|3.0MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.138
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇰🇷KR_1|5.0MB/s
+  name: 🇰🇷KR_2|1.9MB/s
   network: grpc
   port: 10050
   reality-opts:
@@ -26,7 +33,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇰🇷KR_2|5.4MB/s
+  name: 🇰🇷KR_3|3.0MB/s
   network: grpc
   port: 10048
   reality-opts:

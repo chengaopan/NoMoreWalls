@@ -1,8 +1,13 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇨🇦CA_1|1.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 15.223.182.66
-  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇦CA_1|3.1MB/s
+  network: tcp
+  port: '11985'
+  server: board-02.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  xudp: true

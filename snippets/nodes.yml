@@ -197,32 +197,21 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: 🇨🇦CA_1|1.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 15.223.182.66
+  name: 🇰🇷KR_1|3.0MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.138
   type: ss
   udp: true
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_1|3.4MB/s
-  network: ws
-  port: '16648'
-  server: planb.mojcn.com.linuxlh.xin
+  name: 🇨🇦CA_1|3.1MB/s
+  network: tcp
+  port: '11985'
+  server: board-02.ddnskunlun.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: b5f7ad86-9e40-4684-98f9-83f8136a1054
-  ws-opts:
-    headers:
-      Host: eeee7339c9f412913069ff64b12fb71f.mobgslb.tbcache.com
-    path: /
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
   xudp: true
-- cipher: aes-256-cfb
-  name: 🇮🇪IE_1|1.3MB/s
-  password: amazonskr05
-  port: '443'
-  server: 3.250.40.89
-  type: ss
-  udp: true

@@ -23,78 +23,7 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇬🇧GB_1|1.1MB/s
-  network: grpc
-  port: '2054'
-  reality-opts:
-    public-key: zZ3j8Cw2soL_X2yrp5hOiN-Y5l0RdkY523LYkKYfQhM
-    short-id: '!!str '
-  server: 31.76.0.105
-  servername: www.ibm.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|2.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: ojDrVO838PScByjy1cb1-LLEpEh4LhJKG_jldp8g7xo
-    short-id: '!!str 8beb2706'
-  server: 50.7.92.252
-  servername: apiv1.jarvesitw.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
-  xudp: true
-- encryption: none
-  name: 🇬🇧GB_3|1.4MB/s
-  network: tcp
-  port: '64584'
-  server: 46.226.162.172
-  type: vless
-  udp: true
-  uuid: 3614a2a2-b0db-43f7-9a34-b1248539d848
-  xudp: true
-- name: 🇬🇧GB_4|1.1MB/s
-  password: None
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_5|1.4MB/s
-  port: 443
-  server: 185.235.0.98
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_6|2.1MB/s
-  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 1f371f4f-tki800-tlwmty-1gevg.uk.oshuawei.com
-  tls: true
-  type: http
-  username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-- name: 🇬🇧GB_7|3.0MB/s
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_8|2.0MB/s
+- name: 🇬🇧GB_1|1.6MB/s
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443
   server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
@@ -102,31 +31,3 @@ proxies:
   tls: true
   type: http
   username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- name: 🇬🇧GB_9|2.6MB/s
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_10|1.6MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_11|1.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: ojDrVO838PScByjy1cb1-LLEpEh4LhJKG_jldp8g7xo
-    short-id: '!!str 8beb2706'
-  server: sv1.jarvesitw.ru
-  servername: apiv1.jarvesitw.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
-  xudp: true
