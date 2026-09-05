@@ -23,11 +23,19 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|1.6MB/s
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: 🇬🇧GB_1|1.3MB/s
+  password: None
   port: 443
-  server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  username: null
+- name: 🇬🇧GB_2|1.2MB/s
+  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
+  port: 443
+  server: 14f85ff1-t9zts0-tonrqx-1khwf.uk.oshuawei.com
+  sni: 14f85ff1-t9zts0-tonrqx-1khwf.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
