@@ -15,14 +15,6 @@ proxies:
   sni: mkm.icu
   tls: false
   type: hysteria2
-- name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 54.213.89.22
-  skip-cert-verify: true
-  sni: vk.com
-  tls: false
-  type: hysteria2
 - cipher: aes-256-gcm
   name: 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
