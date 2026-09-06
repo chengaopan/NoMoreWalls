@@ -56,41 +56,44 @@ proxies:
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-cfb
-  name: 🇯🇵JP_1|2.0MB/s
+  name: 🇯🇵JP_1|1.4MB/s
   password: 7eadc6dbe2ae
-  port: '65443'
+  port: 65443
   server: 121.46.230.137
   type: ss
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_3|5.6MB/s
-  network: raw
-  port: '28573'
-  reality-opts:
-    public-key: 1DJr9toke7FRuSXjibBVuNvRnLnJnN5kXwUBG6Romzg
-    short-id: '!!str 03653bc03be10c97'
-  server: 18.183.215.124
-  servername: www.sony.com
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_2|1.8MB/s
+  network: ws
+  port: '2096'
+  server: cloudflare.idc.rocks
+  servername: cindy.rainfall0705.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 871bfce7-8440-4394-8d82-56b51f20fdad
+  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+  ws-opts:
+    headers:
+      Host: cindy.rainfall0705.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /
   xudp: true
-- name: 🇯🇵JP_6|2.4MB/s
-  password: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_3|1.8MB/s
+  network: ws
   port: '443'
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  sni: fan.571589.xyz
+  server: wangcai.cf.877774.xyz
+  servername: ex3r.qzz.io
   tls: true
-  type: http
-  username: ''
-- name: 🇯🇵JP_5|2.7MB/s
-  password: 'null'
-  port: '443'
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  type: vless
+  udp: true
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  ws-opts:
+    headers:
+      Host: ex3r.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /sg-orcl
+  xudp: true

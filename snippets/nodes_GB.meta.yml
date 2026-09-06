@@ -30,32 +30,40 @@ proxies:
   sni: lms22.gelzaro.ir
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|3.9MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|3.0MB/s
+- name: 🇬🇧GB_2|1.7MB/s
   password: None
   port: 443
-  server: 37.120.233.34
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- client-fingerprint: chrome
+- name: 🇬🇧GB_3|2.3MB/s
+  port: 443
+  server: 185.235.0.98
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_4|1.7MB/s
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
   encryption: none
-  name: 🇬🇧GB_3|3.0MB/s
-  network: tcp
-  port: '40421'
+  grpc-opts:
+    grpc-service-name: streaming
+  name: 🇬🇧GB_5|3.7MB/s
+  network: grpc
+  port: '43439'
   reality-opts:
-    public-key: wCxG46NhMGffE2VezAgfPj9PJckGUo07yEBvItYUAGI
-    short-id: '!!str '
-  server: 82.40.62.39
-  servername: amp-api-edge.apps.apple.com
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: '!!str 39ad36226f3abec8'
+  server: 31.77.111.11
+  servername: cdn.higames.ru
   tls: true
   type: vless
   udp: true
-  uuid: b2eed725-ce71-4ca8-967e-639669f26bc3
+  uuid: 428e923f-e608-412b-9e51-3b09ffab551f
   xudp: true
