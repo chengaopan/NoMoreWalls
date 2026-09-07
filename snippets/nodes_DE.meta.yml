@@ -142,19 +142,57 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- encryption: none
+  name: 🇩🇪DE_3|1.3MB/s
+  network: ws
+  port: '2087'
+  server: 188.220.67.245
+  servername: 188.220.67.245
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /8f2690e2d016
+  xudp: true
 - alpn:
+  - h3
   - h2
-  client-fingerprint: firefox
-  name: 🇩🇪DE_1|1.1MB/s
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|3.6MB/s
   network: xhttp
-  port: 2087
-  server: 188.114.97.206
-  servername: goldenkidide.j0cfmd1dqd.online
+  port: '2053'
+  server: pro2.hx9.ir
+  servername: mind.esmahdi9.com
   tls: true
   type: vless
   udp: true
-  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
+  uuid: 7e89c315-6436-4800-e287-c16d26d407a8
   xhttp-opts:
-    host: goldenkidide.j0cfmd1dqd.online
-    mode: stream-one
-    path: /meti
+    host: mind.esmahdi9.com
+    mode: auto
+    path: /@v2_line
+  xudp: true
+- name: 🇩🇪DE_4|4.5MB/s
+  port: 443
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|2.9MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|2.5MB/s
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
+  tls: true
+  type: http
