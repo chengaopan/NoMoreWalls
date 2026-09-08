@@ -109,6 +109,16 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: '✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  port: 443
+  server: 130.49.161.70
+  skip-cert-verify: false
+  sni: hy2.aspidnet.xyz
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -132,3 +142,42 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 🇩🇪DE_1|1.6MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- encryption: mlkem768x25519plus.native.0rtt.krmkbckycnkKq29MKnNpZCtkqMKlO9q4svhCzMA5enw
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|1.4MB/s
+  network: ws
+  port: '9932'
+  server: 4de.arosakforosh.ir
+  type: vless
+  udp: true
+  uuid: 9f6f094d-0f59-4422-9575-3cfe3d8e0ed2
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|3.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: QfQwHAZyrDBB7m_NWWSbzblY83R_F8SaqnVA3nTHERQ
+    short-id: '!!str 683e7a619f453455'
+  server: 49.13.92.156
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c686af39-cfe4-4c67-bc99-536a505af27e
+  xudp: true
