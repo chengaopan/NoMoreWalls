@@ -7,11 +7,18 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇰🇷KR_1|1.8MB/s
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  skip-cert-verify: false
-  type: ss
-  udp: false
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_1|2.1MB/s
+  network: tcp
+  port: '10038'
+  reality-opts:
+    public-key: JddbQk5RNLhnZOTiod0E7JGcCTRNO69nrP1b8VtKS2c
+    short-id: '!!str 2a92'
+  server: family.bucket.8.kfc-520.com
+  servername: www.adobe.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a88deea-221d-3f06-9846-4067c6f725ee
+  xudp: true
