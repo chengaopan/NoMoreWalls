@@ -1,15 +1,5 @@
 proxies:
-- name: 德国
-  obfs: salamander
-  obfs-password: Xydh1mcz51VQHbbJ
-  password: 585b7bfe-6269-4149-ae22-ff07c57b5510
-  port: 443
-  server: 157.228.137.81
-  skip-cert-verify: true
-  sni: msk2.nebuchadnezzar.ink
-  tls: false
-  type: hysteria2
-- name: '德国 #1'
+- name: 📀57@oneclickvpnkeys
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.178
@@ -17,7 +7,7 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '德国 #2'
+- name: '德国 #1'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.181
@@ -51,7 +41,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '德国 #3'
+- name: '德国 #2'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: hold.wwwinternetvideo.click
@@ -142,53 +132,3 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|2.4MB/s
-  network: ws
-  port: '443'
-  server: s1b.syslogd.ir
-  servername: 20346ed7ae477e50.zirabserver.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7245ef3-2616-4ef7-b388-2981b70ea96c
-  ws-opts:
-    headers:
-      Host: prx.zirabserver.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: /pa-m-v2
-  xudp: true
-- name: 🇩🇪DE_2|2.0MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.0MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|3.8MB/s
-  network: tcp
-  port: '2434'
-  reality-opts:
-    public-key: yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0
-    short-id: '!!str 9de041877612a718'
-  server: de13.bexait.ir
-  servername: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 46636681-7c15-4e2c-9a57-9ac3e42e0db7
-  xudp: true
