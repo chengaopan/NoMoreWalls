@@ -196,26 +196,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇱🇦LA_1|1.1MB/s
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10045
-  server: z-sg1.6send.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🇦🇫AF_1|2.7MB/s
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10009
-  server: z-jp2.1card.cc
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_5|3.8MB/s
-  password: amazonskr05
-  port: '443'
-  server: 18.170.35.229
-  type: ss
-  udp: true
