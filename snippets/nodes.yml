@@ -196,59 +196,24 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇶🇦QA_1|2.6MB/s
+- name: 🇱🇦LA_1|1.1MB/s
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10008
-  server: z-jp1.1card.cc
+  port: 10045
+  server: z-sg1.6send.com
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|2.3MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.143
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    path: /assignment
-- name: 🇲🇲MM_1|2.1MB/s
+- name: 🇦🇫AF_1|2.7MB/s
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10046
-  server: z-sg2.6send.com
+  port: 10009
+  server: z-jp2.1card.cc
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
   udp: true
-- alpn:
-  - h3
-  - ' h2'
-  - ' http/1.1'
-  client-fingerprint: chrome
-  name: 🇩🇪DE_5|1.3MB/s
-  network: ws
-  password: yVnpewtJT__ErgqS-TI2dw
-  port: '8443'
-  server: 206.1.96.244
-  skip-cert-verify: false
-  sni: lunexhost.tolkun-tv.ru
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /Lunex
 - cipher: aes-256-cfb
-  name: 🇬🇧GB_7|4.7MB/s
+  name: 🇬🇧GB_5|3.8MB/s
   password: amazonskr05
   port: '443'
   server: 18.170.35.229

@@ -82,159 +82,89 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|2.5MB/s
-  network: tcp
-  port: '13779'
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: '!!str af1bdd293097b664'
-  server: 38.180.242.205
-  servername: tesla.com
+  name: 🇺🇸US_1|1.5MB/s
+  network: ws
+  port: 2083
+  server: 104.17.118.35
+  servername: mianfei-73q.pages.dev
   tls: true
   type: vless
-  udp: true
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  xudp: true
-- name: 🇺🇸US_18|2.0MB/s
-  password: None
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|1.5MB/s
-  password: None
-  port: 443
-  server: crosscards.site
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_4|1.6MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_5|1.5MB/s
-  password: ''
-  port: 8443
-  server: 104.219.236.83
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  ws-opts:
+    headers:
+      Host: mianfei-73q.pages.dev
+    path: /proxyip=154.3.33.43
 - name: US_speednode_0134
   port: 443
   server: voteshirleysew.club
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_8|1.5MB/s
-  password: None
-  port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_9|1.8MB/s
-  password: None
-  port: 443
-  server: carolinafreigh.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_10|2.7MB/s
-  password: 'null'
-  port: 443
-  server: efr-marktplatz.club
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_11|4.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_12|4.3MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_13|2.7MB/s
-  password: None
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_14|1.0MB/s
-  password: None
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_15|1.7MB/s
-  password: ''
-  port: 443
-  server: purposebydesig.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_16|2.1MB/s
-  password: None
-  port: 443
-  server: kimberlymilano.icu
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_17|4.2MB/s
-  password: None
-  port: 443
-  server: tzoa.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_19|2.1MB/s
+- name: 🇺🇸US_3|2.3MB/s
   network: ws
-  port: '443'
-  server: 69.46.46.223
-  servername: web-production-c66aad.up.railway.app
+  port: 443
+  server: 172.67.190.103
+  servername: 6-m16.CHIANG-rai2036.KDnS.fR
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f43c7951-ef4a-47c8-a5a8-407c5ee45684
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: web-production-c66aad.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /ws/f43c7951-ef4a-47c8-a5a8-407c5ee45684
-  xudp: true
+      Host: 6-m16.chIAnG-rAI2036.kDNS.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- client-fingerprint: chrome
+  name: 🇺🇸US_4|1.2MB/s
+  network: ws
+  port: 2053
+  server: 172.66.1.247
+  servername: mianfei-73q.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  ws-opts:
+    headers:
+      Host: mianfei-73q.pages.dev
+    path: /proxyip=154.3.33.43
+- client-fingerprint: chrome
+  name: 🇺🇸US_5|3.0MB/s
+  network: ws
+  port: 2087
+  server: 104.19.50.227
+  servername: mianfei-73q.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  ws-opts:
+    headers:
+      Host: mianfei-73q.pages.dev
+    path: /proxyip=154.3.33.43
+- name: 🇺🇸US_6|1.0MB/s
+  password: 'null'
+  port: 443
+  server: purecambogiasl.live
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_7|1.5MB/s
+  port: 443
+  server: jgwynphotoarts.pro
+  sni: jgwynphotoarts.pro
+  tls: true
+  type: http
+- name: 🇺🇸US_8|1.2MB/s
+  password: 'null'
+  port: '443'
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
