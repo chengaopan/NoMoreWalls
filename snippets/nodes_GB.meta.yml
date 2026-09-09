@@ -35,69 +35,41 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇬🇧GB_1|3.8MB/s
-  network: tcp
+- name: 🇬🇧GB_1|2.5MB/s
   port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.125
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  name: 🇬🇧GB_2|3.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: freshjuniper.download
-  servername: freshjuniper.download
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_10|3.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: brightharbor.download
-  servername: brightharbor.download
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- name: 🇬🇧GB_4|2.6MB/s
-  password: None
-  port: 443
-  server: 37.120.233.34
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇬🇧GB_5|2.6MB/s
+- name: 🇬🇧GB_2|3.2MB/s
+  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  port: 443
+  server: 9035056e-t9zts0-tcmken-19les.uk.oshuawei.com
+  sni: 9035056e-t9zts0-tcmken-19les.uk.oshuawei.com
+  tls: true
+  type: http
+  username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+- name: 🇬🇧GB_3|2.4MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_4|3.0MB/s
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  port: 443
+  server: f6cfde13-tcxds0-tqgocx-1plv4.uk.oshuawei.com
+  sni: f6cfde13-tcxds0-tqgocx-1plv4.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+- name: 🇬🇧GB_5|1.4MB/s
   port: 443
   server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_6|2.9MB/s
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_7|2.2MB/s
+- name: 🇬🇧GB_6|1.5MB/s
   password: None
   port: 443
   server: 37.120.233.18
@@ -105,24 +77,10 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_8|2.7MB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_9|3.3MB/s
-  network: tcp
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_7|4.7MB/s
+  password: amazonskr05
   port: '443'
-  reality-opts:
-    public-key: yrVIq4JbtlfUJ47XyhymkkZlr5w5QwrOi74yv5aRBHM
-    short-id: '!!str 24a44934dc907f5f'
-  server: 94.156.250.10
-  servername: www.apple.com.cn
-  tls: true
-  type: vless
+  server: 18.170.35.229
+  type: ss
   udp: true
-  uuid: 8e2419a7-ef0d-4b19-b52b-3333a0edcba8
-  xudp: true

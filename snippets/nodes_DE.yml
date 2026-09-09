@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  - ' h2'
+  - ' http/1.1'
+  client-fingerprint: chrome
+  name: 🇩🇪DE_5|1.3MB/s
+  network: ws
+  password: yVnpewtJT__ErgqS-TI2dw
+  port: '8443'
+  server: 206.1.96.244
+  skip-cert-verify: false
+  sni: lunexhost.tolkun-tv.ru
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+    path: /Lunex

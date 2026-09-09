@@ -28,7 +28,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 🇸🇬SG_1|4.2MB/s
+  name: 🇸🇬SG_1|2.2MB/s
   network: ws
   port: '443'
   server: cf4.466688.xyz
@@ -40,7 +40,7 @@ proxies:
   ws-opts:
     headers:
       Host: mia10.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/51.0.2704.103 Safari/537.36
     path: /china/clips/dl?ed=2560@https://t.me/QiangLieTuiJian
   xudp: true
