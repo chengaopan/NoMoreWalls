@@ -35,116 +35,72 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇬🇧GB_1|4.1MB/s
+- alpn:
+  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|4.0MB/s
   network: tcp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.125
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|4.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
   server: 2.26.178.129
   servername: localhost
   tls: true
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB_6|4.5MB/s
+  name: 🇬🇧GB_12|1.6MB/s
   network: tcp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
   server: freshjuniper.download
-  servername: localhost
+  servername: freshjuniper.download
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_5|2.5MB/s
-  network: raw
+- name: 🇬🇧GB_5|2.9MB/s
   port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: brightharbor.download
-  servername: localhost
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇬🇧GB_7|3.8MB/s
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.26
-  servername: localhost
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- name: 🇬🇧GB_8|3.0MB/s
-  port: 443
-  server: 212.102.63.31
+  server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_9|4.1MB/s
+- name: 🇬🇧GB_6|1.3MB/s
   port: 443
-  server: 37.120.233.18
+  server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_10|2.0MB/s
+- name: 🇬🇧GB_7|1.3MB/s
+  password: None
   port: 443
   server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_11|3.6MB/s
+  username: null
+- name: 🇬🇧GB_13|2.3MB/s
   password: None
   port: 443
-  server: 37.120.233.18
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_12|3.2MB/s
-  port: 32766
-  server: 178.62.83.124
-  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_13|3.7MB/s
+  name: 🇬🇧GB_9|1.9MB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
     short-id: '!!str '
-  server: 2.26.178.172
+  server: 2.26.178.152
   servername: localhost
   tls: true
   type: vless
@@ -156,7 +112,50 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_14|3.5MB/s
+  name: 🇬🇧GB_10|1.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: 2.26.178.166
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_11|2.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: 2.26.178.184
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
+- name: 🇬🇧GB_14|2.3MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_15|2.2MB/s
+  port: 32766
+  server: 178.62.83.124
+  type: http
+- alpn:
+  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_16|3.0MB/s
   network: tcp
   port: '443'
   reality-opts:
@@ -164,6 +163,21 @@ proxies:
     short-id: '!!str '
   server: 2.26.178.187
   servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_17|1.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: 2.26.178.129
+  servername: brightharbor.download
   tls: true
   type: vless
   udp: true
