@@ -15,29 +15,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_1|3.4MB/s
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|3.0MB/s
   network: ws
-  port: '2096'
-  server: 104.17.70.206
-  servername: free-server.techsonic.dev
+  port: 443
+  server: cfyes.ziyoufly.xyz
+  servername: cf-uh-sg01-2.23523463.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  uuid: 2ceb8461-18ed-413e-958e-645c9fbf2abe
   ws-opts:
     headers:
-      Host: free-server.techsonic.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /free-server.techsonic.dev
-  xudp: true
+      Host: cf-uh-sg01-2.23523463.xyz
+    path: /ziyou
 - client-fingerprint: chrome
-  name: 🇸🇬SG_2|1.6MB/s
+  name: 🇸🇬SG_2|3.3MB/s
   network: ws
   port: '2096'
   server: 91.193.58.131
@@ -49,15 +42,15 @@ proxies:
   ws-opts:
     headers:
       Host: free-server.techsonic.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /free-server.techsonic.dev
   xudp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_3|2.5MB/s
+  name: 🇸🇬SG_3|1.1MB/s
   network: ws
   port: '2096'
-  server: 91.193.58.108
+  server: 91.193.58.132
   servername: free-server.techsonic.dev
   tls: true
   type: vless
@@ -66,16 +59,33 @@ proxies:
   ws-opts:
     headers:
       Host: free-server.techsonic.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /free-server.techsonic.dev
+  xudp: true
+- client-fingerprint: firefox
+  name: 🇸🇬SG_4|2.1MB/s
+  network: ws
+  port: '2096'
+  server: 91.193.58.15
+  servername: free-server.techsonic.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /free-server.techsonic.dev
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇸🇬SG_4|2.1MB/s
+  name: 🇸🇬SG_5|2.0MB/s
   network: ws
   port: '2096'
-  server: 91.193.58.122
+  server: 91.193.58.218
   servername: free-server.techsonic.dev
   tls: true
   type: vless
@@ -84,7 +94,113 @@ proxies:
   ws-opts:
     headers:
       Host: free-server.techsonic.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /free-server.techsonic.dev
+  xudp: true
+- client-fingerprint: firefox
+  name: 🇸🇬SG_6|1.2MB/s
+  network: ws
+  port: '2096'
+  server: 91.193.58.249
+  servername: free-server.techsonic.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /free-server.techsonic.dev
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_7|2.5MB/s
+  network: ws
+  port: '2096'
+  server: 91.193.58.27
+  servername: free-server.techsonic.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /free-server.techsonic.dev
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_8|2.1MB/s
+  network: ws
+  port: '2096'
+  server: 91.193.58.52
+  servername: free-server.techsonic.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /free-server.techsonic.dev
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_9|1.1MB/s
+  network: ws
+  port: '2096'
+  server: 91.193.58.57
+  servername: free-server.techsonic.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /free-server.techsonic.dev
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_10|3.2MB/s
+  network: ws
+  port: '2096'
+  server: 91.193.58.5
+  servername: free-server.techsonic.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
+    path: /free-server.techsonic.dev
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_11|3.0MB/s
+  network: ws
+  port: '2096'
+  server: 91.193.58.85
+  servername: free-server.techsonic.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /free-server.techsonic.dev
   xudp: true

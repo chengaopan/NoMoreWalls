@@ -19,3 +19,18 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
+- client-fingerprint: chrome
+  name: 🇯🇵JP_1|4.6MB/s
+  network: ws
+  password: 62dbcf02-0989-4441-a01a-93f9c3b93525
+  port: '443'
+  server: 172.64.229.84
+  skip-cert-verify: false
+  sni: ot.hyas.space
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /x7f9k2m4p8
