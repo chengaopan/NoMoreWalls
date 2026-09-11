@@ -45,11 +45,11 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: 🇯🇵JP_1|1.9MB/s
+- name: 🇯🇵JP_1|3.9MB/s
   password: ''
-  port: '8094'
-  server: 110.80.25.76
+  port: '443'
+  server: fan.571589.xyz
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
+  username: bnVsbDpudWxs
