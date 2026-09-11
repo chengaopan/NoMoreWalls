@@ -17,19 +17,3 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- client-fingerprint: edge
-  name: 🇷🇺RU_1|2.1MB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc
-    short-id: '!!str 2c9431dc7a306018'
-  server: 84.38.187.134
-  servername: git.xpkg.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  xhttp-opts:
-    host: git.xpkg.ru
-    path: /repository
