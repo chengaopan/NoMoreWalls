@@ -1,13 +1,1 @@
-proxies:
-- down: ''
-  fingerprint: ''
-  name: 🇰🇷KR_1|1.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 1beb216e3f60aea9555dae60d219a5ca
-  port: '50160'
-  server: 152-69-231-175.liao.kdns.fr
-  skip-cert-verify: false
-  sni: 152-69-231-175.liao.kdns.fr
-  type: hysteria2
-  up: ''
+proxies: []
