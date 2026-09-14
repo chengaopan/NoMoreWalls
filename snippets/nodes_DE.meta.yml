@@ -36,16 +36,6 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: '[ 🇩🇪 ] | @Cfox_SerVer #2'
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  port: 443
-  server: 162.249.125.133
-  skip-cert-verify: false
-  sni: hy2-new.aspidnet.xyz
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -90,7 +80,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[ 🇩🇪 ] | @Cfox_SerVer #3'
+- name: '[ 🇩🇪 ] | @Cfox_SerVer #2'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -110,14 +100,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 🏀33@oneclickvpnkeys
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 64.188.98.171
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - name: 🏀34@oneclickvpnkeys
@@ -148,3 +130,41 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 🇩🇪DE_1|2.3MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_2|1004KB/s
+  port: 11111
+  server: 103.237.102.191
+  type: http
+- name: 🇩🇪DE_3|1.8MB/s
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_4|2.3MB/s
+  port: 443
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|2.2MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_6|2.6MB/s
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
+  tls: true
+  type: http
