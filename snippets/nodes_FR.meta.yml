@@ -7,13 +7,6 @@ proxies:
   sni: 35.181.169.140
   tls: false
   type: hysteria2
-- name: '法国 #1'
-  password: dsmO0439gj_nX942GJRE_9j39fbcxv52_R
-  port: 8080
-  server: 85.209.157.177
-  sni: hopp-transit.1cooldns.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: '@ICV2RAY #1'
@@ -48,10 +41,3 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_1|2.7MB/s
-  password: amazonskr05
-  port: '443'
-  server: 15.237.218.241
-  type: ss
-  udp: true
