@@ -196,18 +196,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|3.3MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 162.159.36.20
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|1.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.149.6.228
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.94 Safari/537.36
-    path: /assignment
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_2|1.5MB/s
+  password: amazonskr05
+  port: '443'
+  server: 52.28.158.0
+  type: ss
+  udp: true
