@@ -29,21 +29,3 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇯🇵JP_1|1.2MB/s
-  network: ws
-  port: '443'
-  server: 45.142.127.22
-  servername: gl3sr.q4ds.ksm.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: gl3sr.q4ds.ksm.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /?ed=2560
-  xudp: true

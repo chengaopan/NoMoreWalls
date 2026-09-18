@@ -9,14 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🐊59@oneclickvpnkeys
-  password: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
-  port: 25443
-  server: de-node.rumedia-cdn.com
-  skip-cert-verify: true
-  sni: cf6.rumedia-cdn.com
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇩🇪
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
@@ -51,16 +43,6 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 'Telegram: @Daily_Configs'
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: 2.27.59.206
-  skip-cert-verify: false
-  sni: de1.sferavpn.pro
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -73,59 +55,3 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇩🇪@AZARBAYJAB1
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vz86jgszv4zszchv
-  port: 52021
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 🇩🇪DE_1|1002KB/s
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_4|1.6MB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- alpn:
-  - h3
-  down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_5|3.9MB/s
-  obfs: ''
-  obfs-password: ''
-  password: f89c89df-905c-4df3-ab07-4f1a37a81005
-  port: 443
-  server: status.fastline-labs.com
-  skip-cert-verify: false
-  sni: status.fastline-labs.com
-  type: hysteria2
-  up: ''
-- name: 🇩🇪DE_6|2.2MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_8|2.9MB/s
-  password: ''
-  port: '443'
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
