@@ -7,32 +7,3 @@ proxies:
   sni: 35.181.169.140
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_1|2.1MB/s
-  password: amazonskr05
-  port: '443'
-  server: 15.237.196.230
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_2|2.8MB/s
-  password: amazonskr05
-  port: '443'
-  server: 13.36.169.164
-  type: ss
-  udp: true
-- client-fingerprint: edge
-  encryption: none
-  name: 🇫🇷FR_3|1.4MB/s
-  network: xhttp
-  port: '443'
-  server: 147.45.42.218
-  servername: bz-fra-01.hello-there.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3ec2866-96cd-4cc3-86c9-e7336ea2fbc2
-  xhttp-opts:
-    host: bz-fra-01.hello-there.ru
-    path: /xh
-  xudp: true

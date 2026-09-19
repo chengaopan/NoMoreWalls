@@ -27,69 +27,48 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 🇺🇸US_1|3.8MB/s
+  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+  sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+  tls: true
+  type: http
+  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_1|1.5MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0
-    short-id: '!!str '
-  server: 103.175.79.4
-  servername: download.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|1.2MB/s
-  password: amazonskr05
-  port: '443'
-  server: 3.148.195.154
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_3|1.1MB/s
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇺🇸US_2|2.3MB/s
   network: ws
-  port: '443'
-  server: 104.21.62.195
-  servername: 3.qq1-0.kdns.fr
+  port: 443
+  server: 172.64.79.241
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: cb53f904-c979-454f-bf43-621990008148
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: 3.qq1-0.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /LNbYtR09FXg1AmmjhdiHvR8v
-  xudp: true
+      Host: cdn8848.776676.xyz
+    path: /pics?ed=2560
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_4|1.1MB/s
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇺🇸US_3|1.0MB/s
   network: ws
-  port: '443'
-  server: 172.67.223.78
-  servername: 4-m17.JordaN-LiNk.kdnS.fR
+  port: 443
+  server: 162.159.237.80
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: 4-m17.joRDan-linK.KDnS.FR
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-  xudp: true
+      Host: cdn8848.776676.xyz
+    path: /magnet?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
