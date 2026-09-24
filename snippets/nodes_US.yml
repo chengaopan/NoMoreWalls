@@ -20,9 +20,9 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
-  name: 🇺🇸US_25|4.2MB/s
+  name: 🇺🇸US_10|2.5MB/s
   password: amazonskr05
-  port: '443'
-  server: 54.204.185.38
+  port: 443
+  server: 54.147.191.121
   type: ss
   udp: true
