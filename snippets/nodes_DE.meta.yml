@@ -38,73 +38,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- encryption: none
-  name: 🇩🇪DE_1|1.5MB/s
-  network: ws
-  port: '80'
-  server: 188.114.97.6
-  type: vless
-  udp: true
-  uuid: 44594ef3-f732-4e88-b4ae-8583ce21e6b8
-  ws-opts:
-    headers:
-      Host: msjsi.azazilvpn.sbs.
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-  xudp: true
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - edgedl.me.gvt1.com
-    path:
-    - /@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---
-  name: 🇩🇪DE_2|3.3MB/s
-  network: http
-  port: '21349'
-  server: 5.75.202.116
-  type: vless
-  udp: true
-  uuid: 2789c2ec-d860-4b75-a614-49e8ab65f7bc
-  xudp: true
-- name: 🇩🇪DE_3|2.1MB/s
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|1.0MB/s
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: null
-- name: 🇩🇪DE_9|2.0MB/s
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_7|2.6MB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_8|2.3MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_10|3.4MB/s
+- name: 🇩🇪DE_1|1.3MB/s
   password: V2RayyNGvpn
   port: '8443'
   server: 168.222.43.35
