@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- name: Telegram 🆔@cnetvpn 🇸🇪
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: vz86jgszv4zszchv
+  port: 52062
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2

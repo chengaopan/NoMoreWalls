@@ -1,1 +1,69 @@
-proxies: []
+proxies:
+- name: '@KAFING_2'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 181.214.99.162
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: Telegram 🆔@cnetvpn 🇩🇪
+  obfs: salamander
+  obfs-password: 6cmj1dymhm79hopl
+  password: 8z2e26xkqsa598s3
+  port: 52000
+  server: gift-catalog.aroonia.ir
+  skip-cert-verify: false
+  sni: gift-catalog.aroonia.ir
+  tls: false
+  type: hysteria2
+- name: 🗳️37@oneclickvpnkeys
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 95.85.252.78
+  skip-cert-verify: true
+  sni: onecloudstream.com
+  tls: false
+  type: hysteria2
+- name: 🗳️ConfigV2RayNG
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.102
+  skip-cert-verify: false
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: kGdP0X0DwcMbXovNjpQ3o7ubghwu1dedhcoFtLFOnBk
+    short-id: '!!str 1fc709'
+  server: agroup.de1.ilovegairport.com
+  servername: eu-central-1.console.aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 129e26fe-cee2-4786-9261-b29668337829
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|1.7MB/s
+  network: ws
+  port: '443'
+  server: 104.21.69.30
+  servername: 05agj.gkef.zhs.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 05agj.gkef.zhs.hh.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /?ed=2560
+  xudp: true
