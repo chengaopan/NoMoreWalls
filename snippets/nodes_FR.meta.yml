@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 🇫🇷185531 | ⚡️Telegram = t.me/S...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 35.181.166.40
+  skip-cert-verify: true
+  sni: vpn-fr-002.fastervpn.world#🪐33@oneclickvpnkeys
+  tls: false
+  type: hysteria2

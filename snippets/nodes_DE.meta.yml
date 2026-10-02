@@ -19,20 +19,12 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🗳️37@oneclickvpnkeys
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  port: 9443
-  server: 95.85.252.78
+- name: 🇩🇪185530 | ⚡️Telegram = t.me/S...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-de-002.fastervpn.world
   skip-cert-verify: true
-  sni: onecloudstream.com
-  tls: false
-  type: hysteria2
-- name: 🗳️ConfigV2RayNG
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.102
-  skip-cert-verify: false
-  sni: grape-test-italy.dynuddns.net
+  sni: vpn-de-002.fastervpn.world
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
