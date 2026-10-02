@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 🇬🇧185812 | ⚡️Telegram = t.me/S...
+  password: 8b60d570-cbce-4791-b3e8-bcb80dd12ac0
+  port: 19443
+  server: uk-002.xiaoxiaobujidao.xyz
+  sni: uk-002.xiaoxiaobujidao.xyz
+  tls: false
+  type: hysteria2
