@@ -150,7 +150,7 @@ proxies:
   sni: fi01.clgate.network
   tls: false
   type: hysteria2
-- name: 🇳🇱186400 | ⚡️Telegram = t.me/S...
+- name: '@ange1Vpn کانال تلگرام ما'
   obfs: salamander
   obfs-password: 7y0p9k93w7ryw8tz
   password: 17537e14543a478b9c7a558870d814f3
@@ -168,6 +168,14 @@ proxies:
   sni: speedtestmark.com
   tls: false
   type: hysteria2
+- name: 🪙70@oneclickvpnkeys
+  password: 4291c983-c520-46ac-82cc-48f14bef573f
+  port: 35013
+  server: 129.213.91.185
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '@Begoo_VPN ²⁹⁰'
   obfs: salamander
   obfs-password: dzcb7hv6i2kx2zze
@@ -176,6 +184,14 @@ proxies:
   server: 91.142.73.159
   skip-cert-verify: true
   sni: cdn77.dmtr.ru
+  tls: false
+  type: hysteria2
+- name: 🪙75@oneclickvpnkeys
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: els.mangshe.xyz
+  skip-cert-verify: true
+  sni: els.mangshe.xyz
   tls: false
   type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇷🇺
