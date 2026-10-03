@@ -91,16 +91,6 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪185949 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 6ccfcef2e116b03ce9047333
-  password: vN1VQF6w2zHxSokgJcaUyUL52yRMzUB7
-  port: 5443
-  server: fastly.vexogf.ir
-  skip-cert-verify: false
-  sni: tun-a-1.bexait.ir
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪DE_1|1.7MB/s
