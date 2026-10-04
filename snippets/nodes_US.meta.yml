@@ -53,113 +53,60 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- encryption: none
-  name: 🇺🇸US_1|2.5MB/s
-  network: ws
-  port: '8880'
-  server: 155.46.167.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: ''
-  xudp: true
-- name: 🇺🇸US_2|3.6MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_3|3.3MB/s
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: '!!str b390142456517acc'
-  server: 38.180.254.125
-  servername: www.amazon.com
+- name: US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  sni: voteshirleysew.club
   tls: true
-  type: vless
-  uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
-- name: 🇺🇸US_4|2.4MB/s
+  type: http
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|3.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.95.209.183
+  type: ss
+  udp: true
+- name: 🇺🇸US_3|1.4MB/s
   password: None
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
+  port: 443
+  server: jgwynphotoarts.pro
+  skip-cert-verify: false
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_5|1.6MB/s
+- name: 🇺🇸US_4|3.6MB/s
   password: None
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: false
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_6|3.5MB/s
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
+- name: 🇺🇸US_5|3.1MB/s
+  password: None
+  port: 443
+  server: berniesbodybla.fun
+  skip-cert-verify: false
   tls: true
   type: http
-  udp: true
-- name: 🇺🇸US_7|1.6MB/s
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_8|4.6MB/s
+  username: null
+- name: 🇺🇸US_6|2.0MB/s
   password: ''
   port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
   username: ''
-- name: 🇺🇸US_9|1.7MB/s
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-cfb
+  name: 🇺🇸US_7|2.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.84.97.225
+  type: ss
   udp: true
-  username: ''
-- name: 🇺🇸US_10|2.9MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_11|1.4MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_12|4.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_13|1.5MB/s
+- name: 🇺🇸US_8|4.5MB/s
   password: ''
   port: 9002
   server: 138.199.35.203
@@ -167,66 +114,95 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 🇺🇸US_14|4.4MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  sni: 138.199.35.202
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_15|3.8MB/s
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_16|3.4MB/s
+- name: 🇺🇸US_9|1.4MB/s
   password: None
-  port: 443
-  server: 52.55.81.168
+  port: 9002
+  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_17|2.2MB/s
+- name: 🇺🇸US_10|3.1MB/s
+  password: ''
   port: 443
-  server: 44.198.49.169
+  server: kimberlymilano.icu
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_18|2.9MB/s
+  username: ''
+- name: 🇺🇸US_11|1.9MB/s
   port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
+  server: carolinafreigh.fun
+  sni: carolinafreigh.fun
   tls: true
   type: http
-- name: 🇺🇸US_19|1.9MB/s
+- name: 🇺🇸US_12|4.2MB/s
+  password: 'null'
   port: 443
-  server: 162.244.227.36
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_14|2.7MB/s
+  port: 8443
+  server: 45.145.72.122
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_20|1.6MB/s
-  port: 8090
-  server: 24.142.229.178
+- name: 🇺🇸US_15|2.1MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_21|1.3MB/s
-  port: 8090
-  server: 184.188.139.2
+  username: 'null'
+- name: 🇺🇸US_16|2.3MB/s
+  password: 'null'
+  port: 443
+  server: tzoa.fun
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_17|3.1MB/s
+  port: 443
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_22|3.0MB/s
+- name: 🇺🇸US_18|2.5MB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_19|1.3MB/s
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_20|1.2MB/s
   port: 443
   server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸US_21|2.7MB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_22|3.5MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -270,12 +246,6 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
   tls: true
   type: http
   udp: true

@@ -374,17 +374,40 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: chrome
+  name: 🇰🇷KR_2|1.2MB/s
+  network: tcp
+  password: UX82473651
+  port: '443'
+  server: amazing-peacock.rooster465.autos
+  skip-cert-verify: true
+  sni: amazing-peacock.rooster465.autos
+  type: trojan
+  udp: true
 - alpn:
   - h2
-  client-fingerprint: edge
   grpc-opts:
     grpc-service-name: ajv
-  name: 🇩🇪DE_13|2.3MB/s
+  name: 🇩🇪DE_4|1.9MB/s
   network: grpc
   password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
-  port: '443'
-  server: 31.77.168.33
-  skip-cert-verify: false
+  port: 443
+  server: 31.77.168.21
+  skip-cert-verify: true
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|3.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.95.209.183
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_7|2.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.84.97.225
+  type: ss
   udp: true

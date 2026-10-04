@@ -19,153 +19,36 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- client-fingerprint: ios
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇩🇪DE_1|1.8MB/s
-  network: grpc
-  port: '9881'
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: '!!str aabbccdd'
-  server: 176.123.165.25
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  xudp: true
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - speedtest.net
-    path:
-    - /
-  name: 🇩🇪DE_2|1.8MB/s
-  network: http
-  port: '2045'
-  server: ist1d.lynch.ir
-  type: vless
-  udp: true
-  uuid: 06278d74-9385-42e8-be1b-49c78ebc49ea
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.Y0-j5e-CpehUKzhEeat1dTYevroKyHV4g9HML3ujmlQ
-  name: 🇩🇪DE_3|2.5MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: IqFTx4k5VQydmffvavaOHDXBtdgDxX26A6NtsVvDfhw
-    short-id: '!!str d485c3d5248d6b51'
-  server: 2.28.142.170
-  servername: germanytest.tulnaro.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: f774f037-6320-42e3-a97b-6d4a1f018dd5
-  xhttp-opts:
-    host: germanytest.tulnaro.ir
-    mode: auto
-    path: /
-  xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|2.0MB/s
-  network: xhttp
-  port: '8448'
-  reality-opts:
-    public-key: SEFnqOIUiHZpOgtXZ3FFFhVTALc1ReEVt78femI770U
-    short-id: '!!str c90743ca346c8da7'
-  server: 13.143.185.29
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2897717e-55b6-4d3d-8752-72c5fd4614ae
-  xhttp-opts:
-    host: 13.143.185.29
-    mode: auto
-    path: /assets/v2
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_5|2.0MB/s
+  name: 🇩🇪DE_1|2.0MB/s
   network: ws
-  port: 2087
-  server: 172.67.79.160
-  servername: cvhpyn.pages.dev
-  skip-cert-verify: true
+  port: 443
+  server: 172.67.76.40
+  servername: ccc.010304.xyz
   tls: true
   type: vless
   udp: true
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: cvhpyn.pages.dev
+      Host: ccc.010304.xyz
     path: /
-- name: 🇩🇪DE_6|2.3MB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|3.3MB/s
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|3.0MB/s
-  port: 443
-  server: 185.232.70.11
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_9|3.1MB/s
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_10|1009KB/s
+  name: 🇩🇪DE_2|3.2MB/s
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
-    public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
-    short-id: '!!str 9e4eced6e98ed4d4'
-  server: 130.17.25.67
-  servername: github.com
+    public-key: -YpJ_Xav7sUkd77sEZjg58Pn6dnNpj5himuUS-OFDh4
+    short-id: '!!str fd44fcf1c3afa0af'
+  server: 2.27.211.129
+  servername: www.icloud.com
   tls: true
   type: vless
   udp: true
-  uuid: 1c5ed2e1-56da-41ab-9a78-159d9892ec17
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_11|2.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
-    short-id: '!!str '
-  server: 144.31.219.97
-  servername: example.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
-  xudp: true
+  uuid: 0afdcc75-e449-418d-8eac-c5b657363443
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_12|2.7MB/s
+  name: 🇩🇪DE_3|1.8MB/s
   network: ws
   port: '8443'
   server: shop.neexbyte.ir
@@ -175,40 +58,45 @@ proxies:
   uuid: 8bb52771-052e-40b5-ab53-c6e151ad2290
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: ''
+      Host: shop.neexbyte.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /
   xudp: true
 - alpn:
   - h2
-  client-fingerprint: edge
   grpc-opts:
     grpc-service-name: ajv
-  name: 🇩🇪DE_13|2.3MB/s
+  name: 🇩🇪DE_4|1.9MB/s
   network: grpc
   password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
-  port: '443'
-  server: 31.77.168.33
-  skip-cert-verify: false
+  port: 443
+  server: 31.77.168.21
+  skip-cert-verify: true
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
   udp: true
-- client-fingerprint: edge
+- name: 🇩🇪DE_5|2.8MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
   encryption: none
-  name: 🇩🇪DE_14|2.8MB/s
+  name: 🇩🇪DE_6|1.8MB/s
   network: xhttp
-  port: '23411'
-  reality-opts:
-    public-key: 59Fl4mMEYwB2pOcBZzX4Bdd0OA4xG8BXjd73RtER_QQ
-    short-id: '!!str 16fbfc284dcf4954'
-  server: iro.wingerdt.org
-  servername: aparat.com
+  port: '443'
+  server: 50.7.29.181
+  servername: id-24f9d11d.ferrin.uk
   tls: true
   type: vless
   udp: true
-  uuid: 9f7df0f1-5688-46cc-9bbd-56ae7bdc0882
+  uuid: 24f9d11d-ceca-4f75-93ca-ad143ca18b28
   xhttp-opts:
-    mode: auto
-    path: /
+    host: de.vmagnum.win
+    reuse-settings:
+      max-connections: '1'
   xudp: true
