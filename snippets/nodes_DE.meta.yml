@@ -1,76 +1,4 @@
 proxies:
-- encryption: none
-  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
-  network: tcp
-  port: 10443
-  server: 136.244.94.171
-  type: vless
-  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
-- encryption: none
-  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
-  network: tcp
-  port: 443
-  server: 136.244.94.171
-  type: vless
-  uuid: 52516534-4986-4959-b30b-a89463eed9af
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: GrpcFuckRKN
-  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
-    short-id: '!!str deadbeef'
-  security: reality
-  server: 194.58.41.65
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: GrpcFuckRKN
-  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
-    short-id: '!!str deadbeef'
-  security: reality
-  server: 194.58.41.65-uhe66vr6.nike77prime.ru
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
-- name: 'A - 🇩🇪 DE 06 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.80.111.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime52.workers.dev
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
-    short-id: '!!str a1b2c3d4e5f6'
-  security: reality
-  server: 84.21.189.197
-  servername: queuev4.vk.com
-  tls: true
-  type: vless
-  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
 - name: '@KAFING_2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -91,35 +19,196 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.7MB/s
-  network: tcp
-  port: 443
+- client-fingerprint: ios
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇩🇪DE_1|1.8MB/s
+  network: grpc
+  port: '9881'
   reality-opts:
-    public-key: kGdP0X0DwcMbXovNjpQ3o7ubghwu1dedhcoFtLFOnBk
-    short-id: '!!str 1fc709'
-  server: agroup.de1.ilovegairport.com
-  servername: eu-central-1.console.aws.amazon.com
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: '!!str aabbccdd'
+  server: 176.123.165.25
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 129e26fe-cee2-4786-9261-b29668337829
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  xudp: true
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - speedtest.net
+    path:
+    - /
+  name: 🇩🇪DE_2|1.8MB/s
+  network: http
+  port: '2045'
+  server: ist1d.lynch.ir
+  type: vless
+  udp: true
+  uuid: 06278d74-9385-42e8-be1b-49c78ebc49ea
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.Y0-j5e-CpehUKzhEeat1dTYevroKyHV4g9HML3ujmlQ
+  name: 🇩🇪DE_3|2.5MB/s
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: IqFTx4k5VQydmffvavaOHDXBtdgDxX26A6NtsVvDfhw
+    short-id: '!!str d485c3d5248d6b51'
+  server: 2.28.142.170
+  servername: germanytest.tulnaro.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: f774f037-6320-42e3-a97b-6d4a1f018dd5
+  xhttp-opts:
+    host: germanytest.tulnaro.ir
+    mode: auto
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_2|1.7MB/s
-  network: ws
-  port: '443'
-  server: 104.21.69.30
-  servername: 05agj.gkef.zhs.hh.vavava.kdns.fr
+  name: 🇩🇪DE_4|2.0MB/s
+  network: xhttp
+  port: '8448'
+  reality-opts:
+    public-key: SEFnqOIUiHZpOgtXZ3FFFhVTALc1ReEVt78femI770U
+    short-id: '!!str c90743ca346c8da7'
+  server: 13.143.185.29
+  servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 2897717e-55b6-4d3d-8752-72c5fd4614ae
+  xhttp-opts:
+    host: 13.143.185.29
+    mode: auto
+    path: /assets/v2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_5|2.0MB/s
+  network: ws
+  port: 2087
+  server: 172.67.79.160
+  servername: cvhpyn.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
   ws-opts:
     headers:
-      Host: 05agj.gkef.zhs.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /?ed=2560
+      Host: cvhpyn.pages.dev
+    path: /
+- name: 🇩🇪DE_6|2.3MB/s
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|3.3MB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|3.0MB/s
+  port: 443
+  server: 185.232.70.11
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|3.1MB/s
+  port: 443
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_10|1009KB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
+    short-id: '!!str 9e4eced6e98ed4d4'
+  server: 130.17.25.67
+  servername: github.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1c5ed2e1-56da-41ab-9a78-159d9892ec17
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_11|2.9MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
+    short-id: '!!str '
+  server: 144.31.219.97
+  servername: example.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_12|2.7MB/s
+  network: ws
+  port: '8443'
+  server: shop.neexbyte.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8bb52771-052e-40b5-ab53-c6e151ad2290
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: ''
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: ajv
+  name: 🇩🇪DE_13|2.3MB/s
+  network: grpc
+  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+  port: '443'
+  server: 31.77.168.33
+  skip-cert-verify: false
+  sni: d3-de2.cloud-cdn.xyz
+  type: trojan
+  udp: true
+- client-fingerprint: edge
+  encryption: none
+  name: 🇩🇪DE_14|2.8MB/s
+  network: xhttp
+  port: '23411'
+  reality-opts:
+    public-key: 59Fl4mMEYwB2pOcBZzX4Bdd0OA4xG8BXjd73RtER_QQ
+    short-id: '!!str 16fbfc284dcf4954'
+  server: iro.wingerdt.org
+  servername: aparat.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f7df0f1-5688-46cc-9bbd-56ae7bdc0882
+  xhttp-opts:
+    mode: auto
+    path: /
   xudp: true
