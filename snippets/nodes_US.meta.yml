@@ -7,14 +7,6 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 🪙70@oneclickvpnkeys
-  password: 4291c983-c520-46ac-82cc-48f14bef573f
-  port: 35013
-  server: 129.213.91.185
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian

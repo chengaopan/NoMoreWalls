@@ -1,12 +1,4 @@
 proxies:
-- name: 🪙75@oneclickvpnkeys
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: els.mangshe.xyz
-  skip-cert-verify: true
-  sni: els.mangshe.xyz
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y

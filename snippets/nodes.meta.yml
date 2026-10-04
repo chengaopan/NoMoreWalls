@@ -89,32 +89,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 咕咕嘎嘎
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: es1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: es1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: 嘎嘎
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: se.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: se.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: 咕咕
-  obfs: salamander
-  obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
-  password: CyG0RFxMjzs41uQD4OLuHQ==
-  port: 443
-  server: 137.131.167.179
-  skip-cert-verify: true
-  sni: rmgyvpn.rest
-  tls: false
-  type: hysteria2
 - name: '@KAFING_2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -158,6 +132,14 @@ proxies:
   server: mhzedir.qzz.io
   skip-cert-verify: false
   sni: mhzedir.qzz.io
+  tls: false
+  type: hysteria2
+- name: 🪙96@oneclickvpnkeys
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: ru1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ru1.xiaoliyu.cyou
   tls: false
   type: hysteria2
 - name: 🪙31@oneclickvpnkeys
@@ -293,7 +275,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: ✅  @vistav2ray  👈👈کانال ما ✅
+- name: '@FarazV2ray'
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -323,7 +305,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '✅  @vistav2ray  👈👈کانال ما ✅ #1'
+- name: ✅  @vistav2ray  👈👈کانال ما ✅
   obfs: salamander
   obfs-password: d2e3c1b8a16952ae9cf06dfc05b3588a
   password: af24a0e4-f5a2-4b97-a678-992d45346147
@@ -341,6 +323,16 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 🇨🇭186770 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+  password: capadm96216165
+  port: 443
+  server: 208.69.78.217
+  skip-cert-verify: true
+  sni: vpn.local
   tls: false
   type: hysteria2
 - name: 🇷🇺@FreakConfig
@@ -361,6 +353,16 @@ proxies:
   server: 2.27.59.206
   skip-cert-verify: false
   sni: de1.sferavpn.pro
+  tls: false
+  type: hysteria2
+- name: 🪙98@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
+  password: d042d150716709bb778cc73889cddb02
+  port: 443
+  server: 138.2.89.249
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '@ICV2RAY'
