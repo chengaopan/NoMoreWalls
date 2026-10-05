@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: grpcbeast
+  name: 🇩🇪DE_8|3.5MB/s
+  network: grpc
+  password: f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km
+  port: 443
+  server: cz-musicc.moritech.net
+  skip-cert-verify: true
+  type: trojan

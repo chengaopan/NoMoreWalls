@@ -1,5 +1,47 @@
 proxies:
-- name: 🇫🇷FR_1|1.2MB/s
+- name: 🇫🇷187923 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+  password: capadmbd5f18bd
+  port: 443
+  server: 51.77.217.70
+  skip-cert-verify: true
+  sni: vpn.local
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|2.1MB/s
+  network: tcp
+  port: 443
+  server: e3k67dwms3-51255166202-direct.tavafog.com
+  servername: e3k67dwms3-51255166202-direct.tavafog.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_2|3.8MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.151.71.63
+  servername: abuse.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3984a6ee-9fc6-4219-93fd-706c59e02171
+- name: 🇫🇷FR_3|3.7MB/s
+  port: 443
+  server: 51.210.167.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_4|4.9MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 30099
   server: ip5.934618.xyz

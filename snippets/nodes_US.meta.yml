@@ -53,20 +53,167 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|4.0MB/s
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_1|2.0MB/s
+  network: xhttp
+  port: '443'
+  server: cdn8.alihapp.com
+  servername: cdn8.alihapp.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4394e27-baeb-422d-8905-a93f8e01126f
+  xhttp-opts:
+    host: cdn8.alihapp.com
+    mode: auto
+    path: /
+  xudp: true
+- fingerprint: ''
+  name: 🇺🇸US_2|3.1MB/s
+  password: 9sK2mP8xQ7vL3nZ6
+  port: '443'
+  server: awefd2313fefarg23fr24.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+  username: 9sK2mP8xQ7vL3nZ6
+- name: 🇺🇸US_3|2.1MB/s
+  password: 'null'
+  port: 443
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_4|3.3MB/s
   port: 8443
   server: 45.145.72.122
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_2|1.5MB/s
+- name: 🇺🇸US_5|4.5MB/s
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_6|3.1MB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|2.9MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|4.2MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_9|3.6MB/s
+  port: 443
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+- name: 🇺🇸US_10|4.0MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_11|3.5MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|2.0MB/s
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_15|4.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.208.223.39
+  type: ss
+- name: 🇺🇸US_16|4.4MB/s
   password: ''
-  port: '443'
-  server: fullmanfirm.icu
+  port: '9002'
+  server: 138.199.35.204
   skip-cert-verify: true
   tls: true
   type: http
   username: ''
+- name: 🇺🇸US_17|4.1MB/s
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_18|2.3MB/s
+  password: ''
+  port: '8443'
+  server: 45.150.164.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_19|4.1MB/s
+  password: 'null'
+  port: '443'
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_20|3.8MB/s
+  password: ''
+  port: '9002'
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- cipher: aes-256-cfb
+  name: 🇺🇸US_21|3.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 23.22.158.187
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -194,13 +341,6 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0141
   port: 443
   server: 38.28.193.188
@@ -223,13 +363,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0144
