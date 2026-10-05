@@ -38,10 +38,8 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇸🇬SG_2|2.8MB/s
-  network: tcp
+  name: 🇸🇬SG_1|3.4MB/s
   port: 33102
   server: 112.49.63.11
   servername: sgg.knhqf.com
@@ -50,4 +48,3 @@ proxies:
   type: vless
   udp: true
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-  xudp: true

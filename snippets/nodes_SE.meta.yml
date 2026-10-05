@@ -9,34 +9,3 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇸🇪SE_1|1.2MB/s
-  password: None
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_2|2.0MB/s
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇸🇪SE_3|2.1MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: tl7xSwczBM--oN16cxdLnAD8GMf8tA0f-FXE9ilCCjA
-    short-id: '!!str '
-  server: 104.245.240.5
-  servername: download.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 35f9c540-85cf-a4da-aca5-833daaa0bfc8
-  xhttp-opts: {}
-  xudp: true

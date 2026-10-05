@@ -19,82 +19,44 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: u5gK34Vx2N4cN4dowhD81_ZPMvymSPYt4Fvv44dKHAY
-    short-id: '!!str 5cca2511acbc3ca9'
-  server: 95.85.252.72
-  servername: de1.lostpool.org
+- name: 🇩🇪187621 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 6ccfcef2e116b03ce9047333
+  password: migrated-d730e46f5c1b
+  port: 5443
+  server: fastly.vexogf.ir
+  skip-cert-verify: false
+  sni: tun-a-1.bexait.ir
+  tls: false
+  type: hysteria2
+- name: 🛠️15@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.104
+  skip-cert-verify: true
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+- auth: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  name: 🇳🇱NL_1|1.6MB/s
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.105
+  skip-cert-verify: true
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+- name: 🇩🇪DE_1|2.1MB/s
+  network: ws
+  port: 443
+  server: 188.114.96.7
+  servername: s3ws.ragingbull.de5.net
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 39770645-fcd2-4f35-a670-877672fc2ef7
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|3.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: Dx2F6ThyTXQpu07q1cECPCWBpQwWGNWy1WecyCI7ejA
-    short-id: '!!str 29455a3a790acbd0'
-  server: 177.1.186.117
-  servername: rcge.67resserv67.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: ajv
-  name: 🇩🇪DE_3|1.4MB/s
-  network: grpc
-  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
-  port: '443'
-  server: 31.77.168.35
-  skip-cert-verify: true
-  sni: d3-de2.cloud-cdn.xyz
-  type: trojan
-  udp: true
-- name: 🇩🇪DE_4|2.9MB/s
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|1.7MB/s
-  port: 443
-  server: 37.203.35.28
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|3.2MB/s
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|1.2MB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_8|1.4MB/s
-  password: 69xKLopoiluvBwXtq4LMHHq-8XyPw4FP
-  port: '25342'
-  server: irp.fluxzone.ir
-  type: ss
-  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s3ws.ragingbull.de5.net
+    path: /wsrb7k2m
