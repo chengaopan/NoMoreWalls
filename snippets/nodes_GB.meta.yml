@@ -1,5 +1,20 @@
 proxies:
-- name: 🇬🇧GB_1|1.1MB/s
+- encryption: mlkem768x25519plus.native.0rtt.lmTuJzP_UcH5ThrWl5pCFPVsehutrNnyTRDVbSUP7mo
+  name: 🇬🇧GB_1|1.1MB/s
+  network: ws
+  port: '5456'
+  server: 188.213.198.25
+  type: vless
+  udp: true
+  uuid: 6b5d6852-0b29-4fb7-afa3-8904638bc1b5
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇬🇧GB_2|1.7MB/s
   password: None
   port: 443
   server: 37.120.233.34
@@ -7,15 +22,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_2|2.5MB/s
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_3|2.5MB/s
+- name: 🇬🇧GB_3|2.3MB/s
   password: None
   port: 443
   server: 212.102.63.31
@@ -23,7 +30,21 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_4|1.6MB/s
+- name: 🇬🇧GB_4|2.3MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_5|1.6MB/s
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_6|2.9MB/s
   password: None
   port: 443
   server: 212.102.63.1

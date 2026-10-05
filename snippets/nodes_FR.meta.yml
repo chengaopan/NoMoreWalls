@@ -1,43 +1,22 @@
 proxies:
-- name: '@prrofile_purple | FaST 💚 #2'
-  obfs: salamander
-  obfs-password: ec66908dbc46e6920143d9b684adf277
-  password: ca78f919e6
-  port: 11592
-  server: 155.94.134.183
-  skip-cert-verify: false
-  sni: srv-3fc7c9.21freedom.net
-  tls: false
-  type: hysteria2
-- name: 🇫🇷FR_1|4.3MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- name: 🇫🇷FR_2|1.8MB/s
+- name: 🇫🇷FR_1|1.4MB/s
   port: 443
-  server: 82.64.255.151
+  server: 51.210.167.149
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: android
-  encryption: none
-  name: 🇫🇷FR_3|2.3MB/s
-  network: xhttp
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|1.7MB/s
+  network: ws
+  password: humanity
   port: '443'
-  server: 50.7.216.172
-  servername: 24f9d11d.ferrin.uk
-  tls: true
-  type: vless
+  server: 162.159.36.20
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
   udp: true
-  uuid: 24f9d11d-ceca-4f75-93ca-ad143ca18b28
-  xhttp-opts:
-    host: api.ferrin.uk
-    path: /fr
-    reuse-settings:
-      h-max-reusable-secs: 1140-1260
-      max-connections: '3'
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /assignment

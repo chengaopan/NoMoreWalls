@@ -45,17 +45,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.95.209.183
-  type: ss
+- alterId: '2'
+  cipher: auto
+  name: 🇺🇸US_2|3.2MB/s
+  network: tcp
+  port: '30829'
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_7|2.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.84.97.225
-  type: ss
-  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
