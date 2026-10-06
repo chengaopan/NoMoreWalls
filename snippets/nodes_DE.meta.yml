@@ -19,11 +19,100 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🐞31@oneclickvpnkeys
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.KmObJcXK-X9Zx5HMeSkn-zchyyWJR3U2XMJDtWK2QEw
+  name: 🇩🇪DE_1|1.1MB/s
+  network: xhttp
   port: 8443
-  server: 77.74.123.98
+  reality-opts:
+    public-key: GB3bGUtRma7-14YH-WK--1CR9GXXPHNqFUQz8v0YLBk
+    short-id: '!!str 1a4e3e64b9a568c5'
+  server: 2.28.142.170
+  servername: germanytest.tulnaro.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: f774f037-6320-42e3-a97b-6d4a1f018dd5
+  xhttp-opts:
+    host: germanytest.tulnaro.ir
+    mode: auto
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|1.2MB/s
+  network: tcp
+  port: '8080'
+  reality-opts:
+    public-key: _OmNcv89o5SDt4H3ButRX9UynGIVwNZR250w4Zie-yk
+    short-id: '!!str 73693dea6faae051'
+  server: 91.107.165.46
+  servername: www.actionvfx.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 59ab9bbf-3f08-4992-bbf3-4faddceb8e49
+  xudp: true
+- name: 🇩🇪DE_3|3.1MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
   skip-cert-verify: true
-  sni: grape-test-italy.dynuddns.net
-  tls: false
-  type: hysteria2
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|1.2MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_5|4.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.159.149.158
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_6|4.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.67.197.81
+  type: ss
+  udp: true
+- name: 🇩🇪DE_7|2.9MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|2.8MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|3.1MB/s
+  port: 443
+  server: 159.69.94.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_10|3.4MB/s
+  network: tcp
+  port: '8080'
+  reality-opts:
+    public-key: _OmNcv89o5SDt4H3ButRX9UynGIVwNZR250w4Zie-yk
+    short-id: '!!str 73693dea6faae051'
+  server: fi1d.lynch.ir
+  servername: www.actionvfx.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 59ab9bbf-3f08-4992-bbf3-4faddceb8e49
+  xudp: true

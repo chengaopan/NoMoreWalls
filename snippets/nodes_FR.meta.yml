@@ -1,1 +1,37 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_1|1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.36.167.227
+  type: ss
+  udp: true
+- name: 🇫🇷FR_2|1.3MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  skip-cert-verify: true
+  sni: ip5.934618.xyz
+  type: anytls
+  udp: true
+- name: 🇫🇷FR_3|3.4MB/s
+  port: 443
+  server: 51.210.167.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_4|1.2MB/s
+  network: tcp
+  port: '8445'
+  reality-opts:
+    public-key: T3mwuNKqo8QuH0Vy6E50yClcQBSuh3scQJEl154D_j4
+    short-id: '!!str 8d241939'
+  server: fin3.noirex.ir
+  servername: www3.donyumvps.tr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 250865f0-4a0f-4e2e-8d14-4c39a25d0bef
+  xudp: true
