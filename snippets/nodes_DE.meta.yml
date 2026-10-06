@@ -19,30 +19,11 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: content.v1.Feed
-  name: 🇩🇪DE_1|2.9MB/s
-  network: grpc
-  port: '443'
-  server: 163.245.43.50
-  servername: se-twitch.global-cdn.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 203d434a-2a92-45df-8973-ca80434ecf73
-  xudp: true
-- name: 🇩🇪DE_2|3.2MB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
+- name: 🐞31@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.98
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.3MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2

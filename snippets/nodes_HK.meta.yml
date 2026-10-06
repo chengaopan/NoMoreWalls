@@ -110,11 +110,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- auth: 19f72087-4591-4d72-930b-2697078ec2be
-  name: 🇭🇰HK_1|1.8MB/s
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: hk2.xiaoliyu.cyou
-  type: hysteria2
