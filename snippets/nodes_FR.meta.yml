@@ -1,37 +1,55 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_1|1.6MB/s
-  password: amazonskr05
+- name: 🇫🇷188762 | ⚡️Telegram = t.me/S...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 13.36.167.227
-  type: ss
-  udp: true
-- name: 🇫🇷FR_2|1.3MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
+  server: 13.36.234.11
   skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- name: 🇫🇷FR_3|3.4MB/s
+  sni: vpn-fr-001.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 🇫🇷188763 | ⚡️Telegram = t.me/S...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 51.210.167.149
+  server: 13.38.44.64
+  skip-cert-verify: true
+  sni: 'off'
+  tls: false
+  type: hysteria2
+- name: 🇫🇷FR_1|2.2MB/s
+  port: 443
+  server: 82.66.235.221
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_4|1.2MB/s
-  network: tcp
-  port: '8445'
-  reality-opts:
-    public-key: T3mwuNKqo8QuH0Vy6E50yClcQBSuh3scQJEl154D_j4
-    short-id: '!!str 8d241939'
-  server: fin3.noirex.ir
-  servername: www3.donyumvps.tr
+- name: 🇫🇷FR_2|4.2MB/s
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 250865f0-4a0f-4e2e-8d14-4c39a25d0bef
-  xudp: true
+  type: http
+- name: 🇫🇷FR_3|1.4MB/s
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_4|1.2MB/s
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_5|2.0MB/s
+  password: ''
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇫🇷FR_6|1.0MB/s
+  port: 8081
+  server: 31.32.19.111
+  skip-cert-verify: true
+  tls: true
+  type: http

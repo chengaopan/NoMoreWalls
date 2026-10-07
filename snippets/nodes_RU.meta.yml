@@ -9,32 +9,30 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: 🇷🇺RU_1|1.3MB/s
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇺RU_2|2.4MB/s
+- name: 🇷🇺RU_1|3.0MB/s
   port: 443
   server: 82.147.71.46
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: safari
-  encryption: none
-  grpc-opts:
-    grpc-service-name: astracat
-  name: 🇷🇺RU_3|2.6MB/s
-  network: grpc
-  port: '2088'
+- name: 🇷🇺RU_2|2.6MB/s
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_3|3.3MB/s
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
-    short-id: '!!str b1ad165f903c62fe'
-  server: 31.59.210.26
-  servername: www.yandex.ru
+    public-key: ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY
+    short-id: '!!str ba4b2afa9e7193ea'
+  server: 50.7.87.122
+  servername: edge-fr.extazy.net
   tls: true
   type: vless
   udp: true
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  uuid: 9c104116-b231-4626-94cb-6d8fc4d2b000
   xudp: true

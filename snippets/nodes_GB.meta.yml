@@ -1,33 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB_1|1.6MB/s
-  network: xhttp
-  port: '443'
-  server: 46.33.11.36
-  servername: edge2.sickok.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f65b49ed-d3e6-46b3-9f92-1cab485e4a0e
-  xhttp-opts:
-    mode: stream-up
-    path: /api/v1/ingest/KczWgyXedh
-  xudp: true
-- name: 🇬🇧GB_2|1.8MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|2.6MB/s
+- name: 🇬🇧GB_1|2.8MB/s
   port: 443
   server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_4|1.9MB/s
+- name: 🇬🇧GB_2|1.0MB/s
   password: ''
   port: 443
   server: 37.120.233.34
@@ -35,15 +13,31 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 🇬🇧GB_5|2.4MB/s
+- name: 🇬🇧GB_3|1.6MB/s
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_4|2.2MB/s
   port: 443
   server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_6|1016KB/s
-  port: 443
-  server: 212.102.63.1
+- name: 🇬🇧GB_5|2.4MB/s
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇬🇧GB_6|2.0MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
