@@ -53,41 +53,175 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_2|1.0MB/s
+- name: 🇺🇸US_1|1.5MB/s
   port: 443
   server: fullmanfirm.icu
   skip-cert-verify: true
   sni: fullmanfirm.icu
   tls: true
   type: http
-- name: 🇺🇸US_3|1023KB/s
+- name: 🇺🇸US_2|2.8MB/s
   port: 443
   server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_4|2.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: PR2mhvCXer5q0MdcFq02GiyGhjSYqfyHVnFjjHhHOgY
-    short-id: '!!str 3221cb224d06a873'
-  server: 89.208.254.233
-  servername: halo.sigy.me
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|1.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.228.79.192
+  type: ss
   udp: true
-  uuid: ab1249da-9ac8-44c7-89a3-2d337ab25cb2
-  xudp: true
+- name: 🇺🇸US_4|1.5MB/s
+  password: 'null'
+  port: 443
+  server: efr-marktplatz.club
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_5|1.4MB/s
+  password: 'null'
+  port: 443
+  server: zebpay.site
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_6|1.6MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_7|2.3MB/s
+  port: 443
+  server: jgwynphotoarts.pro
+  sni: jgwynphotoarts.pro
+  tls: true
+  type: http
+- name: 🇺🇸US_8|2.5MB/s
+  password: None
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_9|4.0MB/s
+  password: 'null'
+  port: 443
+  server: kimberlymilano.icu
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_10|3.4MB/s
+  password: None
+  port: 443
+  server: carolinafreigh.fun
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- cipher: aes-256-cfb
+  name: 🇺🇸US_11|1.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.221.120.243
+  type: ss
+  udp: true
+- name: 🇺🇸US_12|1.4MB/s
+  password: ''
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇺🇸US_13|2.8MB/s
+  port: 443
+  server: 34.216.155.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|2.8MB/s
+  password: None
+  port: 443
+  server: 52.55.81.168
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_15|1.4MB/s
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_16|1.1MB/s
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_17|2.3MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_18|1.3MB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_19|1.6MB/s
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: '20006'
+  server: ss.042.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_20|2.9MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: "(Telegramð\x9F\x87¨ð\x9F\x87³ @WangCai2)f6e348d:70852"
+    mode: tls
+  port: '2377'
+  server: 88.210.36.106
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_21|3.1MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: feb7fa9:154948
+    mode: tls
+  port: '2377'
+  server: 88.210.36.107
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_22|1.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 18.208.223.39
+  type: ss
+  udp: true
+- name: 🇺🇸US_23|2.3MB/s
+  password: None
+  port: '443'
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -131,6 +265,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true

@@ -1,7 +1,22 @@
 proxies:
-- name: 🇪🇪EE_1|1.7MB/s
+- name: 🇪🇪EE_1|1.2MB/s
   port: 9443
   server: 95.153.31.66
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_2|2.9MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: _KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0
+    short-id: '!!str ae64c9b46bff174a'
+  server: 5.175.178.30
+  servername: ee1.sky-vault.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fc806fa-350b-4548-937a-2bf35f7fe7eb
+  xudp: true

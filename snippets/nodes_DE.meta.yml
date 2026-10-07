@@ -9,14 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🐞96@oneclickvpnkeys
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  port: 4433
-  server: de1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇩🇪
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
@@ -27,24 +19,81 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1.4MB/s
+- name: 😊14@oneclickvpnkeys
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
+- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  name: 🇩🇪DE_1|2.1MB/s
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.126.39
+  skip-cert-verify: true
+  sni: hop-germany-september.dynuddns.com
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.Obr5RkpXcciyoYhSOWoBu-rPy23XTh96VbZGM95Lpic
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|3.1MB/s
+  network: tcp
+  port: 59719
+  reality-opts:
+    public-key: cWI4RpOZJqkX1HE9pQIZQ8eNeLWGX8UEzECyRehQnlQ
+    short-id: '!!str 6e6f9fa5decc02'
+  server: 189.24.108.152
+  servername: www.sony.lu
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd55b3ae-6833-4eff-be18-55bd92164071
+- name: 🇩🇪DE_3|2.2MB/s
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|1.8MB/s
+- name: 🇩🇪DE_4|2.6MB/s
   password: None
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
 - cipher: aes-256-cfb
-  name: 🇩🇪DE_3|2.2MB/s
+  name: 🇩🇪DE_5|3.6MB/s
   password: amazonskr05
   port: 443
-  server: 63.177.230.112
+  server: 3.67.197.81
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_6|3.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.196.88.40
+  type: ss
+  udp: true
+- name: 🇩🇪DE_7|1.1MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|2.4MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_9|1.8MB/s
+  port: 443
+  server: 185.232.70.11
+  skip-cert-verify: true
+  tls: true
+  type: http

@@ -1,7 +1,27 @@
 proxies:
-- name: 🇬🇧GB_1|3.1MB/s
+- name: 🇬🇧GB_1|1003KB/s
   port: 443
   server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|2.0MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_3|1.8MB/s
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_4|1.2MB/s
+  port: 443
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
