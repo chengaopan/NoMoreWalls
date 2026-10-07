@@ -1,8 +1,8 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇩🇪DE_2|1.8MB/s
+  name: 🇩🇪DE_3|2.2MB/s
   password: amazonskr05
   port: 443
-  server: 18.159.149.158
+  server: 63.177.230.112
   type: ss
   udp: true

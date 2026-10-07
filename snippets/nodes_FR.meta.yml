@@ -15,41 +15,21 @@ proxies:
   sni: 'off'
   tls: false
   type: hysteria2
-- name: 🇫🇷FR_1|2.2MB/s
-  port: 443
-  server: 82.66.235.221
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_2|4.2MB/s
-  port: 443
-  server: 82.65.162.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_3|1.4MB/s
+- name: 🇫🇷FR_1|1004KB/s
   port: 9443
   server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_4|1.2MB/s
+- name: 🇫🇷FR_2|1.4MB/s
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_5|2.0MB/s
-  password: ''
+- name: 🇫🇷FR_3|2.2MB/s
   port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇫🇷FR_6|1.0MB/s
-  port: 8081
-  server: 31.32.19.111
+  server: 13.37.226.59
   skip-cert-verify: true
   tls: true
   type: http

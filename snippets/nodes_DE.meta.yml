@@ -27,79 +27,24 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.KmObJcXK-X9Zx5HMeSkn-zchyyWJR3U2XMJDtWK2QEw
-  name: 🇩🇪DE_1|1.8MB/s
-  network: xhttp
-  port: 8443
-  reality-opts:
-    public-key: GB3bGUtRma7-14YH-WK--1CR9GXXPHNqFUQz8v0YLBk
-    short-id: '!!str 1a4e3e64b9a568c5'
-  server: 2.28.142.170
-  servername: germanytest.tulnaro.ir
+- name: 🇩🇪DE_1|1.4MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: f774f037-6320-42e3-a97b-6d4a1f018dd5
-  xhttp-opts:
-    host: germanytest.tulnaro.ir
-    mode: auto
-    path: /
+  type: http
+- name: 🇩🇪DE_2|1.8MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - cipher: aes-256-cfb
-  name: 🇩🇪DE_2|1.8MB/s
+  name: 🇩🇪DE_3|2.2MB/s
   password: amazonskr05
   port: 443
-  server: 18.159.149.158
+  server: 63.177.230.112
   type: ss
   udp: true
-- name: 🇩🇪DE_3|1.0MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|1.5MB/s
-  port: 443
-  server: 37.203.35.28
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|3.4MB/s
-  port: 8443
-  server: 91.107.219.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|1.3MB/s
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|1.4MB/s
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-- encryption: none
-  name: 🇩🇪DE_8|2.0MB/s
-  network: tcp
-  port: '39100'
-  server: 46.225.255.204
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- name: 🇩🇪DE_9|1.8MB/s
-  password: ''
-  port: '9443'
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
