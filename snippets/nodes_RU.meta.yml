@@ -1,4 +1,11 @@
 proxies:
+- name: 🍁75@oneclickvpnkeys
+  password: 41edb44c8e
+  port: 11592
+  server: 103.88.243.142
+  sni: srv-17e124.21freedom.net
+  tls: false
+  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -9,3 +16,16 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
+- name: 🇷🇺RU_1|3.2MB/s
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇷🇺RU_2|2.2MB/s
+  password: ''
+  port: '1081'
+  server: 195.3.219.148
+  skip-cert-verify: true
+  type: socks5
+  username: ''
