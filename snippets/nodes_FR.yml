@@ -1,9 +1,1 @@
-proxies:
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_3|4.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.36.178.160
-  skip-cert-verify: true
-  type: ss
-  udp: true
+proxies: []

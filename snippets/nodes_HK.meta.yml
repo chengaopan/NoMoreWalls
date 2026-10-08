@@ -110,3 +110,9 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 🇭🇰HK_1|1.2MB/s
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1003
+  server: o6uhrzkj.zf-mix.9999231.xyz
+  sni: hkfash.9999231.xyz
+  type: anytls

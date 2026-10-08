@@ -54,176 +54,38 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_1|3.4MB/s
+  name: 🇺🇸US_1|2.1MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    host: feb7fa9:154948
     mode: tls
   port: 2377
-  server: 134.195.101.119
+  server: 88.210.36.107
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|3.3MB/s
-  password: amazonskr05
-  port: '443'
-  server: 107.21.80.138
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_3|3.2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: "(Telegramð\x9F\x87¨ð\x9F\x87³ @WangCai2)f6e348d:70852"
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- name: 🇺🇸US_4|3.2MB/s
+- name: 🇺🇸US_2|1.9MB/s
   port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: aes-256-cfb
-  name: 🇺🇸US_5|2.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 98.91.210.43
-  type: ss
-  udp: true
-- name: 🇺🇸US_6|3.3MB/s
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-- name: 🇺🇸US_7|3.3MB/s|K001-260618
-  password: ''
-  port: 443
-  server: berniesbodybla.fun
-  skip-cert-verify: true
-  sni: berniesbodybla.fun
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_8|4.1MB/s
-  password: None
-  port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_9|2.8MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_10|2.8MB/s
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_11|1.3MB/s
-  port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_12|3.7MB/s
-  port: 443
-  server: 44.239.226.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|1.6MB/s
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_14|1.5MB/s
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|1.3MB/s
-  password: None
-  port: 443
-  server: 52.55.81.168
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_16|1.3MB/s
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|3.3MB/s
-  port: 443
-  server: 44.198.49.169
+  server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_18|2.2MB/s
-  network: ws
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_3|1.2MB/s
+  network: tcp
   port: '443'
-  server: 217.60.6.103
-  servername: x.m-90.xyz
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: '!!str '
+  server: 193.239.179.15
+  servername: worldoftanks.asia
   tls: true
   type: vless
   udp: true
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-  ws-opts:
-    headers:
-      Host: x.m-90.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: t.me/TEAMNETGRATISCOL
+  uuid: 1d38d2b2-342f-4a01-93df-f24fb0277c70
   xudp: true
-- name: 🇺🇸US_19|2.0MB/s
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  port: '443'
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-- name: 🇺🇸US_20|2.6MB/s
-  password: None
-  port: '443'
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_21|1.8MB/s
-  password: None
-  port: '9002'
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
