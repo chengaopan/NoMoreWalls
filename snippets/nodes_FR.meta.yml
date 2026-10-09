@@ -1,37 +1,23 @@
 proxies:
-- name: 🇫🇷FR_1|2.4MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- name: 🇫🇷FR_2|2.2MB/s
+- name: 🇫🇷FR_1|2.6MB/s
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_3|2.3MB/s
-  port: 9443
-  server: 213.139.9.142
+- name: 🇫🇷FR_2|3.9MB/s
+  port: 443
+  server: 51.210.167.149
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_4|1.9MB/s
-  port: 8090
-  server: 83.206.1.225
+- name: 🇫🇷FR_3|3.5MB/s
+  port: 443
+  server: 82.64.255.151
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_5|1.1MB/s
-  port: 8081
-  server: 31.32.19.111
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_6|3.1MB/s
+- name: 🇫🇷FR_4|1.5MB/s
   port: 8090
   server: 80.124.109.22
   skip-cert-verify: true

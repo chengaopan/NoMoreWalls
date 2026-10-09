@@ -1,31 +1,46 @@
 proxies:
-- name: 🇨🇦CA_1|2.9MB/s
+- name: 🇨🇦CA_1|3.3MB/s
   port: 9443
-  server: 149.88.98.81
+  server: 198.44.157.19
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇦CA_2|2.4MB/s
+- name: 🇨🇦CA_2|1.3MB/s
   port: 9443
   server: 198.44.157.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇦CA_3|2.6MB/s
+- name: 🇨🇦CA_3|2.0MB/s
   port: 443
-  server: 206.223.183.13
+  server: 206.223.183.16
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇦CA_4|1.5MB/s
+- name: 🇨🇦CA_4|1.7MB/s
   port: 443
   server: 206.223.161.47
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇦CA_5|2.6MB/s
+- name: 🇨🇦CA_5|2.2MB/s
   port: 443
   server: 206.223.183.21
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇨🇦CA_6|1.8MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: NO3w10fOUvwK8L7vzCVPDLWIKYCHDaB6ealdMnv4jS4
+    short-id: '!!str e287e3906e3c'
+  server: 209.200.246.61
+  servername: ca.vpnskyline.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab9929fd-ab22-48e3-8723-480733c0eca9
+  xudp: true
