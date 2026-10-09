@@ -1,12 +1,4 @@
 proxies:
-- name: 🍁99@oneclickvpnkeys
-  password: f87376e17da040ed04c9665ce8972930
-  port: 50160
-  server: 138.2.73.238
-  skip-cert-verify: true
-  sni: 138.2.73.238
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 🇸🇬 新加坡|@ripaojiedian

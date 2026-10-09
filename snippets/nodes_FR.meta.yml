@@ -1,25 +1,13 @@
 proxies:
-- name: 🇫🇷FR_1|2.6MB/s
+- name: 🇫🇷FR_1|1.0MB/s
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_2|3.9MB/s
-  port: 443
-  server: 51.210.167.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_3|3.5MB/s
-  port: 443
-  server: 82.64.255.151
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_4|1.5MB/s
-  port: 8090
-  server: 80.124.109.22
+- name: 🇫🇷FR_2|1.1MB/s
+  port: 9443
+  server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http

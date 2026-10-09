@@ -9,16 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪190453 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 9VK3Nqd0bcXGPxcay9hRLY28HBtKo5
-  password: 81d953a0-f0cf-4452-a669-747d32efd6c1
-  port: 24000
-  server: 177.1.195.242
-  skip-cert-verify: false
-  sni: hy.kirian.su
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇩🇪
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
@@ -29,21 +19,73 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_1|4.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.196.88.40
-  type: ss
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 🇩🇪DE_1|1.3MB/s
+  network: xhttp
+  port: 2083
+  server: 104.16.14.245
+  servername: nanegaeidamakhond.kirpeople2sepahkosnaneh.info
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_2|2.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.79.59.187
-  type: ss
+  uuid: 602e8e0a-8334-4e23-a5e8-bdb089656236
+  xhttp-opts:
+    host: nanegaeidamakhond.kirpeople2sepahkosnaneh.info
+    mode: auto
+    path: /images/avatar/load
+    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|1.4MB/s
+  network: ws
+  port: '443'
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
   udp: true
-- name: 🇩🇪DE_3|2.4MB/s
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|2.1MB/s
+  network: xhttp
+  port: '8443'
+  server: 104.16.242.93
+  servername: api-v2.wordfreetop.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47291692-a740-475f-984b-0e84f20d1d87
+  xhttp-opts:
+    host: api-v2.wordfreetop.com
+    mode: auto
+    path: /cdn/v2/media
+    x-padding-bytes: 100-1000
+  xudp: true
+- name: 🇩🇪DE_4|1.9MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|1.3MB/s
+  port: 443
+  server: 31.77.19.92
+  skip-cert-verify: true
+  type: socks5
+- name: 🇩🇪DE_6|1.5MB/s
   password: None
   port: 443
   server: 87.249.132.97
@@ -51,84 +93,36 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_4|1.6MB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|1.8MB/s
+- name: 🇩🇪DE_7|1.1MB/s
   port: 443
-  server: 149.36.50.129
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|3.2MB/s
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|1.9MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_8|3.2MB/s
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_9|2.8MB/s
+- name: 🇩🇪DE_8|1.9MB/s
   port: 9443
-  server: 79.127.156.177
+  server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_10|3.7MB/s
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_11|1.3MB/s
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_12|2.1MB/s
+- name: 🇩🇪DE_9|1.3MB/s
   port: 443
   server: 79.76.126.155
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: chrome
-  name: 🇩🇪DE_13|1.1MB/s
-  network: tcp
-  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
-  port: '443'
-  server: ger2.fytpn.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: qq
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_14|2.9MB/s
+  name: 🇩🇪DE_10|3.4MB/s
   network: tcp
   port: '443'
   reality-opts:
-    public-key: l9b1AQuRbk4WA3hUVHI3mGBW-X5gNKFF72fWvismAS0
-    short-id: '!!str '
-  server: ru-001.zapretu.net
-  servername: ru-001.zapretu.net
+    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
+    short-id: '!!str 0fa4a0e2493392'
+  server: defrnode.xyy123.bid
+  servername: p-y3-www-amazon-com-kalias.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: eac04622-531b-0007-b85f-3c2ee67565c6
+  uuid: 8af93649-403b-46d8-9966-923d4c58402c
   xudp: true
