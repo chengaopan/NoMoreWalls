@@ -1,13 +1,17 @@
 proxies:
-- name: 🇫🇷FR_1|1.0MB/s
+- name: 🇫🇷190916 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+  password: capadmbd5f18bd
+  port: 443
+  server: 51.77.217.70
+  skip-cert-verify: true
+  sni: vpn.local
+  tls: false
+  type: hysteria2
+- name: 🇫🇷FR_1|1.2MB/s
   port: 9443
   server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_2|1.1MB/s
-  port: 9443
-  server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http

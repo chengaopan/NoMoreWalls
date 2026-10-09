@@ -374,16 +374,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇯🇵JP_1|4.8MB/s
-  network: ws
-  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+- name: 🇯🇵JP_2|2.1MB/s
+  password: UX82473651
   port: 443
-  server: jp3.998998.best
+  server: legible-ram.rooster465.autos
   skip-cert-verify: true
-  sni: nat11.outsidemyheart.space
+  sni: legible-ram.rooster465.autos
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: nat11.outsidemyheart.space
-    path: /w4e5yh0p945y3?ed=2560
+- cipher: aes-128-gcm
+  name: 🇸🇬SG_1|2.1MB/s
+  password: 85590bd2-807b-49b9-af20-1101c18b9eda
+  port: '40022'
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true

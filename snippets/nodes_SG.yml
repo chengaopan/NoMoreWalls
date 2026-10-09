@@ -37,3 +37,10 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: aes-128-gcm
+  name: 🇸🇬SG_1|2.1MB/s
+  password: 85590bd2-807b-49b9-af20-1101c18b9eda
+  port: '40022'
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true

@@ -53,77 +53,44 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|2.8MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_2|1.7MB/s
-  port: 8443
-  server: 45.145.73.240
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|3.1MB/s
-  port: 443
-  server: 192.227.176.234
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|1.2MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_5|1.6MB/s
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|2.7MB/s
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|2.3MB/s
+- name: 🇺🇸US_1|1.3MB/s
   port: 443
   server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_8|1.6MB/s
-  port: 443
-  server: 68.235.56.59
+- name: 🇺🇸US_2|1.9MB/s
+  port: 9443
+  server: 149.88.21.140
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_9|1.9MB/s
-  network: xhttp
-  port: '8443'
-  server: 104.16.14.137
-  servername: api-v2.wordfreetop.com
+- name: 🇺🇸US_3|1.0MB/s
+  port: 443
+  server: 45.63.38.134
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 58350a5f-96da-47e4-9eab-6250226a8c0d
-  xhttp-opts:
-    host: api-v2.wordfreetop.com
-    mode: auto
-    path: /cdn/v2/media
-    x-padding-bytes: 100-1000
-  xudp: true
+  type: http
+- name: 🇺🇸US_4|1.7MB/s
+  password: None
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_5|1.1MB/s
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_6|1.3MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
