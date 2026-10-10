@@ -9,3 +9,44 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺RU_1|3.0MB/s
+  network: xhttp
+  port: '8468'
+  reality-opts:
+    public-key: mLNQ8cirYSUCtYa5485RnCPzrmp2OfkI0ENmweDxJQc
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 188.225.77.143
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40c12ce6-b1c6-424e-862e-010a4585ff52
+  xhttp-opts:
+    mode: auto
+    path: /xh
+  xudp: true
+- name: 🇷🇺RU_2|1.1MB/s
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: random
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ru-api
+  name: 🇷🇺RU_3|3.0MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
+    short-id: '!!str '
+  server: 93.188.184.150
+  servername: ru-1-2.unturned-rust-dead.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+  xudp: true
