@@ -1,4 +1,22 @@
 proxies:
+- name: 🇭🇰191382 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  port: 5010
+  server: 152.32.254.68
+  sni: nas.aizhzo.com
+  tls: false
+  type: hysteria2
+- name: 🇭🇰191263 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  port: 5010
+  server: nas.aizhzo.com
+  sni: nas.aizhzo.com
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -110,19 +128,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|1.2MB/s
-  network: tcp
-  port: '9443'
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: '!!str b390142456517acc'
-  server: 156.224.77.171
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe0721ac-c577-4938-b7ca-8ab5f43bb8da
-  xudp: true

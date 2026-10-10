@@ -19,40 +19,13 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|3.6MB/s
-  network: ws
+- name: 🇩🇪DE_1|1.7MB/s
   port: 443
-  server: 61.18.134.10
-  servername: mswo-gy191m.zhiyuantech.cloud
-  tls: true
-  type: vless
-  udp: true
-  uuid: e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384
-  ws-opts:
-    headers:
-      Host: mswo-gy191m.zhiyuantech.cloud
-    path: /e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384
-- name: 🇩🇪DE_2|3.0MB/s
-  port: 443
-  server: 31.77.19.92
-  skip-cert-verify: true
-  type: socks5
-- name: 🇩🇪DE_3|1.8MB/s
-  port: 443
-  server: 149.36.50.129
+  server: 79.76.126.155
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_4|1.7MB/s
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|1.5MB/s
+- name: 🇩🇪DE_5|1.3MB/s
   password: None
   port: 443
   server: 149.36.50.157
@@ -60,63 +33,23 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_6|1.1MB/s
+- name: 🇩🇪DE_3|2.4MB/s
   port: 9443
-  server: 213.177.229.161
+  server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_7|3.7MB/s
-  password: amazonskr05
-  port: '443'
-  server: 3.67.197.81
-  type: ss
-  udp: true
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_8|1.7MB/s
-  network: tcp
-  port: '2080'
-  reality-opts:
-    public-key: A2-_TVXJkWh9CZ7aD4NT9CsfAalIAn9r3BYXNJ3vhlc
-    short-id: '!!str 6ee75d75c8607846'
-  server: 13.143.174.146
-  servername: www.yahoo.com
+- name: 🇩🇪DE_4|1.3MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 0783c6fc-16a8-46ff-a408-a099d2f6f3ac
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|2.9MB/s
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-    short-id: '!!str d2061bb1'
-  server: gw1.edgemedia.lol
-  servername: ya.ru
+  type: http
+  username: null
+- name: 🇩🇪DE_6|2.3MB/s
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_10|1.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: WrqktJc0i6tesi_bVc6WS1mYM0yxhbriI4jrU_butSA
-    short-id: '!!str cd529c087b552f2f'
-  server: 95.85.238.142
-  servername: bobr.puffixhosting.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e937b92c-701f-420e-a621-3eb3b75de467
-  xudp: true
+  type: http

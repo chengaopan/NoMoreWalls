@@ -374,25 +374,20 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_7|3.7MB/s
-  password: amazonskr05
-  port: '443'
-  server: 3.67.197.81
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_17|1.0MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇳🇱NL_1|2.1MB/s
   network: ws
-  password: e20fd145-65f1-4aa3-96be-da0524bbb16e
-  port: '20230'
-  server: us003.421421.xyz
-  skip-cert-verify: true
-  sni: www.alibaba.com
+  password: humanity
+  port: '443'
+  server: 172.66.40.99
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment

@@ -1,8 +1,1 @@
-proxies:
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_7|3.7MB/s
-  password: amazonskr05
-  port: '443'
-  server: 3.67.197.81
-  type: ss
-  udp: true
+proxies: []

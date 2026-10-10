@@ -9,15 +9,3 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_1|1.8MB/s
-  obfs: ''
-  obfs-password: ''
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: '443'
-  server: msk.frkn.org
-  skip-cert-verify: false
-  sni: msk.frkn.org
-  type: hysteria2
-  up: ''
