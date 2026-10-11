@@ -53,32 +53,6 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|2.7MB/s
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|3.0MB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|2.1MB/s
-  port: 1080
-  server: 52.128.241.107
-  skip-cert-verify: true
-  type: socks5
-- name: US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - name: US_speednode_0143
   port: 9002
   server: 138.199.35.198
@@ -86,94 +60,148 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_6|4.4MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|3.8MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_8|2.6MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_9|1.8MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_10|2.0MB/s
+- name: 🇺🇸US_2|3.5MB/s
   port: 443
   server: 129.153.93.183
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_11|2.7MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_12|1.2MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  sni: 138.199.35.202
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_13|3.1MB/s
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_14|1.4MB/s
+- name: 🇺🇸US_3|1.6MB/s
   port: 9443
   server: 149.88.21.140
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_15|3.1MB/s
-  port: 8443
-  server: 129.212.181.253
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_16|3.3MB/s
+- name: 🇺🇸US_4|1.3MB/s
   port: 443
   server: 149.34.248.65
   skip-cert-verify: true
   sni: 149.34.248.65
   tls: true
   type: http
-- name: 🇺🇸US_17|3.5MB/s
-  password: ''
-  port: '1080'
-  server: 52.128.241.109
+- name: 🇺🇸US_5|3.2MB/s
+  port: 9002
+  server: 138.199.35.218
   skip-cert-verify: true
-  type: socks5
-  username: ''
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_6|2.1MB/s
+  port: 443
+  server: 44.239.226.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|1.2MB/s
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_8|2.9MB/s
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_9|2.9MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_10|2.6MB/s
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_11|1.1MB/s
+  password: None
+  port: 443
+  server: 52.55.81.168
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_12|1009KB/s
+  port: 443
+  server: 216.107.139.82
+  skip-cert-verify: true
+  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
+  tls: true
+  type: http
+- name: 🇺🇸US_13|1.5MB/s
+  password: None
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_14|2.6MB/s
+  port: 443
+  server: 192.227.176.234
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_15|2.5MB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_16|2.6MB/s
+  port: 8443
+  server: 44.217.145.28
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_17|2.6MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_18|1023KB/s
+  port: 443
+  server: 170.199.233.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- encryption: none
+  name: 🇺🇸US_19|2.0MB/s
+  network: ws
+  port: '8880'
+  server: 185.148.107.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime55.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: ''
+  xudp: true
+- alpn:
+  - h3
+  down: ''
+  fingerprint: ''
+  name: 🇺🇸US_20|2.6MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: '20326'
+  server: finkawwwbroy5.qcloud.surf
+  skip-cert-verify: false
+  sni: finkawwwbroy5.qcloud.surf
+  type: hysteria2
+  up: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -189,6 +217,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0132
