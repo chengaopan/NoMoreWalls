@@ -19,30 +19,72 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪191753 | ⚡️Telegram = t.me/S...
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
-  server: 85.204.107.178
-  skip-cert-verify: true
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: 🇩🇪DE_1|2.0MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: 🇩🇪DE_1|1.1MB/s
+  network: ws
+  port: '2083'
+  server: 140.225.208.50
+  servername: speedtestmark.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /vless-ws
+  xudp: true
+- name: 🇩🇪DE_2|3.9MB/s
+  port: 8088
+  server: 46.4.84.244
+  type: http
+- name: 🇩🇪DE_3|1011KB/s
+  port: 9002
+  server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|1.3MB/s
+- name: 🇩🇪DE_4|2.4MB/s
   port: 443
-  server: 172.64.68.89
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_3|1.5MB/s
-  port: 443
-  server: 79.127.156.177
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|2.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Aj6Op88j_eYXxoBw095KS_NnKCBm5uwa874uumXdiDQ
+    short-id: '!!str ef7c4e4302bd52d7'
+  server: 185.244.28.177
+  servername: de3.gigobingo.ru
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 3e0c1fbf-467a-49d7-abd2-3a158628f3d0
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  grpc-opts:
+    grpc-service-name: gdd-grpc
+  name: 🇩🇪DE_6|1.7MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
+    short-id: '!!str '
+  server: de-gdd-1.unturned-rust-dead.lol
+  servername: de-gdd-1.unturned-rust-dead.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+  xudp: true

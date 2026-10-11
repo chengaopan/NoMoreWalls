@@ -1,56 +1,38 @@
 proxies:
-- name: 🇫🇷FR_1|1.1MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- name: 🇫🇷FR_2|2.3MB/s
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_3|1.9MB/s
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇫🇷FR_4|3.4MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 162.159.36.20
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /assignment
 - alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇫🇷FR_5|1.5MB/s
-  network: ws
-  port: '11443'
-  server: 205.237.105.31
-  servername: f4.vimeostream.online
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: fr5grpc
+  name: 🇫🇷FR_1|2.1MB/s
+  network: grpc
+  port: 8443
+  server: 37.49.230.85
+  servername: fr5.sodahub.online
   tls: true
   type: vless
   udp: true
   uuid: c6db98c5-9959-425e-9340-300779fc4e4b
-  ws-opts:
-    headers:
-      Host: f4.vimeostream.online
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /api/v2/stream/ws
-  xudp: true
+- fingerprint: ''
+  name: 🇫🇷FR_5|2.5MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: '30099'
+  server: ip5.934618.xyz
+  skip-cert-verify: false
+  sni: ''
+  type: anytls
+  udp: true
+  username: github.com/Alvin9999-newpac/fanqiang
+- name: 🇫🇷FR_3|1.2MB/s
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_4|4.4MB/s
+  port: 443
+  server: 82.66.235.221
+  skip-cert-verify: true
+  tls: true
+  type: http

@@ -375,17 +375,12 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: 🇫🇷FR_4|3.4MB/s
-  network: ws
-  password: humanity
+  name: 🇯🇵JP_3|2.0MB/s
+  network: tcp
+  password: Trojan@82164024
   port: '443'
-  server: 162.159.36.20
+  server: jp.tronsg.com
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: jp.tronsg.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /assignment
