@@ -9,46 +9,50 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+- name: 🫧9@oneclickvpnkeys
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  sni: match-stream.lovkisport.blog
+  tls: false
+  type: hysteria2
+- name: 🫡6@oneclickvpnkeys
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: 94.198.54.132
+  skip-cert-verify: true
+  sni: msk.frkn.org
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
   encryption: none
-  name: 🇷🇺RU_1|2.9MB/s
-  network: xhttp
-  port: '2053'
-  server: fitindoor.net
-  servername: fitindoor.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  xhttp-opts:
-    host: fitindoor.net
-    mode: auto
-    path: /api/v1/upload
-    reuse-settings:
-      c-max-reuse-times: 64-128
-      max-concurrency: 16-32
-      max-connections: '0'
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: edge
-  encryption: none
-  grpc-opts:
-    grpc-service-name: ru-api
-  name: 🇷🇺RU_2|1.1MB/s
-  network: grpc
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.1MB/s
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
+    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
     short-id: '!!str '
-  server: 93.188.184.150
-  servername: ru-1-2.unturned-rust-dead.lol
+  server: 72.56.9.187
+  servername: ylkagc7brk.bytecourier.cyou
   tls: true
   type: vless
   udp: true
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+  uuid: c9c219dc-50da-4135-8e5b-67020291f0ec
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|1.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
+    short-id: '!!str '
+  server: 194.87.201.174
+  servername: g8f3wr6nlwbs.static-edge.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9c219dc-50da-4135-8e5b-67020291f0ec
   xudp: true

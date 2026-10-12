@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬192501 | ⚡️Telegram = t.me/S...
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 20004
+  server: 43.160.245.154
+  skip-cert-verify: false
+  sni: tw.australiacaregroup.site
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 🇸🇬 新加坡|@ripaojiedian
@@ -37,23 +45,31 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇸🇬SG_1|1.3MB/s
-  port: 443
-  server: 154.26.139.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇬SG_2|1.1MB/s
+- name: 🇸🇬SG_1|2.9MB/s
   password: '!!str 1234'
   port: '2080'
-  server: 54.151.242.187
+  server: 54.169.224.224
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇸🇬SG_3|1.4MB/s
+- name: 🇸🇬SG_2|1.6MB/s
   password: '!!str 1234'
   port: '2080'
-  server: 13.212.186.198
+  server: 54.169.198.75
   skip-cert-verify: true
   type: http
   username: '1234'
+- name: 🇸🇬SG_3|1.1MB/s
+  password: '!!str 1234'
+  port: '2080'
+  server: 47.129.205.189
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- cipher: aes-256-gcm
+  name: 🇸🇬SG_4|4.1MB/s
+  password: c2fe9024-d253-401a-b868-97421f6eb9e0
+  port: '22059'
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
