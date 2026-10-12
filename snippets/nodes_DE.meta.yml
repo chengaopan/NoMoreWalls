@@ -27,27 +27,14 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1.2MB/s
+- name: 🇩🇪DE_1|1.1MB/s
   password: None
   port: 443
-  server: 149.36.50.129
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- encryption: mlkem768x25519plus.native.0rtt.BheP3zTPlA3cijplJnfrJSIp9rYlrGqnqEOnYD-wA20
-  name: 🇩🇪DE_2|1.1MB/s
-  network: ws
-  port: 8880
-  server: 188.114.99.0
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3ee10440-225e-4cbc-83ed-3c80b90bcb07
-  ws-opts:
-    headers:
-      Host: ovh-gr1.mahkhorshidi.ir
-    path: /notls
-- name: 🇩🇪DE_3|1.0MB/s
+- name: 🇩🇪DE_2|2.8MB/s
   password: None
   port: 9443
   server: 87.249.132.97
@@ -55,17 +42,45 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_4|1.1MB/s
+- name: 🇩🇪DE_3|2.4MB/s
   port: 9002
-  server: 158.173.154.4
+  server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_5|2.0MB/s
-  password: None
+- name: 🇩🇪DE_4|3.3MB/s
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|1.7MB/s
   port: 443
-  server: 149.36.50.1
+  server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
+- name: 🇩🇪DE_6|2.7MB/s
+  port: 443
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|2.5MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|3.8MB/s
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|1.4MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http

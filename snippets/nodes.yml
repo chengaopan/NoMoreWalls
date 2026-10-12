@@ -374,17 +374,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: aes-256-gcm
-  name: 🇸🇬SG_4|4.1MB/s
-  password: c2fe9024-d253-401a-b868-97421f6eb9e0
-  port: '22059'
-  server: ruot.ayucloudservices.nl
-  type: ss
+- name: 🇰🇷KR_1|2.9MB/s
+  password: Trojan@82164024
+  port: 443
+  server: kr.tronsg.com
+  skip-cert-verify: true
+  sni: kr.tronsg.com
+  type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸US_8|4.4MB/s
-  password: d63d34c4-1bdb-446a-bdf0-7667e30a9173
-  port: '40034'
-  server: ruot.ayucloudservices.nl
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_2|1.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.99.191.16
   type: ss
   udp: true

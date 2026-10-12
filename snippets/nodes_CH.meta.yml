@@ -17,19 +17,3 @@ proxies:
   sni: hopp-swizland-new.mysynology.net
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_1|1.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
-    short-id: '!!str '
-  server: 179.237.69.151
-  servername: yloyqo0gfsqm.edgepop.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: c9c219dc-50da-4135-8e5b-67020291f0ec
-  xudp: true
