@@ -22,11 +22,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇰🇷KR_1|2.9MB/s
-  password: Trojan@82164024
-  port: 443
-  server: kr.tronsg.com
-  skip-cert-verify: true
-  sni: kr.tronsg.com
-  type: trojan
-  udp: true
