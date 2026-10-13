@@ -27,71 +27,18 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|2.1MB/s
-  network: tcp
+- name: 🇩🇪193233 | ⚡️Telegram = t.me/S...
+  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
   port: 443
-  reality-opts:
-    public-key: kInywP138eVlHbS7wodX2Q_R1OC0JdViypEeguSvpQ0
-    short-id: '!!str 33e6fe7545082926'
-  server: 31.76.227.58
-  servername: assets-mi-27.spbstudentlife.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0cf8e402-e801-4aeb-9b7a-00a933f9f1c1
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|1.9MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: kInywP138eVlHbS7wodX2Q_R1OC0JdViypEeguSvpQ0
-    short-id: '!!str 33e6fe7545082926'
-  server: app-mi-27.spbstudentlife.com
-  servername: assets-mi-27.spbstudentlife.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0cf8e402-e801-4aeb-9b7a-00a933f9f1c1
-- alpn:
-  - http/1.1
-  client-fingerprint: unsafe
-  encryption: none
-  name: 🇩🇪DE_3|3.8MB/s
-  network: ws
-  port: '443'
-  server: 31.77.126.2
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
-  xudp: true
-- name: 🇩🇪DE_4|2.7MB/s
-  port: 9002
-  server: 158.173.154.1
+  server: 144.31.221.57
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|1.5MB/s
+  sni: player.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- name: 🇩🇪DE_1|1.1MB/s
   password: None
   port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_6|1.1MB/s
-  port: 443
-  server: 152.233.20.206
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http

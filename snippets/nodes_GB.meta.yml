@@ -1,36 +1,25 @@
 proxies:
-- name: 🇬🇧GB_1|3.0MB/s|P002-260618
-  password: None
+- name: 🇬🇧GB_1|1.1MB/s
   port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇬🇧GB_2|1.8MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇬🇧GB_3|2.6MB/s
+- name: 🇬🇧GB_2|1.4MB/s
   port: 443
-  server: 37.120.233.34
+  server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_4|3.2MB/s
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_5|2.5MB/s
+- name: 🇬🇧GB_3|2.4MB/s
   port: 9443
-  server: 84.17.50.214
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_4|1.3MB/s
+  port: 443
+  server: 37.120.233.50
   skip-cert-verify: true
   tls: true
   type: http
