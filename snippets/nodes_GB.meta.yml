@@ -1,7 +1,56 @@
 proxies:
-- name: 🇬🇧GB_1|1.5MB/s
+- name: 🇬🇧GB_1|1.8MB/s
   port: 443
-  server: 37.120.233.18
+  server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇬🇧GB_2|2.0MB/s
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|1.7MB/s
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_4|1.8MB/s
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_5|2.4MB/s
+  port: 9443
+  server: 84.233.178.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_6|1.5MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_7|2.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: FcvI0ncjwII1n6tnWQ6nLWuwRpk8hdYoYzYCi1sbhjY
+    short-id: '!!str 1c3ce7aa488b3e50'
+  server: 146.70.104.235
+  servername: www.datadoghq.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 698922a2-1ca5-4bfb-92fb-0aa7e779ce21
+  xudp: true
