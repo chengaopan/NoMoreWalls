@@ -700,138 +700,95 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
-  http-opts:
-    headers:
-      Host:
-      - b--g.bntabriz.ir
-    path:
-    - /
-  name: 🇳🇱NL_1|2.0MB/s
-  network: http
-  port: '25566'
-  server: g--p.soreanapanel.com
-  type: vless
-  udp: true
-  uuid: 938bee33-7319-4c39-99bf-1128fab04c7d
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇯🇵JP_1|5.5MB/s
-  network: ws
-  port: '443'
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
+- name: 🇬🇧GB_1|1.5MB/s
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
-  xudp: true
-- name: 🇷🇸RS_1|1.1MB/s
+  type: http
+- name: 🇷🇸RS_1|2.0MB/s
   port: 443
   server: 146.70.221.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_1|1.3MB/s
-  port: 443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_2|1.6MB/s
+- name: 🇱🇺LU_1|2.5MB/s
   port: 9443
-  server: 149.36.51.157
+  server: 185.221.132.226
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇭🇰HK_1|2.2MB/s
-  port: 10808
-  server: 36.155.23.163
-  skip-cert-verify: true
-  type: socks5
-- name: 🇦🇹AT_1|1.1MB/s
+- name: 🇬🇷GR_1|2.2MB/s
   password: None
   port: 443
-  server: 146.70.244.18
+  server: 149.22.85.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇬SG_1|1.1MB/s
+  password: '1234'
+  port: 2080
+  server: 13.212.235.123
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇨🇭CH_1|1.0MB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_1|1.2MB/s
+- name: 🇮🇪IE_1|1002KB/s
+  password: None
   port: 443
-  server: 12.202.180.118
+  server: 149.88.96.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇰DK_1|1.1MB/s
+  username: null
+- name: 🇩🇪DE_1|1.0MB/s
   port: 443
-  server: 185.245.84.50
+  server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|1.5MB/s
+- name: 🇦🇹AT_1|2.8MB/s
+  password: None
   port: 443
-  server: 152.233.20.206
+  server: 146.70.244.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_1|1.7MB/s
+  username: null
+- name: 🇺🇸US_1|1.0MB/s
   port: 443
-  server: 84.17.50.193
+  server: 12.221.146.147
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|2.2MB/s
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_1|1.2MB/s
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇦🇱AL_1|2.8MB/s
-  port: 443
-  server: 87.120.103.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇬SG_1|4.2MB/s
+- name: 🇸🇬SG_2|4.1MB/s
   password: '1234'
   port: '2080'
-  server: 18.143.167.6
+  server: 54.255.129.221
   skip-cert-verify: true
   type: http
   username: '1234'
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|2.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: e0RV9wRJdsQbQ0ugn5QUhJcTgWsSTVsKQTXMKweMDUg
-    short-id: ''
-  server: 45.131.212.151
-  servername: de.lstu.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aefad36-749b-401c-8b3b-547ef7d2253e
-  xudp: true
+- name: 🇸🇬SG_3|5.0MB/s
+  password: '1234'
+  port: '2080'
+  server: 13.229.89.107
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_4|5.0MB/s
+  password: '1234'
+  port: '2080'
+  server: 54.169.52.51
+  skip-cert-verify: true
+  type: http
+  username: '1234'
 - name: NL_speednode_0004
   port: 9002
   server: 84.17.47.125
