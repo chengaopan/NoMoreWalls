@@ -374,29 +374,11 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷KR_1|3.5MB/s
-  network: http
-  port: 123
-  server: 43.108.103.167
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
-- name: 🇰🇷KR_2|2.1MB/s
+- name: 🇰🇷KR_1|2.2MB/s
   password: Trojan@82164024
   port: 443
   server: kr.tronsg.com
   skip-cert-verify: true
   sni: kr.tronsg.com
   type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇴🇲OM_1|3.4MB/s
-  password: 9c51ca33-a332-4de5-8677-5624e940097c
-  port: '35016'
-  server: ruot.ayucloudservices.nl
-  type: ss
   udp: true
