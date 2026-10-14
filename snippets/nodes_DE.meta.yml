@@ -27,85 +27,31 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1.5MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|2.5MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.1MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_4|3.2MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|2.3MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|2.3MB/s
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|1.5MB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|2.2MB/s
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_9|3.0MB/s
+- name: 🇩🇪DE_1|1.3MB/s
   port: 443
   server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_10|3.4MB/s
-  port: 8443
-  server: 188.120.225.125
+- name: 🇩🇪DE_2|1.5MB/s
+  port: 443
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: ios
+- client-fingerprint: random
   encryption: none
-  grpc-opts:
-    grpc-service-name: de-grpc
-  name: 🇩🇪DE_11|1.9MB/s
-  network: grpc
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|2.1MB/s
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
+    public-key: e0RV9wRJdsQbQ0ugn5QUhJcTgWsSTVsKQTXMKweMDUg
     short-id: '!!str '
-  server: de-1-1.unturned-rust-dead.lol
-  servername: de-1-1.unturned-rust-dead.lol
+  server: 45.131.212.151
+  servername: de.lstu.ru
   tls: true
   type: vless
   udp: true
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+  uuid: 5aefad36-749b-401c-8b3b-547ef7d2253e
   xudp: true
